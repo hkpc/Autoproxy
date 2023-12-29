@@ -8,52 +8,52 @@
   <summary>Expand the Copy subscription link</summary>
 
   
-- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription1)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription_num`
+- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
 `Total number of merge nodes: 681`
 
-- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription1)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription1`
+- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
 `Total number of merge nodes: 86`
 
-- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription2)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription2`
+- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2`
 `Total number of merge nodes: 86`
 
-- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription3)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription3`
+- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3`
 `Total number of merge nodes: 86`
 
-- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription4)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription4`
+- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4`
 `Total number of merge nodes: 86`
 
-- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription5)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription5`
+- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5`
 `Total number of merge nodes: 86`
 
-- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription6)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription6`
+- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6`
 `Total number of merge nodes: 86`
 
-- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription7)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription7`
+- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7`
 `Total number of merge nodes: 86`
 
-- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription8)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription8`
+- [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
 `Total number of merge nodes: 79`
 
-- [Clash subscription](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription2.yaml)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription1.yaml`
+- [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1.yaml`
 
 
-- [Clash subscription](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription2.yaml)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription2.yaml`
+- [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml`
 
 
-- [Clash subscription](https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription3.yaml)
-`https://raw.githubusercontent.com/rvvu/Autoproxy/main/Long_term_subscription3.yaml`
+- [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3.yaml)
+`https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3.yaml`
   
 </details>
 
@@ -27074,7 +27074,7 @@ Updata：`2023-12-29 17:18:33`
 
 ## ✨ Star count
 
-[![Star History Chart](https://api.star-history.com/svg?repos=rvvu/Autoproxy&type=Date)](https://star-history.com/#rvvu/Autoproxy&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=hkpc/Autoproxy&type=Date)](https://star-history.com/#hkpc/Autoproxy&Date)
 
 
 ## Repository statement
