@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 637`
+`Total number of merge nodes: 636`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 77`
+`Total number of merge nodes: 76`
 
 - [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-01-08 23:39:46`
+Updata：`2024-01-09 02:47:45`
 
 
 <details>
@@ -27692,14 +27692,35 @@ Updata：`2024-01-08 23:39:46`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=8817995e2e8d44db510db15a17933502`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=8817995e2e8d44db510db15a17933502`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=5b3af9f3e696c546dc4bad473e5e6161`
+
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=5b3af9f3e696c546dc4bad473e5e6161`
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=ef08083ac25c570f05fe7bbf5a917c6e`
+
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=ef08083ac25c570f05fe7bbf5a917c6e`
+
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-01-08/ORC19kT.txt`
+
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-01-08/ORC19kT.txt`
@@ -27707,23 +27728,10 @@ Updata：`2024-01-08 23:39:46`
 
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-01-08/ORC19kT.txt`
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=af5af5d0a5224a8dd49f35a860324af5`
-
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=cf8d7572cfb5cb551864aa22d4fae0bc`
 
 >Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=af5af5d0a5224a8dd49f35a860324af5`
-
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=db4a01ef395c09adb17bf9ad139f7d28`
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=db4a01ef395c09adb17bf9ad139f7d28`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=cf8d7572cfb5cb551864aa22d4fae0bc`
 
 
 
