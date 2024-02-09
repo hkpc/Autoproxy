@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 784`
+`Total number of merge nodes: 786`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 91`
+`Total number of merge nodes: 93`
 
 - [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-02-10 02:26:23`
+Updata：`2024-02-10 05:20:32`
 
 
 <details>
@@ -29762,38 +29762,46 @@ Updata：`2024-02-10 02:26:23`
 
 
 
+
+
+
+
+
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=27a656529b2d59ba64af143bcf39d6de`
+
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=27a656529b2d59ba64af143bcf39d6de`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=fde91d53fd34b208e26303a8b17ddcd9`
+
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=fde91d53fd34b208e26303a8b17ddcd9`
+
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-02-09/latvHNI.txt`
+
+
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-02-09/latvHNI.txt`
 
 
 
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=ce0ed4ab0a7b2d35fdc0fa03a4f340e1`
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-02-09/latvHNI.txt`
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=3f66ffacdcbaa2e14a34be5dc27433f7`
-
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=3f66ffacdcbaa2e14a34be5dc27433f7`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=3766ae3040fcc95aaaa46995a98b5800`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=3766ae3040fcc95aaaa46995a98b5800`
-
-
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=8a6b2d46ef3568d1172e52189dc94e1e`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=8a6b2d46ef3568d1172e52189dc94e1e`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=ce0ed4ab0a7b2d35fdc0fa03a4f340e1`
 
 
 
