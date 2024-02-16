@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 902`
+`Total number of merge nodes: 901`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 111`
+`Total number of merge nodes: 110`
 
 - [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-02-16 17:21:57`
+Updata：`2024-02-16 20:36:29`
 
 
 <details>
@@ -30192,38 +30192,46 @@ Updata：`2024-02-16 17:21:57`
 
 
 
+
+
+
+
+
+
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=1ae7f8b2c41f8ff202b61e50f6116d93`
+
+
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=1ae7f8b2c41f8ff202b61e50f6116d93`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=90fa2e4c54107b55a43f3e0f35f74a15`
+
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=90fa2e4c54107b55a43f3e0f35f74a15`
+
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-02-16/ojHTKrH.txt`
+
+
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-02-16/ojHTKrH.txt`
 
 
 
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=a56e8408b34ebfd597660d3866b44728`
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-02-16/ojHTKrH.txt`
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=48382c50408e60dbc1e6b365288f79ca`
-
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=48382c50408e60dbc1e6b365288f79ca`
-
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=5a95445102cdd7354a9bccf348b3df5c`
-
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=5a95445102cdd7354a9bccf348b3df5c`
-
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f9c9f8da817be309c2a7e52254784cf4`
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f9c9f8da817be309c2a7e52254784cf4`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=a56e8408b34ebfd597660d3866b44728`
 
 
 
