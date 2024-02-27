@@ -10,35 +10,35 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 742`
+`Total number of merge nodes: 735`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
-`Total number of merge nodes: 93`
+`Total number of merge nodes: 92`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2`
-`Total number of merge nodes: 93`
+`Total number of merge nodes: 92`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3`
-`Total number of merge nodes: 93`
+`Total number of merge nodes: 92`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4`
-`Total number of merge nodes: 93`
+`Total number of merge nodes: 92`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5`
-`Total number of merge nodes: 93`
+`Total number of merge nodes: 92`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6`
-`Total number of merge nodes: 93`
+`Total number of merge nodes: 92`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7`
-`Total number of merge nodes: 93`
+`Total number of merge nodes: 92`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-02-27 17:23:02`
+Updata：`2024-02-27 20:35:57`
 
 
 <details>
@@ -30903,38 +30903,46 @@ Updata：`2024-02-27 17:23:02`
 
 
 
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=19ec82e0edbd4edd524d42e41058cc6b`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=19ec82e0edbd4edd524d42e41058cc6b`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=01fee2b560b17e29a7fe0768ad34210e`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=553cf9dcceddf1747df89c3ef31530f1`
 
 
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=01fee2b560b17e29a7fe0768ad34210e`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=0e48ea7863bc1e38fe96324be9ade877`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=553cf9dcceddf1747df89c3ef31530f1`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=53b1e2fb2df3d2b75d8464f167d2dd8c`
+
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=0e48ea7863bc1e38fe96324be9ade877`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=53b1e2fb2df3d2b75d8464f167d2dd8c`
 
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-02-27/qyazctA.txt`
 
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-02-27/qyazctA.txt`
 
+
+
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-02-27/qyazctA.txt`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=72eebca49a63100fd24c438d514400b8`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=72eebca49a63100fd24c438d514400b8`
 
 
 
