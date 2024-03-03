@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-03-03 20:35:24`
+Updata：`2024-03-03 23:23:26`
 
 
 <details>
@@ -31233,14 +31233,35 @@ Updata：`2024-03-03 20:35:24`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=7a57c1e3876b0619ebaa56b5f2c6695e`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=7a57c1e3876b0619ebaa56b5f2c6695e`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=c1c1976f7c344592d611f65da7a4a792`
+
+
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=c1c1976f7c344592d611f65da7a4a792`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=307a9557e0d705ac9026d5970d299ca1`
+
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=307a9557e0d705ac9026d5970d299ca1`
+
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-03-03/uHtjPeI.txt`
+
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-03-03/uHtjPeI.txt`
@@ -31248,23 +31269,10 @@ Updata：`2024-03-03 20:35:24`
 
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-03-03/uHtjPeI.txt`
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=e2c6a2d46cd0aa0b61f735c5a776d199`
-
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=ed9a79036f19cd5322849237e22119f5`
 
 >Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=e2c6a2d46cd0aa0b61f735c5a776d199`
-
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cc45c8add6b0d6a2adc12b695e6e8c94`
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cc45c8add6b0d6a2adc12b695e6e8c94`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=ed9a79036f19cd5322849237e22119f5`
 
 
 
