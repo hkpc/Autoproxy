@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-04-12 02:57:18`
+Updata：`2024-04-12 05:51:50`
 
 
 <details>
@@ -33775,8 +33775,12 @@ Updata：`2024-04-12 02:57:18`
 
 
 
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-11/QOUkhrh.txt`
+
+
+
+
+
+
 
 
 
@@ -33784,29 +33788,34 @@ Updata：`2024-04-12 02:57:18`
 `https://oss.v2rayse.com/proxies/data/2024-04-11/QOUkhrh.txt`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=aaf1a59e594c3c08e07ee9b0904ad3f5`
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-11/QOUkhrh.txt`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=aaf1a59e594c3c08e07ee9b0904ad3f5`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cd31ea17ed7c723d4cd5bc4745193dfb`
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-04-11/QOUkhrh.txt`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=aaf1a59e594c3c08e07ee9b0904ad3f5`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cd31ea17ed7c723d4cd5bc4745193dfb`
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=0b79dbbbee3311b22a92f753b54ea5b4`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=cd31ea17ed7c723d4cd5bc4745193dfb`
+
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=0b79dbbbee3311b22a92f753b54ea5b4`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=bda9b8ee2ba892658a3a231e942103ae`
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=0b79dbbbee3311b22a92f753b54ea5b4`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=bda9b8ee2ba892658a3a231e942103ae`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=bda9b8ee2ba892658a3a231e942103ae`
 
 
 
