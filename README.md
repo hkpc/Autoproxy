@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 409`
+`Total number of merge nodes: 408`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 45`
+`Total number of merge nodes: 44`
 
 - [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-04-20 14:54:27`
+Updata：`2024-04-20 17:48:01`
 
 
 <details>
@@ -34347,28 +34347,37 @@ Updata：`2024-04-20 14:54:27`
 
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=ad7be7fd05c4237c33d5d597fcdca189`
+
+
+
+
+
+
 
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=ad7be7fd05c4237c33d5d597fcdca189`
+`https://lemontea.shop/api/v1/client/subscribe?token=667bfadcd6630197681c46b9e37b5462`
 
-
->Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=8ce449c37ee2b59bb815397564b69d3c`
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=ad7be7fd05c4237c33d5d597fcdca189`
 
 
 >Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=8ce449c37ee2b59bb815397564b69d3c`
+`https://lemontea.shop/api/v1/client/subscribe?token=667bfadcd6630197681c46b9e37b5462`
 
 
 >Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=8ce449c37ee2b59bb815397564b69d3c`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7d960557ea6eed42451019b303f11f31`
+
+>Trial subscription：
+`https://lemontea.shop/api/v1/client/subscribe?token=667bfadcd6630197681c46b9e37b5462`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7d960557ea6eed42451019b303f11f31`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7d960557ea6eed42451019b303f11f31`
 
 
 >Trial subscription：
