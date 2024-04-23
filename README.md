@@ -10,39 +10,39 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 549`
+`Total number of merge nodes: 530`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
-`Total number of merge nodes: 69`
+`Total number of merge nodes: 67`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2`
-`Total number of merge nodes: 69`
+`Total number of merge nodes: 67`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3`
-`Total number of merge nodes: 69`
+`Total number of merge nodes: 67`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4`
-`Total number of merge nodes: 69`
+`Total number of merge nodes: 67`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5`
-`Total number of merge nodes: 69`
+`Total number of merge nodes: 67`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6`
-`Total number of merge nodes: 69`
+`Total number of merge nodes: 67`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7`
-`Total number of merge nodes: 69`
+`Total number of merge nodes: 67`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 66`
+`Total number of merge nodes: 61`
 
 - [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-04-23 17:28:08`
+Updata：`2024-04-23 20:36:20`
 
 
 <details>
@@ -34568,38 +34568,47 @@ Updata：`2024-04-23 17:28:08`
 
 
 
->Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=4279a2a5c1b365b824da90400d8c85f9`
 
 
 
->Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=4279a2a5c1b365b824da90400d8c85f9`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=743427a2647912bbebe224f8f114dda3`
-
->Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=4279a2a5c1b365b824da90400d8c85f9`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=743427a2647912bbebe224f8f114dda3`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=743427a2647912bbebe224f8f114dda3`
 
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-23/eksYtyO.txt`
 
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-23/eksYtyO.txt`
+
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-23/eksYtyO.txt`
+
+
+>Trial subscription：
+`https://lemontea.shop/api/v1/client/subscribe?token=cc6e6da1e73ad4c7f276d4d65483c775`
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-04-23/eksYtyO.txt`
+
+
+>Trial subscription：
+`https://lemontea.shop/api/v1/client/subscribe?token=cc6e6da1e73ad4c7f276d4d65483c775`
+
+
+>Trial subscription：
+`https://lemontea.shop/api/v1/client/subscribe?token=cc6e6da1e73ad4c7f276d4d65483c775`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=40f6fbcc20b84fefce079e8e6ccb4a09`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=40f6fbcc20b84fefce079e8e6ccb4a09`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=40f6fbcc20b84fefce079e8e6ccb4a09`
 
 
 
