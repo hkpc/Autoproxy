@@ -10,39 +10,39 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 533`
+`Total number of merge nodes: 525`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
-`Total number of merge nodes: 67`
+`Total number of merge nodes: 66`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2`
-`Total number of merge nodes: 67`
+`Total number of merge nodes: 66`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3`
-`Total number of merge nodes: 67`
+`Total number of merge nodes: 66`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4`
-`Total number of merge nodes: 67`
+`Total number of merge nodes: 66`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5`
-`Total number of merge nodes: 67`
+`Total number of merge nodes: 66`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6`
-`Total number of merge nodes: 67`
+`Total number of merge nodes: 66`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7`
-`Total number of merge nodes: 67`
+`Total number of merge nodes: 66`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 64`
+`Total number of merge nodes: 63`
 
 - [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1.yaml`
@@ -57,8 +57,8 @@
   
 </details>
 
-### Try the number of high-speed subscriptions: `3`
-Updata：`2024-04-26 05:52:32`
+### Try the number of high-speed subscriptions: `2`
+Updata：`2024-04-26 09:35:34`
 
 
 <details>
@@ -34741,38 +34741,44 @@ Updata：`2024-04-26 05:52:32`
 
 
 
->Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=b38ad866e3cba72578bd7dc682c20c73`
+
+
+
+
+
+
+
+
+
 
 
 
 >Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=b38ad866e3cba72578bd7dc682c20c73`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=9fdbda685f759728fa9a31a185f1670a`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=b0597a2a46073988e175f03224ea2cdc`
-
->Trial subscription：
-`https://lemontea.shop/api/v1/client/subscribe?token=b38ad866e3cba72578bd7dc682c20c73`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=9fdbda685f759728fa9a31a185f1670a`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=b0597a2a46073988e175f03224ea2cdc`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=9fdbda685f759728fa9a31a185f1670a`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=b0597a2a46073988e175f03224ea2cdc`
-
-
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-25/izvAtKV.txt`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=9fdbda685f759728fa9a31a185f1670a`
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-25/izvAtKV.txt`
+`https://oss.v2rayse.com/proxies/data/2024-04-26/OhZ8keQ.txt`
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-25/izvAtKV.txt`
+`https://oss.v2rayse.com/proxies/data/2024-04-26/OhZ8keQ.txt`
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-04-26/OhZ8keQ.txt`
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-04-26/OhZ8keQ.txt`
 
 
 
