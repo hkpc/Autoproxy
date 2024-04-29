@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 435`
+`Total number of merge nodes: 434`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 50`
+`Total number of merge nodes: 49`
 
 - [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `2`
-Updata：`2024-04-29 14:58:14`
+Updata：`2024-04-29 17:30:06`
 
 
 <details>
@@ -34961,20 +34961,28 @@ Updata：`2024-04-29 14:58:14`
 
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=b3c4125b2cc6f31f0ac6eb5f86e2146e`
+
+
+
+
+
+
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=b3c4125b2cc6f31f0ac6eb5f86e2146e`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=4723c11aba029cb2765b91a85a540a93`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=b3c4125b2cc6f31f0ac6eb5f86e2146e`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=4723c11aba029cb2765b91a85a540a93`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=b3c4125b2cc6f31f0ac6eb5f86e2146e`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=4723c11aba029cb2765b91a85a540a93`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=4723c11aba029cb2765b91a85a540a93`
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-29/bvwoEpA.txt`
