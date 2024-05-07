@@ -5,431 +5,487 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 US-38.75.137.93-0488, server: 38.75.137.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: RELAY-104.21.15.36-0279, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: linde06.indiavideo.sbs}}}
-  - {name: PT-5.182.39.27-0288, server: 5.182.39.27, port: 8880, type: vmess, uuid: ffa054fd-602e-4a72-b4b1-90902479ba9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US-138.197.5.103-0154, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo}
-  - {name: 🇺🇸 US-138.197.5.103-0227, server: 138.197.5.103, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info}
-  - {name: 🇺🇸 US-38.75.137.93-0479, server: 38.75.137.93, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 120.238.122.243, port: 40259, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK-47.242.22.171-0208, server: 47.242.22.171, port: 28681, type: vmess, uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 _GB_英国, server: 89.213.164.154, port: 80, type: vmess, uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: RELAY-172.67.71.160-0164, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: obdii.cfd}}}
-  - {name: RELAY-104.16.60.8-0269, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us4e-20240111.v2freevpn.com}}}
-  - {name: 🇹🇷 vip1 土耳其-01 测试, server: n00007.bzdqsmzngpyyng.sbs, port: 29970, type: vmess, uuid: 5f4e2e34-9ed4-476f-b2dd-47054f8bf284, alterId: 0, cipher: auto, tls: true, servername: n00007.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇫🇷 FR-54.38.212.91-0743, server: 54.38.212.91, port: 80, type: vmess, uuid: 9e660680-e7bb-4725-f1c9-84d1fdbbf5c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.gov.uk}}}
-  - {name: 🇺🇸 US-38.75.136.21-7547, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇲🇾 vip1 马来西亚-01 测试, server: n00007.bzdqsmzngpyyng.sbs, port: 55561, type: vmess, uuid: 5f4e2e34-9ed4-476f-b2dd-47054f8bf284, alterId: 0, cipher: auto, tls: true, servername: n00007.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇺🇸 US-38.75.136.33-0501, server: 38.75.136.33, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 US-64.23.196.139-0674, server: 64.23.196.139, port: 13337, type: vmess, uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
-  - {name: 🇰🇷 KR-13.124.178.1-3465, server: 13.124.178.1, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 vip1 香港-06, server: n00007.bzdqsmzngpyyng.sbs, port: 14490, type: trojan, password: 5f4e2e34-9ed4-476f-b2dd-47054f8bf284, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 US-205.134.180.151-0689, server: 205.134.180.151, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2}
-  - {name: 🇲🇾 vip1 马来西亚-03 测试, server: n00005.bzdqsmzngpyyng.sbs, port: 55561, type: vmess, uuid: 5f4e2e34-9ed4-476f-b2dd-47054f8bf284, alterId: 0, cipher: auto, tls: true, servername: n00005.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.43.48, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: osaka.xlb8.eu.org}}}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 54.151.219.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇮🇹 意大利 V2CROSS.COM, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: 104.19.250.15, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}}
+  - {name: 🇮🇳 IN印度-联通优化, server: gtm1.ktmwan.com, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: 🇭🇰 vip1 香港-08, server: n00005.bzdqsmzngpyyng.sbs, port: 14490, type: trojan, password: 9534b11d-32f7-468d-a98c-b39739299828, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 vip1 德国-02 测试, server: n00003.bzdqsmzngpyyng.sbs, port: 26503, type: vmess, uuid: 9534b11d-32f7-468d-a98c-b39739299828, alterId: 0, cipher: auto, tls: true, servername: n00003.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
   - {name: 13.213.46.196:443, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 US-167.88.61.175-8369, server: 167.88.61.175, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 183.232.199.61, port: 61001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 United States 01 @nodpai, server: hytron.io, port: 8080, type: vmess, uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hytron.io}}}
-  - {name: 🇺🇸 US-38.75.137.93-0492, server: 38.75.137.93, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 vip1 美国-13 测试, server: n00005.bzdqsmzngpyyng.sbs, port: 46121, type: vmess, uuid: 5f4e2e34-9ed4-476f-b2dd-47054f8bf284, alterId: 0, cipher: auto, tls: true, servername: n00005.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇨🇳 台湾2|@ripaojiedian, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.43.36, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: osaka.xlb8.eu.org}}}
-  - {name: 🇺🇸 vip1 美国-06 测试, server: n00007.bzdqsmzngpyyng.sbs, port: 46675, type: vmess, uuid: 5f4e2e34-9ed4-476f-b2dd-47054f8bf284, alterId: 0, cipher: auto, tls: true, servername: n00007.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: TR-45.89.52.66-0830, server: 45.89.52.66, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
-  - {name: 🇯🇵 日本 东京Amazon数据中心, server: 13.113.26.153, port: 14450, type: trojan, password: putV3xjGiJ8F, sni: appsvs.shop}
-  - {name: 🇨🇦 CA-91.194.11.168-0160, server: ca-full.privateip.net, port: 443, type: trojan, password: 8b47d63f-1f8e-4f8e-a1e8-ead3686e5da6}
-  - {name: 🇺🇸 US-167.88.61.175-7158, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 46.3.82.198, port: 80, type: vmess, uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a, alterId: 0, cipher: auto, tls: false}
-  - {name: KZ-188.94.155.82-1853, server: 188.94.155.82, port: 35152, type: ss, cipher: chacha20-ietf-poly1305, password: XyM5x6p4CJ8dlb0y9mVHBK}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.19.43.160, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: osaka.xlb8.eu.org}}}
-  - {name: 🇺🇸 US-108.181.200.220-0798, server: 108.181.200.220, port: 7443, type: vmess, uuid: 661b0685-3792-4d8d-853d-871d539147f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US-167.88.61.175-7975, server: 167.88.61.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇰🇷 KR-43.201.47.36-0730, server: 43.201.47.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 104.19.43.10, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: osaka.xlb8.eu.org}}}
-  - {name: "", server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}}
-  - {name: 🇭🇰 vip1 香港-13, server: n00005.bzdqsmzngpyyng.sbs, port: 46912, type: trojan, password: 5f4e2e34-9ed4-476f-b2dd-47054f8bf284, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇺🇸 US-104.167.197.23-0683, server: us.sptnk.space, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 3fbeb668f48414f6}
-  - {name: 🇺🇸 美国 CloudFlare节点 5, server: onea.flha.ru, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
-  - {name: 🇫🇷 法国 巴黎Amazon数据中心, server: 15.188.90.134, port: 14468, type: trojan, password: aQsXWx7rzrWk, sni: appsvs.shop}
-  - {name: RELAY-172.67.229.38-0274, server: 172.67.229.38, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca6.tehme100.fun}}}
-  - {name: 🇦🇺 vip1 澳大利亚-01 测试, server: n00007.bzdqsmzngpyyng.sbs, port: 12838, type: vmess, uuid: 5f4e2e34-9ed4-476f-b2dd-47054f8bf284, alterId: 0, cipher: auto, tls: true, servername: n00007.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇦🇺 vip1 澳大利亚-02 测试, server: n00003.bzdqsmzngpyyng.sbs, port: 12838, type: vmess, uuid: 5f4e2e34-9ed4-476f-b2dd-47054f8bf284, alterId: 0, cipher: auto, tls: true, servername: n00003.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇯🇵 vip1 日本-06, server: n00007.bzdqsmzngpyyng.sbs, port: 37581, type: trojan, password: 9534b11d-32f7-468d-a98c-b39739299828, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 _GB_英国, server: 89.213.164.154, port: 80, type: vmess, uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 vip1 香港-02, server: n00003.bzdqsmzngpyyng.sbs, port: 15976, type: trojan, password: 9534b11d-32f7-468d-a98c-b39739299828, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: RELAY-172.67.229.36-0179, server: 172.67.229.36, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca6.tehme100.fun}}}
+  - {name: 🇫🇷 FR-195.154.185.174-0718, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: RELAY-104.21.31.62-0159, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: obdii.cfd}}}
+  - {name: VN-103.163.218.2-2281, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 US-167.88.61.175-7503, server: 167.88.61.175, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
+  - {name: 🇯🇵 vip1 日本-07, server: n00003.bzdqsmzngpyyng.sbs, port: 37581, type: trojan, password: 9534b11d-32f7-468d-a98c-b39739299828, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.25.107.8, port: 2087, type: vmess, uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25, alterId: 0, cipher: auto, tls: true, servername: "", network: grpc, grpc-opts: {grpc-service-name: /}}
+  - {name: 🇸🇬 vip1 新加坡-01, server: n00007.bzdqsmzngpyyng.sbs, port: 21526, type: trojan, password: 9534b11d-32f7-468d-a98c-b39739299828, sni: sg02.ckcloud.info, skip-cert-verify: true}
+  - {name: CY-213.169.137.221-0799, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇷🇺 RU俄罗斯-电信优化, server: gtm1.ktmwan.com, port: 27276, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: 🇺🇸 vip1 美国-07 测试, server: n00003.bzdqsmzngpyyng.sbs, port: 46675, type: vmess, uuid: 9534b11d-32f7-468d-a98c-b39739299828, alterId: 0, cipher: auto, tls: true, servername: n00003.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇩🇪 DE德国-联通优化, server: gtm1.ktmwan.com, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: 🇰🇷 KR-152.67.218.38-0720, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 152.67.218.38}}}
+  - {name: RELAY-104.21.83.208-0270, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: afrhms16v.bestxray.buzz}}}
+  - {name: 🇺🇦 UA乌克兰-移动优化, server: gtm1.ktmwan.com, port: 27268, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: 🇨🇳 TW台湾2-移动优化, server: gtm1.ktmwan.com, port: 27279, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 47.243.45.101, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: h4.podds.store, path: "", tls: true, mux: true}}
+  - {name: 🇺🇸 US-38.75.136.21-7974, server: 38.75.136.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇭🇰 vip1 香港-08 测试, server: n00005.bzdqsmzngpyyng.sbs, port: 34090, type: vmess, uuid: 9534b11d-32f7-468d-a98c-b39739299828, alterId: 0, cipher: auto, tls: true, servername: n00005.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 USA美国-电信优化, server: gtm1.ktmwan.com, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: 🇺🇸 US-38.75.136.21-8093, server: 38.75.136.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 vip1 美国-11 测试, server: n00007.bzdqsmzngpyyng.sbs, port: 46121, type: vmess, uuid: 9534b11d-32f7-468d-a98c-b39739299828, alterId: 0, cipher: auto, tls: true, servername: n00007.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: RELAY-104.16.60.8-0269, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us4e-20240111.v2freevpn.com}}}
   - {name: 🇩🇪 DE-130.162.47.123-9436, server: 130.162.47.123, port: 6854, type: vmess, uuid: b5f7e932-f730-4ad2-b425-40977b9db332, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 RU-103.113.68.233-0281, server: 103.113.68.233, port: 8880, type: vmess, uuid: fddb3781-7e15-4731-a933-94db110b4bbc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.113.68.233}}}
-  - {name: 🇯🇵 vip1 日本-07 测试, server: n00003.bzdqsmzngpyyng.sbs, port: 16123, type: vmess, uuid: 5f4e2e34-9ed4-476f-b2dd-47054f8bf284, alterId: 0, cipher: auto, tls: true, servername: n00003.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 US-192.3.150.233-9069, server: 192.3.150.233, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇲🇾 MY马来西亚-联通优化, server: gtm1.ktmwan.com, port: 27278, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: RELAY-104.16.61.8-0286, server: speed.cloudflare.com, port: 443, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us4e-20240111.v2freevpn.com}}}
+  - {name: 🇨🇦 CA-91.194.11.168-0160, server: ca-full.privateip.net, port: 443, type: trojan, password: 8b47d63f-1f8e-4f8e-a1e8-ead3686e5da6}
+  - {name: 🇻🇳 vip1 越南-03, server: n00005.bzdqsmzngpyyng.sbs, port: 54295, type: trojan, password: 9534b11d-32f7-468d-a98c-b39739299828, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: TR-45.89.52.66-0830, server: 45.89.52.66, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
+  - {name: RELAY-104.21.4.6-0124, server: 104.21.4.6, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: glweidf.cfd}}}
+  - {name: RELAY-104.21.83.108-0170, server: hms02opi.fxiaomi.sbs, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hms02.fxiaomi.sbs}}}
+  - {name: 🇺🇸 vip1 美国-06 测试, server: n00007.bzdqsmzngpyyng.sbs, port: 46675, type: vmess, uuid: 9534b11d-32f7-468d-a98c-b39739299828, alterId: 0, cipher: auto, tls: true, servername: n00007.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 US-38.121.43.142-8076, server: 38.121.43.142, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇲🇾 vip1 马来西亚-02 测试, server: n00003.bzdqsmzngpyyng.sbs, port: 55561, type: vmess, uuid: 9534b11d-32f7-468d-a98c-b39739299828, alterId: 0, cipher: auto, tls: true, servername: n00003.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: RELAY-172.67.204.84-0250, server: 172.67.204.84, port: 80, type: vmess, uuid: 753d0d83-3f5b-4821-860e-082f0b3db609, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: no1-vmess.sshmax.xyz}}}
+  - {name: 🇭🇰 vip1 香港-03 测试, server: n00005.bzdqsmzngpyyng.sbs, port: 27236, type: vmess, uuid: 9534b11d-32f7-468d-a98c-b39739299828, alterId: 0, cipher: auto, tls: true, servername: n00005.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇦🇷 NI阿根廷-电信优化, server: gtm1.ktmwan.com, port: 27271, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: 🇨🇳 vip1 台湾-08, server: n00005.bzdqsmzngpyyng.sbs, port: 35672, type: trojan, password: 9534b11d-32f7-468d-a98c-b39739299828, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇲🇾 vip1 马来西亚-03 测试, server: n00005.bzdqsmzngpyyng.sbs, port: 55561, type: vmess, uuid: 9534b11d-32f7-468d-a98c-b39739299828, alterId: 0, cipher: auto, tls: true, servername: n00005.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇻🇳 VN越南-电信优化, server: gtm1.ktmwan.com, port: 27277, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: 🇩🇪 DE德国-电信优化, server: gtm1.ktmwan.com, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: 🇭🇰 香港7|@ripaojiedian, server: 120.232.242.122, port: 32998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国5|@ripaojiedian, server: 112.29.94.23, port: 51003, type: trojan, password: MyYoZhfX, skip-cert-verify: true}
+  - {name: 🇺🇦 UA-5.188.6.8-0772, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.43.29, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: osaka.xlb8.eu.org}}}
+  - {name: 🇺🇸 US-38.75.136.21-7988, server: 38.75.136.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: KZ-188.94.155.82-1853, server: 188.94.155.82, port: 35152, type: ss, cipher: chacha20-ietf-poly1305, password: XyM5x6p4CJ8dlb0y9mVHBK}
+  - {name: 🇸🇬 vip1 新加坡-07 测试, server: n00003.bzdqsmzngpyyng.sbs, port: 43445, type: vmess, uuid: 9534b11d-32f7-468d-a98c-b39739299828, alterId: 0, cipher: auto, tls: true, servername: n00003.bzdqsmzngpyyng.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇸🇬 SG新加坡-电信优化, server: gtm1.ktmwan.com, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: 🇻🇳 VN越南-移动优化, server: gtm1.ktmwan.com, port: 27277, type: ss, cipher: chacha20-ietf-poly1305, password: 6b3cb776-0f88-44c3-8031-2b51f2f61531}
+  - {name: 🇬🇧 GB-45.14.244.133-0205, server: 45.14.244.133, port: 2024, type: vmess, uuid: ab713079-5a16-493f-bf2c-97f4b77d6835, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-38.75.136.33-0507, server: 38.75.136.33, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US-38.75.137.42-0505, server: 38.75.137.42, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 US-38.75.137.93-0488
-      - RELAY-104.21.15.36-0279
-      - PT-5.182.39.27-0288
-      - 🇺🇸 US-138.197.5.103-0154
-      - 🇺🇸 US-138.197.5.103-0227
-      - 🇺🇸 US-38.75.137.93-0479
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 HK-47.242.22.171-0208
-      - 🇬🇧 _GB_英国
-      - RELAY-172.67.71.160-0164
-      - RELAY-104.16.60.8-0269
-      - 🇹🇷 vip1 土耳其-01 测试
-      - 🇫🇷 FR-54.38.212.91-0743
-      - 🇺🇸 US-38.75.136.21-7547
-      - 🇲🇾 vip1 马来西亚-01 测试
-      - 🇺🇸 US-38.75.136.33-0501
-      - 🇺🇸 US-64.23.196.139-0674
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇰🇷 KR-13.124.178.1-3465
-      - 🇭🇰 vip1 香港-06
-      - 🇺🇸 US-205.134.180.151-0689
-      - 🇲🇾 vip1 马来西亚-03 测试
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 IN印度-联通优化
+      - 🇭🇰 vip1 香港-08
+      - 🇩🇪 vip1 德国-02 测试
       - 13.213.46.196:443
-      - 🇺🇸 US-167.88.61.175-8369
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 US-38.75.137.93-0492
-      - 🇺🇸 vip1 美国-13 测试
-      - 🇨🇳 台湾2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 vip1 美国-06 测试
-      - TR-45.89.52.66-0830
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇨🇦 CA-91.194.11.168-0160
-      - 🇺🇸 US-167.88.61.175-7158
-      - 🇺🇸 美国3|@ripaojiedian
-      - KZ-188.94.155.82-1853
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US-108.181.200.220-0798
-      - 🇺🇸 US-167.88.61.175-7975
-      - 🇰🇷 KR-43.201.47.36-0730
-      - 🇺🇸 美国 CloudFlare节点 4
-      - ""
-      - 🇭🇰 vip1 香港-13
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 US-104.167.197.23-0683
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - RELAY-172.67.229.38-0274
-      - 🇦🇺 vip1 澳大利亚-01 测试
-      - 🇦🇺 vip1 澳大利亚-02 测试
+      - 🇯🇵 vip1 日本-06
+      - 🇬🇧 _GB_英国
+      - 🇭🇰 vip1 香港-02
+      - RELAY-172.67.229.36-0179
+      - 🇫🇷 FR-195.154.185.174-0718
+      - RELAY-104.21.31.62-0159
+      - VN-103.163.218.2-2281
+      - 🇺🇸 US-167.88.61.175-7503
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇯🇵 vip1 日本-07
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 vip1 新加坡-01
+      - CY-213.169.137.221-0799
+      - 🇷🇺 RU俄罗斯-电信优化
+      - 🇺🇸 vip1 美国-07 测试
+      - 🇩🇪 DE德国-联通优化
+      - 🇰🇷 KR-152.67.218.38-0720
+      - RELAY-104.21.83.208-0270
+      - 🇺🇦 UA乌克兰-移动优化
+      - 🇨🇳 TW台湾2-移动优化
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇺🇸 US-38.75.136.21-7974
+      - 🇭🇰 vip1 香港-08 测试
+      - 🇺🇸 USA美国-电信优化
+      - 🇺🇸 US-38.75.136.21-8093
+      - 🇺🇸 vip1 美国-11 测试
+      - RELAY-104.16.60.8-0269
       - 🇩🇪 DE-130.162.47.123-9436
-      - 🇷🇺 RU-103.113.68.233-0281
-      - 🇯🇵 vip1 日本-07 测试
+      - 🇺🇸 US-192.3.150.233-9069
+      - 🇲🇾 MY马来西亚-联通优化
+      - RELAY-104.16.61.8-0286
+      - 🇨🇦 CA-91.194.11.168-0160
+      - 🇻🇳 vip1 越南-03
+      - TR-45.89.52.66-0830
+      - RELAY-104.21.4.6-0124
+      - RELAY-104.21.83.108-0170
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 US-38.121.43.142-8076
+      - 🇲🇾 vip1 马来西亚-02 测试
+      - RELAY-172.67.204.84-0250
+      - 🇭🇰 vip1 香港-03 测试
+      - 🇦🇷 NI阿根廷-电信优化
+      - 🇨🇳 vip1 台湾-08
+      - 🇲🇾 vip1 马来西亚-03 测试
+      - 🇻🇳 VN越南-电信优化
+      - 🇩🇪 DE德国-电信优化
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇦 UA-5.188.6.8-0772
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 US-38.75.136.21-7988
+      - KZ-188.94.155.82-1853
+      - 🇸🇬 vip1 新加坡-07 测试
+      - 🇸🇬 SG新加坡-电信优化
+      - 🇻🇳 VN越南-移动优化
+      - 🇬🇧 GB-45.14.244.133-0205
+      - 🇺🇸 US-38.75.136.33-0507
+      - 🇺🇸 US-38.75.137.42-0505
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 US-38.75.137.93-0488
-      - RELAY-104.21.15.36-0279
-      - PT-5.182.39.27-0288
-      - 🇺🇸 US-138.197.5.103-0154
-      - 🇺🇸 US-138.197.5.103-0227
-      - 🇺🇸 US-38.75.137.93-0479
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 HK-47.242.22.171-0208
-      - 🇬🇧 _GB_英国
-      - RELAY-172.67.71.160-0164
-      - RELAY-104.16.60.8-0269
-      - 🇹🇷 vip1 土耳其-01 测试
-      - 🇫🇷 FR-54.38.212.91-0743
-      - 🇺🇸 US-38.75.136.21-7547
-      - 🇲🇾 vip1 马来西亚-01 测试
-      - 🇺🇸 US-38.75.136.33-0501
-      - 🇺🇸 US-64.23.196.139-0674
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇰🇷 KR-13.124.178.1-3465
-      - 🇭🇰 vip1 香港-06
-      - 🇺🇸 US-205.134.180.151-0689
-      - 🇲🇾 vip1 马来西亚-03 测试
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 IN印度-联通优化
+      - 🇭🇰 vip1 香港-08
+      - 🇩🇪 vip1 德国-02 测试
       - 13.213.46.196:443
-      - 🇺🇸 US-167.88.61.175-8369
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 US-38.75.137.93-0492
-      - 🇺🇸 vip1 美国-13 测试
-      - 🇨🇳 台湾2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 vip1 美国-06 测试
-      - TR-45.89.52.66-0830
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇨🇦 CA-91.194.11.168-0160
-      - 🇺🇸 US-167.88.61.175-7158
-      - 🇺🇸 美国3|@ripaojiedian
-      - KZ-188.94.155.82-1853
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US-108.181.200.220-0798
-      - 🇺🇸 US-167.88.61.175-7975
-      - 🇰🇷 KR-43.201.47.36-0730
-      - 🇺🇸 美国 CloudFlare节点 4
-      - ""
-      - 🇭🇰 vip1 香港-13
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 US-104.167.197.23-0683
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - RELAY-172.67.229.38-0274
-      - 🇦🇺 vip1 澳大利亚-01 测试
-      - 🇦🇺 vip1 澳大利亚-02 测试
+      - 🇯🇵 vip1 日本-06
+      - 🇬🇧 _GB_英国
+      - 🇭🇰 vip1 香港-02
+      - RELAY-172.67.229.36-0179
+      - 🇫🇷 FR-195.154.185.174-0718
+      - RELAY-104.21.31.62-0159
+      - VN-103.163.218.2-2281
+      - 🇺🇸 US-167.88.61.175-7503
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇯🇵 vip1 日本-07
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 vip1 新加坡-01
+      - CY-213.169.137.221-0799
+      - 🇷🇺 RU俄罗斯-电信优化
+      - 🇺🇸 vip1 美国-07 测试
+      - 🇩🇪 DE德国-联通优化
+      - 🇰🇷 KR-152.67.218.38-0720
+      - RELAY-104.21.83.208-0270
+      - 🇺🇦 UA乌克兰-移动优化
+      - 🇨🇳 TW台湾2-移动优化
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇺🇸 US-38.75.136.21-7974
+      - 🇭🇰 vip1 香港-08 测试
+      - 🇺🇸 USA美国-电信优化
+      - 🇺🇸 US-38.75.136.21-8093
+      - 🇺🇸 vip1 美国-11 测试
+      - RELAY-104.16.60.8-0269
       - 🇩🇪 DE-130.162.47.123-9436
-      - 🇷🇺 RU-103.113.68.233-0281
-      - 🇯🇵 vip1 日本-07 测试
+      - 🇺🇸 US-192.3.150.233-9069
+      - 🇲🇾 MY马来西亚-联通优化
+      - RELAY-104.16.61.8-0286
+      - 🇨🇦 CA-91.194.11.168-0160
+      - 🇻🇳 vip1 越南-03
+      - TR-45.89.52.66-0830
+      - RELAY-104.21.4.6-0124
+      - RELAY-104.21.83.108-0170
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 US-38.121.43.142-8076
+      - 🇲🇾 vip1 马来西亚-02 测试
+      - RELAY-172.67.204.84-0250
+      - 🇭🇰 vip1 香港-03 测试
+      - 🇦🇷 NI阿根廷-电信优化
+      - 🇨🇳 vip1 台湾-08
+      - 🇲🇾 vip1 马来西亚-03 测试
+      - 🇻🇳 VN越南-电信优化
+      - 🇩🇪 DE德国-电信优化
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇦 UA-5.188.6.8-0772
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 US-38.75.136.21-7988
+      - KZ-188.94.155.82-1853
+      - 🇸🇬 vip1 新加坡-07 测试
+      - 🇸🇬 SG新加坡-电信优化
+      - 🇻🇳 VN越南-移动优化
+      - 🇬🇧 GB-45.14.244.133-0205
+      - 🇺🇸 US-38.75.136.33-0507
+      - 🇺🇸 US-38.75.137.42-0505
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US-38.75.137.93-0488
-      - RELAY-104.21.15.36-0279
-      - PT-5.182.39.27-0288
-      - 🇺🇸 US-138.197.5.103-0154
-      - 🇺🇸 US-138.197.5.103-0227
-      - 🇺🇸 US-38.75.137.93-0479
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 HK-47.242.22.171-0208
-      - 🇬🇧 _GB_英国
-      - RELAY-172.67.71.160-0164
-      - RELAY-104.16.60.8-0269
-      - 🇹🇷 vip1 土耳其-01 测试
-      - 🇫🇷 FR-54.38.212.91-0743
-      - 🇺🇸 US-38.75.136.21-7547
-      - 🇲🇾 vip1 马来西亚-01 测试
-      - 🇺🇸 US-38.75.136.33-0501
-      - 🇺🇸 US-64.23.196.139-0674
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇰🇷 KR-13.124.178.1-3465
-      - 🇭🇰 vip1 香港-06
-      - 🇺🇸 US-205.134.180.151-0689
-      - 🇲🇾 vip1 马来西亚-03 测试
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 IN印度-联通优化
+      - 🇭🇰 vip1 香港-08
+      - 🇩🇪 vip1 德国-02 测试
       - 13.213.46.196:443
-      - 🇺🇸 US-167.88.61.175-8369
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 US-38.75.137.93-0492
-      - 🇺🇸 vip1 美国-13 测试
-      - 🇨🇳 台湾2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 vip1 美国-06 测试
-      - TR-45.89.52.66-0830
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇨🇦 CA-91.194.11.168-0160
-      - 🇺🇸 US-167.88.61.175-7158
-      - 🇺🇸 美国3|@ripaojiedian
-      - KZ-188.94.155.82-1853
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US-108.181.200.220-0798
-      - 🇺🇸 US-167.88.61.175-7975
-      - 🇰🇷 KR-43.201.47.36-0730
-      - 🇺🇸 美国 CloudFlare节点 4
-      - ""
-      - 🇭🇰 vip1 香港-13
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 US-104.167.197.23-0683
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - RELAY-172.67.229.38-0274
-      - 🇦🇺 vip1 澳大利亚-01 测试
-      - 🇦🇺 vip1 澳大利亚-02 测试
+      - 🇯🇵 vip1 日本-06
+      - 🇬🇧 _GB_英国
+      - 🇭🇰 vip1 香港-02
+      - RELAY-172.67.229.36-0179
+      - 🇫🇷 FR-195.154.185.174-0718
+      - RELAY-104.21.31.62-0159
+      - VN-103.163.218.2-2281
+      - 🇺🇸 US-167.88.61.175-7503
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇯🇵 vip1 日本-07
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 vip1 新加坡-01
+      - CY-213.169.137.221-0799
+      - 🇷🇺 RU俄罗斯-电信优化
+      - 🇺🇸 vip1 美国-07 测试
+      - 🇩🇪 DE德国-联通优化
+      - 🇰🇷 KR-152.67.218.38-0720
+      - RELAY-104.21.83.208-0270
+      - 🇺🇦 UA乌克兰-移动优化
+      - 🇨🇳 TW台湾2-移动优化
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇺🇸 US-38.75.136.21-7974
+      - 🇭🇰 vip1 香港-08 测试
+      - 🇺🇸 USA美国-电信优化
+      - 🇺🇸 US-38.75.136.21-8093
+      - 🇺🇸 vip1 美国-11 测试
+      - RELAY-104.16.60.8-0269
       - 🇩🇪 DE-130.162.47.123-9436
-      - 🇷🇺 RU-103.113.68.233-0281
-      - 🇯🇵 vip1 日本-07 测试
+      - 🇺🇸 US-192.3.150.233-9069
+      - 🇲🇾 MY马来西亚-联通优化
+      - RELAY-104.16.61.8-0286
+      - 🇨🇦 CA-91.194.11.168-0160
+      - 🇻🇳 vip1 越南-03
+      - TR-45.89.52.66-0830
+      - RELAY-104.21.4.6-0124
+      - RELAY-104.21.83.108-0170
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 US-38.121.43.142-8076
+      - 🇲🇾 vip1 马来西亚-02 测试
+      - RELAY-172.67.204.84-0250
+      - 🇭🇰 vip1 香港-03 测试
+      - 🇦🇷 NI阿根廷-电信优化
+      - 🇨🇳 vip1 台湾-08
+      - 🇲🇾 vip1 马来西亚-03 测试
+      - 🇻🇳 VN越南-电信优化
+      - 🇩🇪 DE德国-电信优化
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇦 UA-5.188.6.8-0772
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 US-38.75.136.21-7988
+      - KZ-188.94.155.82-1853
+      - 🇸🇬 vip1 新加坡-07 测试
+      - 🇸🇬 SG新加坡-电信优化
+      - 🇻🇳 VN越南-移动优化
+      - 🇬🇧 GB-45.14.244.133-0205
+      - 🇺🇸 US-38.75.136.33-0507
+      - 🇺🇸 US-38.75.137.42-0505
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 US-38.75.137.93-0488
-      - RELAY-104.21.15.36-0279
-      - PT-5.182.39.27-0288
-      - 🇺🇸 US-138.197.5.103-0154
-      - 🇺🇸 US-138.197.5.103-0227
-      - 🇺🇸 US-38.75.137.93-0479
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 HK-47.242.22.171-0208
-      - 🇬🇧 _GB_英国
-      - RELAY-172.67.71.160-0164
-      - RELAY-104.16.60.8-0269
-      - 🇹🇷 vip1 土耳其-01 测试
-      - 🇫🇷 FR-54.38.212.91-0743
-      - 🇺🇸 US-38.75.136.21-7547
-      - 🇲🇾 vip1 马来西亚-01 测试
-      - 🇺🇸 US-38.75.136.33-0501
-      - 🇺🇸 US-64.23.196.139-0674
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇰🇷 KR-13.124.178.1-3465
-      - 🇭🇰 vip1 香港-06
-      - 🇺🇸 US-205.134.180.151-0689
-      - 🇲🇾 vip1 马来西亚-03 测试
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 IN印度-联通优化
+      - 🇭🇰 vip1 香港-08
+      - 🇩🇪 vip1 德国-02 测试
       - 13.213.46.196:443
-      - 🇺🇸 US-167.88.61.175-8369
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 US-38.75.137.93-0492
-      - 🇺🇸 vip1 美国-13 测试
-      - 🇨🇳 台湾2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 vip1 美国-06 测试
-      - TR-45.89.52.66-0830
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇨🇦 CA-91.194.11.168-0160
-      - 🇺🇸 US-167.88.61.175-7158
-      - 🇺🇸 美国3|@ripaojiedian
-      - KZ-188.94.155.82-1853
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US-108.181.200.220-0798
-      - 🇺🇸 US-167.88.61.175-7975
-      - 🇰🇷 KR-43.201.47.36-0730
-      - 🇺🇸 美国 CloudFlare节点 4
-      - ""
-      - 🇭🇰 vip1 香港-13
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 US-104.167.197.23-0683
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - RELAY-172.67.229.38-0274
-      - 🇦🇺 vip1 澳大利亚-01 测试
-      - 🇦🇺 vip1 澳大利亚-02 测试
+      - 🇯🇵 vip1 日本-06
+      - 🇬🇧 _GB_英国
+      - 🇭🇰 vip1 香港-02
+      - RELAY-172.67.229.36-0179
+      - 🇫🇷 FR-195.154.185.174-0718
+      - RELAY-104.21.31.62-0159
+      - VN-103.163.218.2-2281
+      - 🇺🇸 US-167.88.61.175-7503
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇯🇵 vip1 日本-07
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 vip1 新加坡-01
+      - CY-213.169.137.221-0799
+      - 🇷🇺 RU俄罗斯-电信优化
+      - 🇺🇸 vip1 美国-07 测试
+      - 🇩🇪 DE德国-联通优化
+      - 🇰🇷 KR-152.67.218.38-0720
+      - RELAY-104.21.83.208-0270
+      - 🇺🇦 UA乌克兰-移动优化
+      - 🇨🇳 TW台湾2-移动优化
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇺🇸 US-38.75.136.21-7974
+      - 🇭🇰 vip1 香港-08 测试
+      - 🇺🇸 USA美国-电信优化
+      - 🇺🇸 US-38.75.136.21-8093
+      - 🇺🇸 vip1 美国-11 测试
+      - RELAY-104.16.60.8-0269
       - 🇩🇪 DE-130.162.47.123-9436
-      - 🇷🇺 RU-103.113.68.233-0281
-      - 🇯🇵 vip1 日本-07 测试
+      - 🇺🇸 US-192.3.150.233-9069
+      - 🇲🇾 MY马来西亚-联通优化
+      - RELAY-104.16.61.8-0286
+      - 🇨🇦 CA-91.194.11.168-0160
+      - 🇻🇳 vip1 越南-03
+      - TR-45.89.52.66-0830
+      - RELAY-104.21.4.6-0124
+      - RELAY-104.21.83.108-0170
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 US-38.121.43.142-8076
+      - 🇲🇾 vip1 马来西亚-02 测试
+      - RELAY-172.67.204.84-0250
+      - 🇭🇰 vip1 香港-03 测试
+      - 🇦🇷 NI阿根廷-电信优化
+      - 🇨🇳 vip1 台湾-08
+      - 🇲🇾 vip1 马来西亚-03 测试
+      - 🇻🇳 VN越南-电信优化
+      - 🇩🇪 DE德国-电信优化
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇦 UA-5.188.6.8-0772
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 US-38.75.136.21-7988
+      - KZ-188.94.155.82-1853
+      - 🇸🇬 vip1 新加坡-07 测试
+      - 🇸🇬 SG新加坡-电信优化
+      - 🇻🇳 VN越南-移动优化
+      - 🇬🇧 GB-45.14.244.133-0205
+      - 🇺🇸 US-38.75.136.33-0507
+      - 🇺🇸 US-38.75.137.42-0505
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 US-38.75.137.93-0488
-      - RELAY-104.21.15.36-0279
-      - PT-5.182.39.27-0288
-      - 🇺🇸 US-138.197.5.103-0154
-      - 🇺🇸 US-138.197.5.103-0227
-      - 🇺🇸 US-38.75.137.93-0479
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 HK-47.242.22.171-0208
-      - 🇬🇧 _GB_英国
-      - RELAY-172.67.71.160-0164
-      - RELAY-104.16.60.8-0269
-      - 🇹🇷 vip1 土耳其-01 测试
-      - 🇫🇷 FR-54.38.212.91-0743
-      - 🇺🇸 US-38.75.136.21-7547
-      - 🇲🇾 vip1 马来西亚-01 测试
-      - 🇺🇸 US-38.75.136.33-0501
-      - 🇺🇸 US-64.23.196.139-0674
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇰🇷 KR-13.124.178.1-3465
-      - 🇭🇰 vip1 香港-06
-      - 🇺🇸 US-205.134.180.151-0689
-      - 🇲🇾 vip1 马来西亚-03 测试
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 IN印度-联通优化
+      - 🇭🇰 vip1 香港-08
+      - 🇩🇪 vip1 德国-02 测试
       - 13.213.46.196:443
-      - 🇺🇸 US-167.88.61.175-8369
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 US-38.75.137.93-0492
-      - 🇺🇸 vip1 美国-13 测试
-      - 🇨🇳 台湾2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 vip1 美国-06 测试
-      - TR-45.89.52.66-0830
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇨🇦 CA-91.194.11.168-0160
-      - 🇺🇸 US-167.88.61.175-7158
-      - 🇺🇸 美国3|@ripaojiedian
-      - KZ-188.94.155.82-1853
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US-108.181.200.220-0798
-      - 🇺🇸 US-167.88.61.175-7975
-      - 🇰🇷 KR-43.201.47.36-0730
-      - 🇺🇸 美国 CloudFlare节点 4
-      - ""
-      - 🇭🇰 vip1 香港-13
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 US-104.167.197.23-0683
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - RELAY-172.67.229.38-0274
-      - 🇦🇺 vip1 澳大利亚-01 测试
-      - 🇦🇺 vip1 澳大利亚-02 测试
+      - 🇯🇵 vip1 日本-06
+      - 🇬🇧 _GB_英国
+      - 🇭🇰 vip1 香港-02
+      - RELAY-172.67.229.36-0179
+      - 🇫🇷 FR-195.154.185.174-0718
+      - RELAY-104.21.31.62-0159
+      - VN-103.163.218.2-2281
+      - 🇺🇸 US-167.88.61.175-7503
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇯🇵 vip1 日本-07
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 vip1 新加坡-01
+      - CY-213.169.137.221-0799
+      - 🇷🇺 RU俄罗斯-电信优化
+      - 🇺🇸 vip1 美国-07 测试
+      - 🇩🇪 DE德国-联通优化
+      - 🇰🇷 KR-152.67.218.38-0720
+      - RELAY-104.21.83.208-0270
+      - 🇺🇦 UA乌克兰-移动优化
+      - 🇨🇳 TW台湾2-移动优化
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇺🇸 US-38.75.136.21-7974
+      - 🇭🇰 vip1 香港-08 测试
+      - 🇺🇸 USA美国-电信优化
+      - 🇺🇸 US-38.75.136.21-8093
+      - 🇺🇸 vip1 美国-11 测试
+      - RELAY-104.16.60.8-0269
       - 🇩🇪 DE-130.162.47.123-9436
-      - 🇷🇺 RU-103.113.68.233-0281
-      - 🇯🇵 vip1 日本-07 测试
+      - 🇺🇸 US-192.3.150.233-9069
+      - 🇲🇾 MY马来西亚-联通优化
+      - RELAY-104.16.61.8-0286
+      - 🇨🇦 CA-91.194.11.168-0160
+      - 🇻🇳 vip1 越南-03
+      - TR-45.89.52.66-0830
+      - RELAY-104.21.4.6-0124
+      - RELAY-104.21.83.108-0170
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 US-38.121.43.142-8076
+      - 🇲🇾 vip1 马来西亚-02 测试
+      - RELAY-172.67.204.84-0250
+      - 🇭🇰 vip1 香港-03 测试
+      - 🇦🇷 NI阿根廷-电信优化
+      - 🇨🇳 vip1 台湾-08
+      - 🇲🇾 vip1 马来西亚-03 测试
+      - 🇻🇳 VN越南-电信优化
+      - 🇩🇪 DE德国-电信优化
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇦 UA-5.188.6.8-0772
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 US-38.75.136.21-7988
+      - KZ-188.94.155.82-1853
+      - 🇸🇬 vip1 新加坡-07 测试
+      - 🇸🇬 SG新加坡-电信优化
+      - 🇻🇳 VN越南-移动优化
+      - 🇬🇧 GB-45.14.244.133-0205
+      - 🇺🇸 US-38.75.136.33-0507
+      - 🇺🇸 US-38.75.137.42-0505
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 US-38.75.137.93-0488
-      - RELAY-104.21.15.36-0279
-      - PT-5.182.39.27-0288
-      - 🇺🇸 US-138.197.5.103-0154
-      - 🇺🇸 US-138.197.5.103-0227
-      - 🇺🇸 US-38.75.137.93-0479
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 HK-47.242.22.171-0208
-      - 🇬🇧 _GB_英国
-      - RELAY-172.67.71.160-0164
-      - RELAY-104.16.60.8-0269
-      - 🇹🇷 vip1 土耳其-01 测试
-      - 🇫🇷 FR-54.38.212.91-0743
-      - 🇺🇸 US-38.75.136.21-7547
-      - 🇲🇾 vip1 马来西亚-01 测试
-      - 🇺🇸 US-38.75.136.33-0501
-      - 🇺🇸 US-64.23.196.139-0674
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇰🇷 KR-13.124.178.1-3465
-      - 🇭🇰 vip1 香港-06
-      - 🇺🇸 US-205.134.180.151-0689
-      - 🇲🇾 vip1 马来西亚-03 测试
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 IN印度-联通优化
+      - 🇭🇰 vip1 香港-08
+      - 🇩🇪 vip1 德国-02 测试
       - 13.213.46.196:443
-      - 🇺🇸 US-167.88.61.175-8369
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 US-38.75.137.93-0492
-      - 🇺🇸 vip1 美国-13 测试
-      - 🇨🇳 台湾2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 vip1 美国-06 测试
-      - TR-45.89.52.66-0830
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇨🇦 CA-91.194.11.168-0160
-      - 🇺🇸 US-167.88.61.175-7158
-      - 🇺🇸 美国3|@ripaojiedian
-      - KZ-188.94.155.82-1853
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US-108.181.200.220-0798
-      - 🇺🇸 US-167.88.61.175-7975
-      - 🇰🇷 KR-43.201.47.36-0730
-      - 🇺🇸 美国 CloudFlare节点 4
-      - ""
-      - 🇭🇰 vip1 香港-13
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 US-104.167.197.23-0683
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - RELAY-172.67.229.38-0274
-      - 🇦🇺 vip1 澳大利亚-01 测试
-      - 🇦🇺 vip1 澳大利亚-02 测试
+      - 🇯🇵 vip1 日本-06
+      - 🇬🇧 _GB_英国
+      - 🇭🇰 vip1 香港-02
+      - RELAY-172.67.229.36-0179
+      - 🇫🇷 FR-195.154.185.174-0718
+      - RELAY-104.21.31.62-0159
+      - VN-103.163.218.2-2281
+      - 🇺🇸 US-167.88.61.175-7503
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇯🇵 vip1 日本-07
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 vip1 新加坡-01
+      - CY-213.169.137.221-0799
+      - 🇷🇺 RU俄罗斯-电信优化
+      - 🇺🇸 vip1 美国-07 测试
+      - 🇩🇪 DE德国-联通优化
+      - 🇰🇷 KR-152.67.218.38-0720
+      - RELAY-104.21.83.208-0270
+      - 🇺🇦 UA乌克兰-移动优化
+      - 🇨🇳 TW台湾2-移动优化
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇺🇸 US-38.75.136.21-7974
+      - 🇭🇰 vip1 香港-08 测试
+      - 🇺🇸 USA美国-电信优化
+      - 🇺🇸 US-38.75.136.21-8093
+      - 🇺🇸 vip1 美国-11 测试
+      - RELAY-104.16.60.8-0269
       - 🇩🇪 DE-130.162.47.123-9436
-      - 🇷🇺 RU-103.113.68.233-0281
-      - 🇯🇵 vip1 日本-07 测试
+      - 🇺🇸 US-192.3.150.233-9069
+      - 🇲🇾 MY马来西亚-联通优化
+      - RELAY-104.16.61.8-0286
+      - 🇨🇦 CA-91.194.11.168-0160
+      - 🇻🇳 vip1 越南-03
+      - TR-45.89.52.66-0830
+      - RELAY-104.21.4.6-0124
+      - RELAY-104.21.83.108-0170
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 US-38.121.43.142-8076
+      - 🇲🇾 vip1 马来西亚-02 测试
+      - RELAY-172.67.204.84-0250
+      - 🇭🇰 vip1 香港-03 测试
+      - 🇦🇷 NI阿根廷-电信优化
+      - 🇨🇳 vip1 台湾-08
+      - 🇲🇾 vip1 马来西亚-03 测试
+      - 🇻🇳 VN越南-电信优化
+      - 🇩🇪 DE德国-电信优化
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇦 UA-5.188.6.8-0772
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 US-38.75.136.21-7988
+      - KZ-188.94.155.82-1853
+      - 🇸🇬 vip1 新加坡-07 测试
+      - 🇸🇬 SG新加坡-电信优化
+      - 🇻🇳 VN越南-移动优化
+      - 🇬🇧 GB-45.14.244.133-0205
+      - 🇺🇸 US-38.75.136.33-0507
+      - 🇺🇸 US-38.75.137.42-0505
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -452,62 +508,70 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US-38.75.137.93-0488
-      - RELAY-104.21.15.36-0279
-      - PT-5.182.39.27-0288
-      - 🇺🇸 US-138.197.5.103-0154
-      - 🇺🇸 US-138.197.5.103-0227
-      - 🇺🇸 US-38.75.137.93-0479
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 HK-47.242.22.171-0208
-      - 🇬🇧 _GB_英国
-      - RELAY-172.67.71.160-0164
-      - RELAY-104.16.60.8-0269
-      - 🇹🇷 vip1 土耳其-01 测试
-      - 🇫🇷 FR-54.38.212.91-0743
-      - 🇺🇸 US-38.75.136.21-7547
-      - 🇲🇾 vip1 马来西亚-01 测试
-      - 🇺🇸 US-38.75.136.33-0501
-      - 🇺🇸 US-64.23.196.139-0674
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇰🇷 KR-13.124.178.1-3465
-      - 🇭🇰 vip1 香港-06
-      - 🇺🇸 US-205.134.180.151-0689
-      - 🇲🇾 vip1 马来西亚-03 测试
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 IN印度-联通优化
+      - 🇭🇰 vip1 香港-08
+      - 🇩🇪 vip1 德国-02 测试
       - 13.213.46.196:443
-      - 🇺🇸 US-167.88.61.175-8369
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 US-38.75.137.93-0492
-      - 🇺🇸 vip1 美国-13 测试
-      - 🇨🇳 台湾2|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 vip1 美国-06 测试
-      - TR-45.89.52.66-0830
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇨🇦 CA-91.194.11.168-0160
-      - 🇺🇸 US-167.88.61.175-7158
-      - 🇺🇸 美国3|@ripaojiedian
-      - KZ-188.94.155.82-1853
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US-108.181.200.220-0798
-      - 🇺🇸 US-167.88.61.175-7975
-      - 🇰🇷 KR-43.201.47.36-0730
-      - 🇺🇸 美国 CloudFlare节点 4
-      - ""
-      - 🇭🇰 vip1 香港-13
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 US-104.167.197.23-0683
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - RELAY-172.67.229.38-0274
-      - 🇦🇺 vip1 澳大利亚-01 测试
-      - 🇦🇺 vip1 澳大利亚-02 测试
+      - 🇯🇵 vip1 日本-06
+      - 🇬🇧 _GB_英国
+      - 🇭🇰 vip1 香港-02
+      - RELAY-172.67.229.36-0179
+      - 🇫🇷 FR-195.154.185.174-0718
+      - RELAY-104.21.31.62-0159
+      - VN-103.163.218.2-2281
+      - 🇺🇸 US-167.88.61.175-7503
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇯🇵 vip1 日本-07
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇸🇬 vip1 新加坡-01
+      - CY-213.169.137.221-0799
+      - 🇷🇺 RU俄罗斯-电信优化
+      - 🇺🇸 vip1 美国-07 测试
+      - 🇩🇪 DE德国-联通优化
+      - 🇰🇷 KR-152.67.218.38-0720
+      - RELAY-104.21.83.208-0270
+      - 🇺🇦 UA乌克兰-移动优化
+      - 🇨🇳 TW台湾2-移动优化
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇺🇸 US-38.75.136.21-7974
+      - 🇭🇰 vip1 香港-08 测试
+      - 🇺🇸 USA美国-电信优化
+      - 🇺🇸 US-38.75.136.21-8093
+      - 🇺🇸 vip1 美国-11 测试
+      - RELAY-104.16.60.8-0269
       - 🇩🇪 DE-130.162.47.123-9436
-      - 🇷🇺 RU-103.113.68.233-0281
-      - 🇯🇵 vip1 日本-07 测试
+      - 🇺🇸 US-192.3.150.233-9069
+      - 🇲🇾 MY马来西亚-联通优化
+      - RELAY-104.16.61.8-0286
+      - 🇨🇦 CA-91.194.11.168-0160
+      - 🇻🇳 vip1 越南-03
+      - TR-45.89.52.66-0830
+      - RELAY-104.21.4.6-0124
+      - RELAY-104.21.83.108-0170
+      - 🇺🇸 vip1 美国-06 测试
+      - 🇺🇸 US-38.121.43.142-8076
+      - 🇲🇾 vip1 马来西亚-02 测试
+      - RELAY-172.67.204.84-0250
+      - 🇭🇰 vip1 香港-03 测试
+      - 🇦🇷 NI阿根廷-电信优化
+      - 🇨🇳 vip1 台湾-08
+      - 🇲🇾 vip1 马来西亚-03 测试
+      - 🇻🇳 VN越南-电信优化
+      - 🇩🇪 DE德国-电信优化
+      - 🇭🇰 香港7|@ripaojiedian
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇦 UA-5.188.6.8-0772
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 US-38.75.136.21-7988
+      - KZ-188.94.155.82-1853
+      - 🇸🇬 vip1 新加坡-07 测试
+      - 🇸🇬 SG新加坡-电信优化
+      - 🇻🇳 VN越南-移动优化
+      - 🇬🇧 GB-45.14.244.133-0205
+      - 🇺🇸 US-38.75.136.33-0507
+      - 🇺🇸 US-38.75.137.42-0505
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
