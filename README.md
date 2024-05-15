@@ -10,39 +10,39 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 403`
+`Total number of merge nodes: 408`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 52`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 52`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 52`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 52`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 52`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 52`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7`
-`Total number of merge nodes: 51`
+`Total number of merge nodes: 52`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 46`
+`Total number of merge nodes: 44`
 
 - [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-05-15 23:38:58`
+Updata：`2024-05-16 02:44:20`
 
 
 <details>
@@ -36065,38 +36065,47 @@ Updata：`2024-05-15 23:38:58`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=b43bd18c3df89b2dccd04a6f813b2719`
+
+
+
+
+
+
 
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=b43bd18c3df89b2dccd04a6f813b2719`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9b16c94c8091e8119965ab4d1a8324fd`
 
-
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-05-15/cDC8Upm.txt`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=b43bd18c3df89b2dccd04a6f813b2719`
 
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-05-15/cDC8Upm.txt`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9b16c94c8091e8119965ab4d1a8324fd`
 
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-05-15/cDC8Upm.txt`
 
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9b16c94c8091e8119965ab4d1a8324fd`
+
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=e8b36cb53dd36b2bcfa7a828bc1818cd`
+`https://oss.v2rayse.com/proxies/data/2024-05-15/cDC8Upm.txt`
+
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=e8b36cb53dd36b2bcfa7a828bc1818cd`
+`https://oss.v2rayse.com/proxies/data/2024-05-15/cDC8Upm.txt`
+
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=e8b36cb53dd36b2bcfa7a828bc1818cd`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=a1fdb4e53fbab7a9d4920f3f791af803`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=a1fdb4e53fbab7a9d4920f3f791af803`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=a1fdb4e53fbab7a9d4920f3f791af803`
 
 
 
