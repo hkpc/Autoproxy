@@ -5,389 +5,473 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RELAY-104.21.15.36-0235, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, servername: linde06.indiavideo.sbs, network: ws, ws-opts: {path: /, headers: {Host: linde06.indiavideo.sbs}}}
-  - {name: 🇨🇳 vip1 台湾-07, server: fly0001.flyflylflyflysbs.sbs, port: 35672, type: trojan, password: f8fb4440-3c4d-4599-a4fc-be7974b55d8f, sni: tw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 Akamai科技公司CDN网络节点, server: 172.232.36.182, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: FKYytuIxvB7lXiyXDeFImc}
-  - {name: 🇳🇱 NL-95.179.128.114-2561, server: 95.179.128.114, port: 80, type: vmess, uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: RELAY-104.16.61.8-0280, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2e-20240116.v2freevpn.com}}}
-  - {name: 🇺🇸 美国 惠普HP, server: 15.204.87.217, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.16.61.8, port: 2086, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: ury-unit-c030ehei8.poget71138.workers.dev}}}
-  - {name: 🇺🇸 US-212.102.47.198-0319, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: 🇭🇰 HK-209.9.201.118-6048, server: hk3.grpc.stream, port: 8300, type: vmess, uuid: 6031b5c3-d8ba-5756-b708-f61084a2b678, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk3.grpc.stream}}}
-  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 23.154.136.176, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.36.119, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}}
-  - {name: RELAY-104.21.15.212-0172, server: hms182.glweidf.sbs, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: glweidf.sbs}}}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 120.232.240.38, port: 8443, type: vmess, uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇫🇷 FR-51.15.27.48-0690, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: BE-95.164.62.230-1350, server: be2-vmess.sshmax.xyz, port: 80, type: vmess, uuid: f302ad18-94da-4682-a330-24dc7c863703, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: be2-vmess.sshmax.xyz}}}
-  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇨🇦 CA-134.195.196.178-0755, server: 134.195.196.178, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: FastFly 永久跳转地址 https://fastfly.club, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: f8fb4440-3c4d-4599-a4fc-be7974b55d8f, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-01, server: fly0001.flyflylflyflysbs.sbs, port: 25074, type: trojan, password: f8fb4440-3c4d-4599-a4fc-be7974b55d8f, sni: tw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 北美地区 V2CROSS.COM 2, server: 23.154.136.176, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: RELAY-104.26.7.65-2705, server: caretaker.com, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: mikasa.yaemiko.cloudns.org}}}
-  - {name: RELAY-172.67.199.79-0748, server: 172.67.199.79, port: 80, type: vmess, uuid: b716fb7a-0d57-46dc-8856-98d6055ebcfd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: is3-vmess.sshmax.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: in3.wish.ml}}}
-  - {name: RELAY-104.21.46.121-2590, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ivideos.sbs}}}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 188.213.128.62, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9hw94fiLyfFIiqEB/oJIq96PzezX1O3FOCARlLbCNzY=}
-  - {name: NO-46.29.219.42-2694, server: 46.29.219.42, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇵🇱 波兰 V2CROSS.COM, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
+  - {name: 🇨🇳 CN台湾-2, server: cn2.gauss.life, port: 58011, type: ss, cipher: chacha20-ietf-poly1305, password: 71a08c67-325f-40aa-97bb-06852526ce3c}
+  - {name: 🇺🇸 US-108.181.23.41-2609, server: 108.181.23.41, port: 2052, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc}}}
+  - {name: 🇸🇬 SG-103.172.116.79-0273, server: 103.172.116.79, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
+  - {name: RELAY-172.67.183.220-2580, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: jahfkjha.cfd}}}
+  - {name: 🇨🇳 广东省佛山市 移动, server: 8980k6.ceova9qgbqsqmfdy-jp01.my777999.top, port: 38999, type: ss, cipher: chacha20-ietf-poly1305, password: dffc697a-2535-470c-bb6a-8157b6c157a7}
+  - {name: 🇸🇬 Singapore_14, server: sg14.mmyjiedian.com, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: bb28c007-61fc-45d8-9b91-24e62968c1af}
+  - {name: 🇯🇵 Japan_17, server: jp17.mmyjiedian.com, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: bb28c007-61fc-45d8-9b91-24e62968c1af}
   - {name: RELAY-104.16.60.8-0128, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xxxxx73cream-073cxxxxxxxx.cogoni7748.workers.dev}}}
-  - {name: 🇸🇬 vip1 新加坡-01, server: fly0001.flyflylflyflysbs.sbs, port: 21526, type: trojan, password: f8fb4440-3c4d-4599-a4fc-be7974b55d8f, sni: sg02.ckcloud.info, skip-cert-verify: true}
-  - {name: wqfuinwqffq.dfcloud.xyz:30818, server: wqfuinwqffq.dfcloud.xyz, port: 30818, type: ss, cipher: chacha20-ietf-poly1305, password: 8e949d75-3510-4678-8593-3c5032dd931a}
-  - {name: 🇨🇦 CA-142.4.216.225-0700, server: ca225.vpnbook.com, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq}
-  - {name: 🇵🇱 _PL_波兰, server: 51.77.53.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 Cogent, server: 206.238.236.36, port: 2052, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws, headers: {Host: mysan2.jaquay22.workers.dev}}}
-  - {name: RELAY-172.67.71.160-2635, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: obdii.cfd}}}
-  - {name: 🇺🇸 US-138.197.5.103-0208, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo}
-  - {name: 🇹🇷 vip1 土耳其-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 29970, type: vmess, uuid: f8fb4440-3c4d-4599-a4fc-be7974b55d8f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇨🇳 github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
+  - {name: 🇯🇵 vip1 日本-07, server: fly0001.flyflylflyflysbs.sbs, port: 37581, type: trojan, password: 377ca4c8-74a6-4880-98c0-1e8db344049c, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JP日本-2, server: jp5.gauss.life, port: 16412, type: ss, cipher: chacha20-ietf-poly1305, password: 31f51386-7089-40d5-a08b-3efe22ea3a71}
+  - {name: FastFly 永久跳转地址 https://fastfly.club, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: 377ca4c8-74a6-4880-98c0-1e8db344049c, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 US-23.94.76.55-0664, server: 23.94.76.55, port: 51981, type: ss, cipher: aes-256-gcm, password: 06gZKkeC2J}
+  - {name: 🇺🇸 US-92.246.138.25-0678, server: 92.246.138.25, port: 35915, type: ss, cipher: chacha20-ietf-poly1305, password: rKcwIh46rwc0ngvwKpG6ki}
+  - {name: 🇩🇪 DE-49.13.10.50-2219, server: 49.13.10.50, port: 1194, type: ss, cipher: chacha20-ietf-poly1305, password: Uxm4ADwftKdXq5qRA4ZfHS}
+  - {name: 🇸🇬 SG新加坡-4, server: sg1.gauss.life, port: 58166, type: ss, cipher: chacha20-ietf-poly1305, password: 71a08c67-325f-40aa-97bb-06852526ce3c}
   - {name: RELAY-172.67.166.192-2629, server: 172.67.166.192, port: 80, type: vmess, uuid: cd1db809-2de0-409c-aef5-861e95eff53e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ua1-vmess.sshmax.xyz}}}
-  - {name: 🇺🇸 美国 惠普HP 2, server: 15.204.87.217, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇩🇪 vip1 德国-01, server: fly0001.flyflylflyflysbs.sbs, port: 20943, type: trojan, password: f8fb4440-3c4d-4599-a4fc-be7974b55d8f, sni: de01.ckcloud.info, skip-cert-verify: true}
-  - {name: RELAY-172.67.175.56-0156, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: obdii.cfd}}}
-  - {name: 🇰🇷 KR-152.67.218.38-0681, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 152.67.218.38}}}
-  - {name: 🇷🇺 _RU_俄罗斯联邦, server: 45.136.245.240, port: 12910, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.151.195.48, port: 16127, type: trojan, password: TNDSJfNv, skip-cert-verify: true}
-  - {name: 🇫🇷 FR-51.159.111.208-0708, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇸🇬 SG-128.199.161.230-0278, server: 128.199.161.230, port: 99, type: vmess, uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US-38.54.25.49-0783, server: 38.54.25.49, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L}
-  - {name: TR-45.89.52.66-3553, server: 45.89.52.66, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
-  - {name: 🇭🇰 香港8|@ripaojiedian, server: 183.232.199.61, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.21.69.44, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true}
+  - {name: RELAY-172.67.174.92-0074, server: qin17.rong1104.uk, port: 2053, type: vmess, uuid: f674964e-7c38-41ac-9f06-3e7aedc51e30, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qin17.rong1104.uk}}}
+  - {name: RELAY-104.26.6.65-2559, server: 104.26.6.65, port: 2053, type: vmess, uuid: 869caccc-12af-4276-f458-366fa256f8a0, alterId: 0, cipher: auto, tls: true, servername: qin15.rong1104.uk, network: ws, ws-opts: {path: /, headers: {Host: qin15.rong1104.uk}}}
+  - {name: 🇺🇸 美国 Amazon EC2服务器, server: 3.67.106.116, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 🇺🇸 US-66.225.246.221-0615, server: 66.225.246.221, port: 30129, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L}
+  - {name: ZA-129.151.164.152-0768, server: 129.151.164.152, port: 55600, type: vmess, uuid: e30f8588-2555-48b8-c354-c8e63f57232d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: RELAY-188.114.99.183-0075, server: 188.114.99.183, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, servername: linde06.indiavideo.sbs, network: ws, ws-opts: {path: /, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 🇵🇱 _PL_波兰, server: 51.77.53.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 172.67.124.123, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: any.ktsfd.shop, path: "", tls: true, mux: true}}
+  - {name: 🇵🇱 _PL_波兰 2, server: 51.77.53.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: RELAY-188.114.97.2-0762, server: 188.114.97.2, port: 443, type: vmess, uuid: 6d9911b0-4e14-44fb-8883-52d14f550cca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: be2-vmess.sshmax.xyz}}}
+  - {name: 🇺🇸 You.mi赞助|美国|cf优选, server: www.okcupid.com, port: 8443, type: vmess, uuid: 6c08df77-b99e-48e6-829d-2f4d423e7e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: yumi.888553.xyz}}}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.wish.ml}}}
+  - {name: RELAY-188.114.97.3-2607, server: 188.114.97.3, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, servername: afrhms16v.bestxray.buzz, network: ws, ws-opts: {path: /, headers: {Host: afrhms16v.bestxray.buzz}}}
+  - {name: 🇩🇪 vip1 德国-01, server: fly0001.flyflylflyflysbs.sbs, port: 20943, type: trojan, password: 377ca4c8-74a6-4880-98c0-1e8db344049c, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip1 越南-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 39609, type: vmess, uuid: 377ca4c8-74a6-4880-98c0-1e8db344049c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 距离下次重置剩余：3 天, server: hk13.mmyjiedian.com, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: bb28c007-61fc-45d8-9b91-24e62968c1af}
+  - {name: RELAY-172.67.207.26-0191, server: 172.67.207.26, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: glweidf.sbs}}}
+  - {name: 🇸🇬 SG-103.172.116.90-0202, server: 103.172.116.90, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
+  - {name: 🇮🇳 github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
+  - {name: 🇸🇬 Singapore_15, server: sg15.mmyjiedian.com, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: bb28c007-61fc-45d8-9b91-24e62968c1af}
+  - {name: 🇩🇪 vip1 德国-02, server: fly0001.flyflylflyflysbs.sbs, port: 20943, type: trojan, password: 377ca4c8-74a6-4880-98c0-1e8db344049c, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: RELAY-195.85.59.22-0299, server: 195.85.59.22, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, servername: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev}}}
+  - {name: FastFly 国外地址： https://cloud.fastfly.top, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: 377ca4c8-74a6-4880-98c0-1e8db344049c, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 TW-61.227.234.222-4164, server: 61.227.234.222, port: 443, type: vmess, uuid: 4ccc923e-8452-418c-9222-87ee8f295e14, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: RELAY-104.21.80.53-2710, server: qin19.rong1104.uk, port: 2053, type: vmess, uuid: a666aad7-b148-44fb-93e9-46e103307236, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qin19.rong1104.uk}}}
+  - {name: 🇭🇰 Hong Kong_19, server: hk19.mmyjiedian.com, port: 10019, type: ss, cipher: chacha20-ietf-poly1305, password: bb28c007-61fc-45d8-9b91-24e62968c1af}
+  - {name: 🇺🇸 United States 01 @nodpai, server: hytron.io, port: 8080, type: vmess, uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hytron.io}}}
+  - {name: 🇵🇱 _PL_波兰 3, server: 51.77.53.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: RELAY-104.21.44.106-2598, server: hms04.xmivideo.cfd, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: xmivideo.cfd}}}
+  - {name: 🇨🇦 CA-51.222.157.179-0656, server: 51.222.157.179, port: 49602, type: ss, cipher: aes-256-gcm, password: 7gaTTlW73G}
+  - {name: 🇨🇳 广东省 移动, server: data-hk-v1.usabooks.com.cn, port: 20206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.usabooks.com.cn}}}
+  - {name: 🇯🇵 Japan_7, server: jp07.mmyjiedian.com, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: bb28c007-61fc-45d8-9b91-24e62968c1af}
+  - {name: NO-185.90.61.153-9742, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇯🇵 Japan_8, server: jp08.mmyjiedian.com, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: bb28c007-61fc-45d8-9b91-24e62968c1af}
+  - {name: 🇯🇵 vip1 日本-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 57230, type: vmess, uuid: 377ca4c8-74a6-4880-98c0-1e8db344049c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇰🇷 韩国2|@ripaojiedian, server: aws-kr-seoul-1.f1cflinec.com, port: 443, type: trojan, password: g76wex, sni: aws-kr-seoul-1.f1cflinec.com, network: ws, ws-opts: {path: /f1rocket, headers: {Host: aws-kr-seoul-1.f1cflinec.com}}}
+  - {name: 🇺🇸 US-156.146.38.163-0322, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: 🇨🇦 CA加拿大, server: us3.gauss.life, port: 58288, type: ss, cipher: chacha20-ietf-poly1305, password: 71a08c67-325f-40aa-97bb-06852526ce3c}
+  - {name: 🇨🇳 广东省佛山市 移动 2, server: 183.232.199.61, port: 61001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 vip1 日本-01, server: fly0001.flyflylflyflysbs.sbs, port: 20356, type: trojan, password: 377ca4c8-74a6-4880-98c0-1e8db344049c, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 香港7|@ripaojiedian, server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: RELAY-188.114.97.210-0301, server: 188.114.97.210, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, servername: linde06.indiavideo.sbs, network: ws, ws-opts: {path: /, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 🇺🇸 US-154.3.8.151-0626, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
+  - {name: 🇸🇬 Singapore_06, server: sg06.mmyjiedian.com, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: bb28c007-61fc-45d8-9b91-24e62968c1af}
+  - {name: 🇳🇱 NL-95.179.128.114-2561, server: 95.179.128.114, port: 80, type: vmess, uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - RELAY-104.21.15.36-0235
-      - 🇨🇳 vip1 台湾-07
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇳🇱 NL-95.179.128.114-2561
-      - RELAY-104.16.61.8-0280
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 US-212.102.47.198-0319
-      - 🇭🇰 HK-209.9.201.118-6048
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点 2
-      - RELAY-104.21.15.212-0172
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇫🇷 FR-51.15.27.48-0690
-      - BE-95.164.62.230-1350
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇨🇦 CA-134.195.196.178-0755
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇨🇳 vip1 台湾-01
-      - 🇺🇸 北美地区 V2CROSS.COM 2
-      - RELAY-104.26.7.65-2705
-      - RELAY-172.67.199.79-0748
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - RELAY-104.21.46.121-2590
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - NO-46.29.219.42-2694
-      - 🇵🇱 波兰 V2CROSS.COM
+      - 🇨🇳 CN台湾-2
+      - 🇺🇸 US-108.181.23.41-2609
+      - 🇸🇬 SG-103.172.116.79-0273
+      - RELAY-172.67.183.220-2580
+      - 🇨🇳 广东省佛山市 移动
+      - 🇸🇬 Singapore_14
+      - 🇯🇵 Japan_17
       - RELAY-104.16.60.8-0128
-      - 🇸🇬 vip1 新加坡-01
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇦 CA-142.4.216.225-0700
-      - 🇵🇱 _PL_波兰
-      - 🇺🇸 美国 Cogent
-      - RELAY-172.67.71.160-2635
-      - 🇺🇸 US-138.197.5.103-0208
-      - 🇹🇷 vip1 土耳其-01 测试
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇯🇵 vip1 日本-07
+      - 🇯🇵 JP日本-2
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 US-23.94.76.55-0664
+      - 🇺🇸 US-92.246.138.25-0678
+      - 🇩🇪 DE-49.13.10.50-2219
+      - 🇸🇬 SG新加坡-4
       - RELAY-172.67.166.192-2629
-      - 🇺🇸 美国 惠普HP 2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - RELAY-172.67.174.92-0074
+      - RELAY-104.26.6.65-2559
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 US-66.225.246.221-0615
+      - ZA-129.151.164.152-0768
+      - RELAY-188.114.99.183-0075
+      - 🇵🇱 _PL_波兰
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇵🇱 _PL_波兰 2
+      - RELAY-188.114.97.2-0762
+      - 🇺🇸 You.mi赞助|美国|cf优选
+      - 🇸🇬 新加坡|@ripaojiedian
+      - RELAY-188.114.97.3-2607
       - 🇩🇪 vip1 德国-01
-      - RELAY-172.67.175.56-0156
-      - 🇰🇷 KR-152.67.218.38-0681
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇫🇷 FR-51.159.111.208-0708
-      - 🇸🇬 SG-128.199.161.230-0278
-      - 🇺🇸 US-38.54.25.49-0783
-      - TR-45.89.52.66-3553
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇻🇳 vip1 越南-01 测试
+      - 距离下次重置剩余：3 天
+      - RELAY-172.67.207.26-0191
+      - 🇸🇬 SG-103.172.116.90-0202
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇸🇬 Singapore_15
+      - 🇩🇪 vip1 德国-02
+      - RELAY-195.85.59.22-0299
+      - FastFly 国外地址： https://cloud.fastfly.top
+      - 🇨🇳 TW-61.227.234.222-4164
+      - RELAY-104.21.80.53-2710
+      - 🇭🇰 Hong Kong_19
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - RELAY-104.21.44.106-2598
+      - 🇨🇦 CA-51.222.157.179-0656
+      - 🇨🇳 广东省 移动
+      - 🇯🇵 Japan_7
+      - NO-185.90.61.153-9742
+      - 🇯🇵 Japan_8
+      - 🇯🇵 vip1 日本-01 测试
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 US-156.146.38.163-0322
+      - 🇨🇦 CA加拿大
+      - 🇨🇳 广东省佛山市 移动 2
+      - 🇯🇵 vip1 日本-01
+      - 🇭🇰 香港7|@ripaojiedian
+      - RELAY-188.114.97.210-0301
+      - 🇺🇸 US-154.3.8.151-0626
+      - 🇸🇬 Singapore_06
+      - 🇳🇱 NL-95.179.128.114-2561
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - RELAY-104.21.15.36-0235
-      - 🇨🇳 vip1 台湾-07
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇳🇱 NL-95.179.128.114-2561
-      - RELAY-104.16.61.8-0280
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 US-212.102.47.198-0319
-      - 🇭🇰 HK-209.9.201.118-6048
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点 2
-      - RELAY-104.21.15.212-0172
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇫🇷 FR-51.15.27.48-0690
-      - BE-95.164.62.230-1350
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇨🇦 CA-134.195.196.178-0755
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇨🇳 vip1 台湾-01
-      - 🇺🇸 北美地区 V2CROSS.COM 2
-      - RELAY-104.26.7.65-2705
-      - RELAY-172.67.199.79-0748
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - RELAY-104.21.46.121-2590
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - NO-46.29.219.42-2694
-      - 🇵🇱 波兰 V2CROSS.COM
+      - 🇨🇳 CN台湾-2
+      - 🇺🇸 US-108.181.23.41-2609
+      - 🇸🇬 SG-103.172.116.79-0273
+      - RELAY-172.67.183.220-2580
+      - 🇨🇳 广东省佛山市 移动
+      - 🇸🇬 Singapore_14
+      - 🇯🇵 Japan_17
       - RELAY-104.16.60.8-0128
-      - 🇸🇬 vip1 新加坡-01
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇦 CA-142.4.216.225-0700
-      - 🇵🇱 _PL_波兰
-      - 🇺🇸 美国 Cogent
-      - RELAY-172.67.71.160-2635
-      - 🇺🇸 US-138.197.5.103-0208
-      - 🇹🇷 vip1 土耳其-01 测试
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇯🇵 vip1 日本-07
+      - 🇯🇵 JP日本-2
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 US-23.94.76.55-0664
+      - 🇺🇸 US-92.246.138.25-0678
+      - 🇩🇪 DE-49.13.10.50-2219
+      - 🇸🇬 SG新加坡-4
       - RELAY-172.67.166.192-2629
-      - 🇺🇸 美国 惠普HP 2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - RELAY-172.67.174.92-0074
+      - RELAY-104.26.6.65-2559
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 US-66.225.246.221-0615
+      - ZA-129.151.164.152-0768
+      - RELAY-188.114.99.183-0075
+      - 🇵🇱 _PL_波兰
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇵🇱 _PL_波兰 2
+      - RELAY-188.114.97.2-0762
+      - 🇺🇸 You.mi赞助|美国|cf优选
+      - 🇸🇬 新加坡|@ripaojiedian
+      - RELAY-188.114.97.3-2607
       - 🇩🇪 vip1 德国-01
-      - RELAY-172.67.175.56-0156
-      - 🇰🇷 KR-152.67.218.38-0681
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇫🇷 FR-51.159.111.208-0708
-      - 🇸🇬 SG-128.199.161.230-0278
-      - 🇺🇸 US-38.54.25.49-0783
-      - TR-45.89.52.66-3553
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇻🇳 vip1 越南-01 测试
+      - 距离下次重置剩余：3 天
+      - RELAY-172.67.207.26-0191
+      - 🇸🇬 SG-103.172.116.90-0202
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇸🇬 Singapore_15
+      - 🇩🇪 vip1 德国-02
+      - RELAY-195.85.59.22-0299
+      - FastFly 国外地址： https://cloud.fastfly.top
+      - 🇨🇳 TW-61.227.234.222-4164
+      - RELAY-104.21.80.53-2710
+      - 🇭🇰 Hong Kong_19
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - RELAY-104.21.44.106-2598
+      - 🇨🇦 CA-51.222.157.179-0656
+      - 🇨🇳 广东省 移动
+      - 🇯🇵 Japan_7
+      - NO-185.90.61.153-9742
+      - 🇯🇵 Japan_8
+      - 🇯🇵 vip1 日本-01 测试
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 US-156.146.38.163-0322
+      - 🇨🇦 CA加拿大
+      - 🇨🇳 广东省佛山市 移动 2
+      - 🇯🇵 vip1 日本-01
+      - 🇭🇰 香港7|@ripaojiedian
+      - RELAY-188.114.97.210-0301
+      - 🇺🇸 US-154.3.8.151-0626
+      - 🇸🇬 Singapore_06
+      - 🇳🇱 NL-95.179.128.114-2561
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-104.21.15.36-0235
-      - 🇨🇳 vip1 台湾-07
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇳🇱 NL-95.179.128.114-2561
-      - RELAY-104.16.61.8-0280
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 US-212.102.47.198-0319
-      - 🇭🇰 HK-209.9.201.118-6048
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点 2
-      - RELAY-104.21.15.212-0172
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇫🇷 FR-51.15.27.48-0690
-      - BE-95.164.62.230-1350
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇨🇦 CA-134.195.196.178-0755
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇨🇳 vip1 台湾-01
-      - 🇺🇸 北美地区 V2CROSS.COM 2
-      - RELAY-104.26.7.65-2705
-      - RELAY-172.67.199.79-0748
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - RELAY-104.21.46.121-2590
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - NO-46.29.219.42-2694
-      - 🇵🇱 波兰 V2CROSS.COM
+      - 🇨🇳 CN台湾-2
+      - 🇺🇸 US-108.181.23.41-2609
+      - 🇸🇬 SG-103.172.116.79-0273
+      - RELAY-172.67.183.220-2580
+      - 🇨🇳 广东省佛山市 移动
+      - 🇸🇬 Singapore_14
+      - 🇯🇵 Japan_17
       - RELAY-104.16.60.8-0128
-      - 🇸🇬 vip1 新加坡-01
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇦 CA-142.4.216.225-0700
-      - 🇵🇱 _PL_波兰
-      - 🇺🇸 美国 Cogent
-      - RELAY-172.67.71.160-2635
-      - 🇺🇸 US-138.197.5.103-0208
-      - 🇹🇷 vip1 土耳其-01 测试
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇯🇵 vip1 日本-07
+      - 🇯🇵 JP日本-2
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 US-23.94.76.55-0664
+      - 🇺🇸 US-92.246.138.25-0678
+      - 🇩🇪 DE-49.13.10.50-2219
+      - 🇸🇬 SG新加坡-4
       - RELAY-172.67.166.192-2629
-      - 🇺🇸 美国 惠普HP 2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - RELAY-172.67.174.92-0074
+      - RELAY-104.26.6.65-2559
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 US-66.225.246.221-0615
+      - ZA-129.151.164.152-0768
+      - RELAY-188.114.99.183-0075
+      - 🇵🇱 _PL_波兰
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇵🇱 _PL_波兰 2
+      - RELAY-188.114.97.2-0762
+      - 🇺🇸 You.mi赞助|美国|cf优选
+      - 🇸🇬 新加坡|@ripaojiedian
+      - RELAY-188.114.97.3-2607
       - 🇩🇪 vip1 德国-01
-      - RELAY-172.67.175.56-0156
-      - 🇰🇷 KR-152.67.218.38-0681
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇫🇷 FR-51.159.111.208-0708
-      - 🇸🇬 SG-128.199.161.230-0278
-      - 🇺🇸 US-38.54.25.49-0783
-      - TR-45.89.52.66-3553
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇻🇳 vip1 越南-01 测试
+      - 距离下次重置剩余：3 天
+      - RELAY-172.67.207.26-0191
+      - 🇸🇬 SG-103.172.116.90-0202
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇸🇬 Singapore_15
+      - 🇩🇪 vip1 德国-02
+      - RELAY-195.85.59.22-0299
+      - FastFly 国外地址： https://cloud.fastfly.top
+      - 🇨🇳 TW-61.227.234.222-4164
+      - RELAY-104.21.80.53-2710
+      - 🇭🇰 Hong Kong_19
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - RELAY-104.21.44.106-2598
+      - 🇨🇦 CA-51.222.157.179-0656
+      - 🇨🇳 广东省 移动
+      - 🇯🇵 Japan_7
+      - NO-185.90.61.153-9742
+      - 🇯🇵 Japan_8
+      - 🇯🇵 vip1 日本-01 测试
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 US-156.146.38.163-0322
+      - 🇨🇦 CA加拿大
+      - 🇨🇳 广东省佛山市 移动 2
+      - 🇯🇵 vip1 日本-01
+      - 🇭🇰 香港7|@ripaojiedian
+      - RELAY-188.114.97.210-0301
+      - 🇺🇸 US-154.3.8.151-0626
+      - 🇸🇬 Singapore_06
+      - 🇳🇱 NL-95.179.128.114-2561
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RELAY-104.21.15.36-0235
-      - 🇨🇳 vip1 台湾-07
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇳🇱 NL-95.179.128.114-2561
-      - RELAY-104.16.61.8-0280
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 US-212.102.47.198-0319
-      - 🇭🇰 HK-209.9.201.118-6048
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点 2
-      - RELAY-104.21.15.212-0172
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇫🇷 FR-51.15.27.48-0690
-      - BE-95.164.62.230-1350
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇨🇦 CA-134.195.196.178-0755
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇨🇳 vip1 台湾-01
-      - 🇺🇸 北美地区 V2CROSS.COM 2
-      - RELAY-104.26.7.65-2705
-      - RELAY-172.67.199.79-0748
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - RELAY-104.21.46.121-2590
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - NO-46.29.219.42-2694
-      - 🇵🇱 波兰 V2CROSS.COM
+      - 🇨🇳 CN台湾-2
+      - 🇺🇸 US-108.181.23.41-2609
+      - 🇸🇬 SG-103.172.116.79-0273
+      - RELAY-172.67.183.220-2580
+      - 🇨🇳 广东省佛山市 移动
+      - 🇸🇬 Singapore_14
+      - 🇯🇵 Japan_17
       - RELAY-104.16.60.8-0128
-      - 🇸🇬 vip1 新加坡-01
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇦 CA-142.4.216.225-0700
-      - 🇵🇱 _PL_波兰
-      - 🇺🇸 美国 Cogent
-      - RELAY-172.67.71.160-2635
-      - 🇺🇸 US-138.197.5.103-0208
-      - 🇹🇷 vip1 土耳其-01 测试
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇯🇵 vip1 日本-07
+      - 🇯🇵 JP日本-2
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 US-23.94.76.55-0664
+      - 🇺🇸 US-92.246.138.25-0678
+      - 🇩🇪 DE-49.13.10.50-2219
+      - 🇸🇬 SG新加坡-4
       - RELAY-172.67.166.192-2629
-      - 🇺🇸 美国 惠普HP 2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - RELAY-172.67.174.92-0074
+      - RELAY-104.26.6.65-2559
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 US-66.225.246.221-0615
+      - ZA-129.151.164.152-0768
+      - RELAY-188.114.99.183-0075
+      - 🇵🇱 _PL_波兰
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇵🇱 _PL_波兰 2
+      - RELAY-188.114.97.2-0762
+      - 🇺🇸 You.mi赞助|美国|cf优选
+      - 🇸🇬 新加坡|@ripaojiedian
+      - RELAY-188.114.97.3-2607
       - 🇩🇪 vip1 德国-01
-      - RELAY-172.67.175.56-0156
-      - 🇰🇷 KR-152.67.218.38-0681
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇫🇷 FR-51.159.111.208-0708
-      - 🇸🇬 SG-128.199.161.230-0278
-      - 🇺🇸 US-38.54.25.49-0783
-      - TR-45.89.52.66-3553
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇻🇳 vip1 越南-01 测试
+      - 距离下次重置剩余：3 天
+      - RELAY-172.67.207.26-0191
+      - 🇸🇬 SG-103.172.116.90-0202
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇸🇬 Singapore_15
+      - 🇩🇪 vip1 德国-02
+      - RELAY-195.85.59.22-0299
+      - FastFly 国外地址： https://cloud.fastfly.top
+      - 🇨🇳 TW-61.227.234.222-4164
+      - RELAY-104.21.80.53-2710
+      - 🇭🇰 Hong Kong_19
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - RELAY-104.21.44.106-2598
+      - 🇨🇦 CA-51.222.157.179-0656
+      - 🇨🇳 广东省 移动
+      - 🇯🇵 Japan_7
+      - NO-185.90.61.153-9742
+      - 🇯🇵 Japan_8
+      - 🇯🇵 vip1 日本-01 测试
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 US-156.146.38.163-0322
+      - 🇨🇦 CA加拿大
+      - 🇨🇳 广东省佛山市 移动 2
+      - 🇯🇵 vip1 日本-01
+      - 🇭🇰 香港7|@ripaojiedian
+      - RELAY-188.114.97.210-0301
+      - 🇺🇸 US-154.3.8.151-0626
+      - 🇸🇬 Singapore_06
+      - 🇳🇱 NL-95.179.128.114-2561
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - RELAY-104.21.15.36-0235
-      - 🇨🇳 vip1 台湾-07
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇳🇱 NL-95.179.128.114-2561
-      - RELAY-104.16.61.8-0280
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 US-212.102.47.198-0319
-      - 🇭🇰 HK-209.9.201.118-6048
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点 2
-      - RELAY-104.21.15.212-0172
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇫🇷 FR-51.15.27.48-0690
-      - BE-95.164.62.230-1350
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇨🇦 CA-134.195.196.178-0755
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇨🇳 vip1 台湾-01
-      - 🇺🇸 北美地区 V2CROSS.COM 2
-      - RELAY-104.26.7.65-2705
-      - RELAY-172.67.199.79-0748
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - RELAY-104.21.46.121-2590
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - NO-46.29.219.42-2694
-      - 🇵🇱 波兰 V2CROSS.COM
+      - 🇨🇳 CN台湾-2
+      - 🇺🇸 US-108.181.23.41-2609
+      - 🇸🇬 SG-103.172.116.79-0273
+      - RELAY-172.67.183.220-2580
+      - 🇨🇳 广东省佛山市 移动
+      - 🇸🇬 Singapore_14
+      - 🇯🇵 Japan_17
       - RELAY-104.16.60.8-0128
-      - 🇸🇬 vip1 新加坡-01
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇦 CA-142.4.216.225-0700
-      - 🇵🇱 _PL_波兰
-      - 🇺🇸 美国 Cogent
-      - RELAY-172.67.71.160-2635
-      - 🇺🇸 US-138.197.5.103-0208
-      - 🇹🇷 vip1 土耳其-01 测试
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇯🇵 vip1 日本-07
+      - 🇯🇵 JP日本-2
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 US-23.94.76.55-0664
+      - 🇺🇸 US-92.246.138.25-0678
+      - 🇩🇪 DE-49.13.10.50-2219
+      - 🇸🇬 SG新加坡-4
       - RELAY-172.67.166.192-2629
-      - 🇺🇸 美国 惠普HP 2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - RELAY-172.67.174.92-0074
+      - RELAY-104.26.6.65-2559
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 US-66.225.246.221-0615
+      - ZA-129.151.164.152-0768
+      - RELAY-188.114.99.183-0075
+      - 🇵🇱 _PL_波兰
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇵🇱 _PL_波兰 2
+      - RELAY-188.114.97.2-0762
+      - 🇺🇸 You.mi赞助|美国|cf优选
+      - 🇸🇬 新加坡|@ripaojiedian
+      - RELAY-188.114.97.3-2607
       - 🇩🇪 vip1 德国-01
-      - RELAY-172.67.175.56-0156
-      - 🇰🇷 KR-152.67.218.38-0681
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇫🇷 FR-51.159.111.208-0708
-      - 🇸🇬 SG-128.199.161.230-0278
-      - 🇺🇸 US-38.54.25.49-0783
-      - TR-45.89.52.66-3553
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇻🇳 vip1 越南-01 测试
+      - 距离下次重置剩余：3 天
+      - RELAY-172.67.207.26-0191
+      - 🇸🇬 SG-103.172.116.90-0202
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇸🇬 Singapore_15
+      - 🇩🇪 vip1 德国-02
+      - RELAY-195.85.59.22-0299
+      - FastFly 国外地址： https://cloud.fastfly.top
+      - 🇨🇳 TW-61.227.234.222-4164
+      - RELAY-104.21.80.53-2710
+      - 🇭🇰 Hong Kong_19
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - RELAY-104.21.44.106-2598
+      - 🇨🇦 CA-51.222.157.179-0656
+      - 🇨🇳 广东省 移动
+      - 🇯🇵 Japan_7
+      - NO-185.90.61.153-9742
+      - 🇯🇵 Japan_8
+      - 🇯🇵 vip1 日本-01 测试
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 US-156.146.38.163-0322
+      - 🇨🇦 CA加拿大
+      - 🇨🇳 广东省佛山市 移动 2
+      - 🇯🇵 vip1 日本-01
+      - 🇭🇰 香港7|@ripaojiedian
+      - RELAY-188.114.97.210-0301
+      - 🇺🇸 US-154.3.8.151-0626
+      - 🇸🇬 Singapore_06
+      - 🇳🇱 NL-95.179.128.114-2561
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RELAY-104.21.15.36-0235
-      - 🇨🇳 vip1 台湾-07
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇳🇱 NL-95.179.128.114-2561
-      - RELAY-104.16.61.8-0280
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 US-212.102.47.198-0319
-      - 🇭🇰 HK-209.9.201.118-6048
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点 2
-      - RELAY-104.21.15.212-0172
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇫🇷 FR-51.15.27.48-0690
-      - BE-95.164.62.230-1350
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇨🇦 CA-134.195.196.178-0755
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇨🇳 vip1 台湾-01
-      - 🇺🇸 北美地区 V2CROSS.COM 2
-      - RELAY-104.26.7.65-2705
-      - RELAY-172.67.199.79-0748
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - RELAY-104.21.46.121-2590
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - NO-46.29.219.42-2694
-      - 🇵🇱 波兰 V2CROSS.COM
+      - 🇨🇳 CN台湾-2
+      - 🇺🇸 US-108.181.23.41-2609
+      - 🇸🇬 SG-103.172.116.79-0273
+      - RELAY-172.67.183.220-2580
+      - 🇨🇳 广东省佛山市 移动
+      - 🇸🇬 Singapore_14
+      - 🇯🇵 Japan_17
       - RELAY-104.16.60.8-0128
-      - 🇸🇬 vip1 新加坡-01
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇦 CA-142.4.216.225-0700
-      - 🇵🇱 _PL_波兰
-      - 🇺🇸 美国 Cogent
-      - RELAY-172.67.71.160-2635
-      - 🇺🇸 US-138.197.5.103-0208
-      - 🇹🇷 vip1 土耳其-01 测试
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇯🇵 vip1 日本-07
+      - 🇯🇵 JP日本-2
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 US-23.94.76.55-0664
+      - 🇺🇸 US-92.246.138.25-0678
+      - 🇩🇪 DE-49.13.10.50-2219
+      - 🇸🇬 SG新加坡-4
       - RELAY-172.67.166.192-2629
-      - 🇺🇸 美国 惠普HP 2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - RELAY-172.67.174.92-0074
+      - RELAY-104.26.6.65-2559
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 US-66.225.246.221-0615
+      - ZA-129.151.164.152-0768
+      - RELAY-188.114.99.183-0075
+      - 🇵🇱 _PL_波兰
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇵🇱 _PL_波兰 2
+      - RELAY-188.114.97.2-0762
+      - 🇺🇸 You.mi赞助|美国|cf优选
+      - 🇸🇬 新加坡|@ripaojiedian
+      - RELAY-188.114.97.3-2607
       - 🇩🇪 vip1 德国-01
-      - RELAY-172.67.175.56-0156
-      - 🇰🇷 KR-152.67.218.38-0681
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇫🇷 FR-51.159.111.208-0708
-      - 🇸🇬 SG-128.199.161.230-0278
-      - 🇺🇸 US-38.54.25.49-0783
-      - TR-45.89.52.66-3553
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇻🇳 vip1 越南-01 测试
+      - 距离下次重置剩余：3 天
+      - RELAY-172.67.207.26-0191
+      - 🇸🇬 SG-103.172.116.90-0202
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇸🇬 Singapore_15
+      - 🇩🇪 vip1 德国-02
+      - RELAY-195.85.59.22-0299
+      - FastFly 国外地址： https://cloud.fastfly.top
+      - 🇨🇳 TW-61.227.234.222-4164
+      - RELAY-104.21.80.53-2710
+      - 🇭🇰 Hong Kong_19
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - RELAY-104.21.44.106-2598
+      - 🇨🇦 CA-51.222.157.179-0656
+      - 🇨🇳 广东省 移动
+      - 🇯🇵 Japan_7
+      - NO-185.90.61.153-9742
+      - 🇯🇵 Japan_8
+      - 🇯🇵 vip1 日本-01 测试
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 US-156.146.38.163-0322
+      - 🇨🇦 CA加拿大
+      - 🇨🇳 广东省佛山市 移动 2
+      - 🇯🇵 vip1 日本-01
+      - 🇭🇰 香港7|@ripaojiedian
+      - RELAY-188.114.97.210-0301
+      - 🇺🇸 US-154.3.8.151-0626
+      - 🇸🇬 Singapore_06
+      - 🇳🇱 NL-95.179.128.114-2561
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -410,56 +494,68 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RELAY-104.21.15.36-0235
-      - 🇨🇳 vip1 台湾-07
-      - 🇺🇸 美国 Akamai科技公司CDN网络节点
-      - 🇳🇱 NL-95.179.128.114-2561
-      - RELAY-104.16.61.8-0280
-      - 🇺🇸 美国 惠普HP
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 US-212.102.47.198-0319
-      - 🇭🇰 HK-209.9.201.118-6048
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 美国 CloudFlare节点 2
-      - RELAY-104.21.15.212-0172
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇫🇷 FR-51.15.27.48-0690
-      - BE-95.164.62.230-1350
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇨🇦 CA-134.195.196.178-0755
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇨🇳 vip1 台湾-01
-      - 🇺🇸 北美地区 V2CROSS.COM 2
-      - RELAY-104.26.7.65-2705
-      - RELAY-172.67.199.79-0748
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度
-      - RELAY-104.21.46.121-2590
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - NO-46.29.219.42-2694
-      - 🇵🇱 波兰 V2CROSS.COM
+      - 🇨🇳 CN台湾-2
+      - 🇺🇸 US-108.181.23.41-2609
+      - 🇸🇬 SG-103.172.116.79-0273
+      - RELAY-172.67.183.220-2580
+      - 🇨🇳 广东省佛山市 移动
+      - 🇸🇬 Singapore_14
+      - 🇯🇵 Japan_17
       - RELAY-104.16.60.8-0128
-      - 🇸🇬 vip1 新加坡-01
-      - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇨🇦 CA-142.4.216.225-0700
-      - 🇵🇱 _PL_波兰
-      - 🇺🇸 美国 Cogent
-      - RELAY-172.67.71.160-2635
-      - 🇺🇸 US-138.197.5.103-0208
-      - 🇹🇷 vip1 土耳其-01 测试
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇯🇵 vip1 日本-07
+      - 🇯🇵 JP日本-2
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 US-23.94.76.55-0664
+      - 🇺🇸 US-92.246.138.25-0678
+      - 🇩🇪 DE-49.13.10.50-2219
+      - 🇸🇬 SG新加坡-4
       - RELAY-172.67.166.192-2629
-      - 🇺🇸 美国 惠普HP 2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - RELAY-172.67.174.92-0074
+      - RELAY-104.26.6.65-2559
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 US-66.225.246.221-0615
+      - ZA-129.151.164.152-0768
+      - RELAY-188.114.99.183-0075
+      - 🇵🇱 _PL_波兰
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇵🇱 _PL_波兰 2
+      - RELAY-188.114.97.2-0762
+      - 🇺🇸 You.mi赞助|美国|cf优选
+      - 🇸🇬 新加坡|@ripaojiedian
+      - RELAY-188.114.97.3-2607
       - 🇩🇪 vip1 德国-01
-      - RELAY-172.67.175.56-0156
-      - 🇰🇷 KR-152.67.218.38-0681
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇫🇷 FR-51.159.111.208-0708
-      - 🇸🇬 SG-128.199.161.230-0278
-      - 🇺🇸 US-38.54.25.49-0783
-      - TR-45.89.52.66-3553
-      - 🇭🇰 香港8|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇻🇳 vip1 越南-01 测试
+      - 距离下次重置剩余：3 天
+      - RELAY-172.67.207.26-0191
+      - 🇸🇬 SG-103.172.116.90-0202
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇸🇬 Singapore_15
+      - 🇩🇪 vip1 德国-02
+      - RELAY-195.85.59.22-0299
+      - FastFly 国外地址： https://cloud.fastfly.top
+      - 🇨🇳 TW-61.227.234.222-4164
+      - RELAY-104.21.80.53-2710
+      - 🇭🇰 Hong Kong_19
+      - 🇺🇸 United States 01 @nodpai
+      - 🇵🇱 _PL_波兰 3
+      - RELAY-104.21.44.106-2598
+      - 🇨🇦 CA-51.222.157.179-0656
+      - 🇨🇳 广东省 移动
+      - 🇯🇵 Japan_7
+      - NO-185.90.61.153-9742
+      - 🇯🇵 Japan_8
+      - 🇯🇵 vip1 日本-01 测试
+      - 🇰🇷 韩国2|@ripaojiedian
+      - 🇺🇸 US-156.146.38.163-0322
+      - 🇨🇦 CA加拿大
+      - 🇨🇳 广东省佛山市 移动 2
+      - 🇯🇵 vip1 日本-01
+      - 🇭🇰 香港7|@ripaojiedian
+      - RELAY-188.114.97.210-0301
+      - 🇺🇸 US-154.3.8.151-0626
+      - 🇸🇬 Singapore_06
+      - 🇳🇱 NL-95.179.128.114-2561
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
