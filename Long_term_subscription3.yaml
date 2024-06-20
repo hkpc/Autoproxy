@@ -5,263 +5,207 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇫🇷 法国 OVH, server: 51.77.53.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇭🇰 公测|香港 03 1x, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
   - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
-  - {name: 🇸🇬 新加坡 01, server: ununim.yangliq.com, port: 23001, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
-  - {name: 🇺🇸 _US_美国, server: 15.204.87.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇭🇰 公测|香港 01 1x, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true}
-  - {name: 🇵🇱 github.com/freefq - 波兰  5, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: 🇵🇱 _PL_波兰, server: 51.77.53.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "", server: hkd1.quickerlink.xyz, port: 443, type: vmess, uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /h6jr23x9h3lqiitg, headers: {Host: hkd1.quickerlink.xyz}}}
-  - {name: 🇦🇱 阿尔巴尼亚 V2CROSS.COM, server: 109.104.152.186, port: 11223, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=}
-  - {name: 🇫🇷 法国 OVH 2, server: 51.77.53.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇸🇬 新加坡 03, server: ununim.yangliq.com, port: 23003, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
-  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify), server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.freegradely.xyz}}}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: 150be761-0f1b-464c-a0c7-09fd31bd2f31, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
-  - {name: 🇮🇳 印度, server: ununim.yangliq.com, port: 27020, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
-  - {name: 🇯🇵 公测|日本 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
-  - {name: 🇫🇮 _FI_芬兰, server: tu.miraclestory.top, port: 2053, type: vmess, uuid: d862cdd6-3dd6-4adc-83ca-99bf0ce86bee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@V2RayyNGvpn, headers: {Host: divar.ir}}}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 43.206.232.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: plie.5hihwoqjshdnxjahweqsda.shanghaiyige.cyou, port: 1002, type: ss, cipher: aes-128-gcm, password: 93902842-fc34-40e9-901c-3b76299fd008}
-  - {name: 🇩🇪 _DE_德国, server: 80.92.204.106, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
-  - {name: 🇳🇿 新西兰, server: ununim.yangliq.com, port: 27028, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
-  - {name: 🇯🇵 公测|日本 04 1x, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
-  - {name: 🇨🇦 加拿大蒙特利尔 V2CROSS.COM, server: 134.195.196.178, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇰🇷 公测|韩国 04 1x, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
-  - {name: 🇨🇳 广东省云浮市 移动, server: 183.232.139.22, port: 50611, type: trojan, password: gkviEOYc, skip-cert-verify: true}
   - {name: 🇦🇺 澳大利亚2, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxadly.suixincloud.top}}}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 172.64.97.235, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: luther-soon-uploaded-anxiety.trycloudflare.com}}}
-  - {name: 🇫🇷 法国, server: ununim.yangliq.com, port: 27023, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
-  - {name: 🇭🇰 香港 05, server: ununim.yangliq.com, port: 21005, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
+  - {name: 🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
+  - {name: 🇸🇬 新加坡 03, server: ununim.yangliq.com, port: 23003, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
+  - {name: 🇺🇸 _US_美国, server: russia.com, port: 8880, type: vmess, uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: 🇨🇦 加拿大, server: ununim.yangliq.com, port: 27014, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
+  - {name: 🇺🇸 公益|美国1, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxus1.suixincloud.top}}}
+  - {name: 🇳🇱 荷兰 V2CROSS.COM, server: 193.29.139.162, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: a8bt9fY0QsLS6eLnXUe0Ym}
+  - {name: 🇨🇳 台湾 01, server: ununim.yangliq.com, port: 22001, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
+  - {name: 🇸🇬 新加坡 01, server: ununim.yangliq.com, port: 23001, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: 03-neibuyong.gangbi.vip, port: 58116, type: ss, cipher: aes-128-gcm, password: 5927ef13-7c5f-4b12-bdc8-7c295242a640}
+  - {name: 🇯🇵 公测|日本 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇺🇸 _US_美国 2, server: 15.204.87.225, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇮🇩 印尼, server: ununim.yangliq.com, port: 27019, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
+  - {name: 🇺🇸 _US_美国 3, server: 104.16.148.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
+  - {name: 🇺🇸 _US_美国 4, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇭🇰 公测|香港 04 1x, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
+  - {name: 🇺🇸 _US_美国 5, server: 15.204.87.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 38.121.43.248, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇭🇰 公测|香港 03 1x
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇸🇬 新加坡 01
-      - 🇺🇸 _US_美国
-      - 🇭🇰 公测|香港 01 1x
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇵🇱 _PL_波兰
-      - ""
-      - 🇦🇱 阿尔巴尼亚 V2CROSS.COM
-      - 🇫🇷 法国 OVH 2
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇳 印度
-      - 🇯🇵 公测|日本 02 1x
-      - 🇫🇮 _FI_芬兰
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇩🇪 _DE_德国
-      - 🇳🇿 新西兰
-      - 🇯🇵 公测|日本 04 1x
-      - 🇨🇦 加拿大蒙特利尔 V2CROSS.COM
-      - 🇰🇷 公测|韩国 04 1x
-      - 🇨🇳 广东省云浮市 移动
       - 🇦🇺 澳大利亚2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇫🇷 法国
-      - 🇭🇰 香港 05
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 _US_美国
+      - 🇨🇦 加拿大
+      - 🇺🇸 公益|美国1
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇨🇳 台湾 01
+      - 🇸🇬 新加坡 01
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 公测|日本 02 1x
+      - 🇺🇸 _US_美国 2
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇮🇩 印尼
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 公测|香港 04 1x
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 54.251.168.143:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇭🇰 公测|香港 03 1x
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇸🇬 新加坡 01
-      - 🇺🇸 _US_美国
-      - 🇭🇰 公测|香港 01 1x
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇵🇱 _PL_波兰
-      - ""
-      - 🇦🇱 阿尔巴尼亚 V2CROSS.COM
-      - 🇫🇷 法国 OVH 2
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇳 印度
-      - 🇯🇵 公测|日本 02 1x
-      - 🇫🇮 _FI_芬兰
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇩🇪 _DE_德国
-      - 🇳🇿 新西兰
-      - 🇯🇵 公测|日本 04 1x
-      - 🇨🇦 加拿大蒙特利尔 V2CROSS.COM
-      - 🇰🇷 公测|韩国 04 1x
-      - 🇨🇳 广东省云浮市 移动
       - 🇦🇺 澳大利亚2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇫🇷 法国
-      - 🇭🇰 香港 05
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 _US_美国
+      - 🇨🇦 加拿大
+      - 🇺🇸 公益|美国1
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇨🇳 台湾 01
+      - 🇸🇬 新加坡 01
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 公测|日本 02 1x
+      - 🇺🇸 _US_美国 2
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇮🇩 印尼
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 公测|香港 04 1x
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 54.251.168.143:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇭🇰 公测|香港 03 1x
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇸🇬 新加坡 01
-      - 🇺🇸 _US_美国
-      - 🇭🇰 公测|香港 01 1x
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇵🇱 _PL_波兰
-      - ""
-      - 🇦🇱 阿尔巴尼亚 V2CROSS.COM
-      - 🇫🇷 法国 OVH 2
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇳 印度
-      - 🇯🇵 公测|日本 02 1x
-      - 🇫🇮 _FI_芬兰
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇩🇪 _DE_德国
-      - 🇳🇿 新西兰
-      - 🇯🇵 公测|日本 04 1x
-      - 🇨🇦 加拿大蒙特利尔 V2CROSS.COM
-      - 🇰🇷 公测|韩国 04 1x
-      - 🇨🇳 广东省云浮市 移动
       - 🇦🇺 澳大利亚2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇫🇷 法国
-      - 🇭🇰 香港 05
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 _US_美国
+      - 🇨🇦 加拿大
+      - 🇺🇸 公益|美国1
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇨🇳 台湾 01
+      - 🇸🇬 新加坡 01
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 公测|日本 02 1x
+      - 🇺🇸 _US_美国 2
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇮🇩 印尼
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 公测|香港 04 1x
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 54.251.168.143:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇭🇰 公测|香港 03 1x
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇸🇬 新加坡 01
-      - 🇺🇸 _US_美国
-      - 🇭🇰 公测|香港 01 1x
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇵🇱 _PL_波兰
-      - ""
-      - 🇦🇱 阿尔巴尼亚 V2CROSS.COM
-      - 🇫🇷 法国 OVH 2
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇳 印度
-      - 🇯🇵 公测|日本 02 1x
-      - 🇫🇮 _FI_芬兰
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇩🇪 _DE_德国
-      - 🇳🇿 新西兰
-      - 🇯🇵 公测|日本 04 1x
-      - 🇨🇦 加拿大蒙特利尔 V2CROSS.COM
-      - 🇰🇷 公测|韩国 04 1x
-      - 🇨🇳 广东省云浮市 移动
       - 🇦🇺 澳大利亚2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇫🇷 法国
-      - 🇭🇰 香港 05
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 _US_美国
+      - 🇨🇦 加拿大
+      - 🇺🇸 公益|美国1
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇨🇳 台湾 01
+      - 🇸🇬 新加坡 01
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 公测|日本 02 1x
+      - 🇺🇸 _US_美国 2
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇮🇩 印尼
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 公测|香港 04 1x
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 54.251.168.143:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇭🇰 公测|香港 03 1x
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇸🇬 新加坡 01
-      - 🇺🇸 _US_美国
-      - 🇭🇰 公测|香港 01 1x
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇵🇱 _PL_波兰
-      - ""
-      - 🇦🇱 阿尔巴尼亚 V2CROSS.COM
-      - 🇫🇷 法国 OVH 2
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇳 印度
-      - 🇯🇵 公测|日本 02 1x
-      - 🇫🇮 _FI_芬兰
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇩🇪 _DE_德国
-      - 🇳🇿 新西兰
-      - 🇯🇵 公测|日本 04 1x
-      - 🇨🇦 加拿大蒙特利尔 V2CROSS.COM
-      - 🇰🇷 公测|韩国 04 1x
-      - 🇨🇳 广东省云浮市 移动
       - 🇦🇺 澳大利亚2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇫🇷 法国
-      - 🇭🇰 香港 05
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 _US_美国
+      - 🇨🇦 加拿大
+      - 🇺🇸 公益|美国1
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇨🇳 台湾 01
+      - 🇸🇬 新加坡 01
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 公测|日本 02 1x
+      - 🇺🇸 _US_美国 2
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇮🇩 印尼
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 公测|香港 04 1x
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 54.251.168.143:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇭🇰 公测|香港 03 1x
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇸🇬 新加坡 01
-      - 🇺🇸 _US_美国
-      - 🇭🇰 公测|香港 01 1x
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇵🇱 _PL_波兰
-      - ""
-      - 🇦🇱 阿尔巴尼亚 V2CROSS.COM
-      - 🇫🇷 法国 OVH 2
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇳 印度
-      - 🇯🇵 公测|日本 02 1x
-      - 🇫🇮 _FI_芬兰
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇩🇪 _DE_德国
-      - 🇳🇿 新西兰
-      - 🇯🇵 公测|日本 04 1x
-      - 🇨🇦 加拿大蒙特利尔 V2CROSS.COM
-      - 🇰🇷 公测|韩国 04 1x
-      - 🇨🇳 广东省云浮市 移动
       - 🇦🇺 澳大利亚2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇫🇷 法国
-      - 🇭🇰 香港 05
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 _US_美国
+      - 🇨🇦 加拿大
+      - 🇺🇸 公益|美国1
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇨🇳 台湾 01
+      - 🇸🇬 新加坡 01
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 公测|日本 02 1x
+      - 🇺🇸 _US_美国 2
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇮🇩 印尼
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 公测|香港 04 1x
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 54.251.168.143:443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,38 +228,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷 法国 OVH
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
-      - 🇭🇰 公测|香港 03 1x
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇸🇬 新加坡 01
-      - 🇺🇸 _US_美国
-      - 🇭🇰 公测|香港 01 1x
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇵🇱 _PL_波兰
-      - ""
-      - 🇦🇱 阿尔巴尼亚 V2CROSS.COM
-      - 🇫🇷 法国 OVH 2
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇳 印度
-      - 🇯🇵 公测|日本 02 1x
-      - 🇫🇮 _FI_芬兰
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇩🇪 _DE_德国
-      - 🇳🇿 新西兰
-      - 🇯🇵 公测|日本 04 1x
-      - 🇨🇦 加拿大蒙特利尔 V2CROSS.COM
-      - 🇰🇷 公测|韩国 04 1x
-      - 🇨🇳 广东省云浮市 移动
       - 🇦🇺 澳大利亚2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇫🇷 法国
-      - 🇭🇰 香港 05
+      - 🇻🇳 越南R|@ripaojiedian
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 _US_美国
+      - 🇨🇦 加拿大
+      - 🇺🇸 公益|美国1
+      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇨🇳 台湾 01
+      - 🇸🇬 新加坡 01
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇭🇰 香港|@ripaojiedian
+      - 🇯🇵 公测|日本 02 1x
+      - 🇺🇸 _US_美国 2
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇮🇩 印尼
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 公测|香港 04 1x
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 54.251.168.143:443
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
