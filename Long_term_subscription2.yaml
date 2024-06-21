@@ -5,284 +5,305 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 D14 台湾*, server: data.bilibili.com.v3-web.douyinvod.com.80fb9e6a.douyinvod.click, port: 39404, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: "🇷🇺 H60 俄罗斯 [0.8]", server: cn.bilivideo.com.0o0o0o0o0o0.tokyo, port: 39149, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇺🇸 _US_美国, server: 104.16.149.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
-  - {name: 🇵🇱 _PL_波兰, server: 51.77.53.200, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 172.67.114.125, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: a4.wagaga.online, path: "", tls: true, mux: true}}
-  - {name: "🇮🇸 H60 冰岛 [2]", server: sp.0o0o0o0o0o0.tokyo, port: 39820, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇨🇳 台湾2|@ripaojiedian, server: 211.72.156.17, port: 23555, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.freenods.sbs}}}
+  - {name: 🇲🇽 H60 墨西哥, server: sp.0o0o0o0o0o0.tokyo, port: 39825, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心, server: 18.219.139.16, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 23.157.40.120, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: 🇲🇾 D50 马来西亚, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39378, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇻🇳 D60 越南, server: sp.0o0o0o0o0o0.tokyo, port: 39407, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇫🇷 法国, server: ununim.yangliq.com, port: 27023, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
-  - {name: 🇰🇷 公测|韩国 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
-  - {name: 🇭🇰 公测|香港 03 1x, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
-  - {name: 🇺🇸 公测|美国 01 1x, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
-  - {name: 🇸🇬 B53 新加坡, server: 992g2n51.volcsiriusbd.com.3miko.xyz, port: 39393, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇯🇵 公测|日本 03 1x, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
-  - {name: 🇰🇷 韩国, server: ununim.yangliq.com, port: 25001, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
-  - {name: 🇨🇳 D13 台湾*, server: data.bilibili.com.v3-web.douyinvod.com.80fb9e6a.douyinvod.click, port: 39405, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: "🇺🇸 H60 美国星链 [15]", server: b.edgesrv.lol, port: 39060, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇩🇪 德国, server: ununim.yangliq.com, port: 27004, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
-  - {name: 🇵🇱 _PL_波兰 2, server: 51.77.53.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 B02 香港, server: 992g2n51.volcsiriusbd.com.3miko.xyz, port: 39277, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: plie.5hihwoqjshdnxjahweqsda.shanghaiyige.cyou, port: 1002, type: ss, cipher: aes-128-gcm, password: 93902842-fc34-40e9-901c-3b76299fd008}
-  - {name: 🇮🇳 github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
-  - {name: 🇭🇰 公测|香港 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
-  - {name: 🇮🇳 印度|@ripaojiedian, server: 116.162.172.120, port: 16626, type: vmess, uuid: 56b2371a-727f-46a9-97d3-8c5fe4bf836a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 15ff2b20c9c5f5839d852cc509098a22.mobgslb.tbcache.com}}}
-  - {name: 🇮🇩 印尼, server: ununim.yangliq.com, port: 27019, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
-  - {name: 🇭🇰 B04 香港P*, server: b.edgesrv.lol, port: 39016, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇨🇳 github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: 🇯🇵 公测|日本 05 1x, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
-  - {name: 🇨🇳 B10 台湾*, server: b.edgesrv.lol, port: 39013, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇯🇵 B22 日本*, server: b.edgesrv.lol, port: 39003, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
-  - {name: 🇺🇸 美国 02, server: ununim.yangliq.com, port: 26002, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
-  - {name: 🇺🇸 _US_美国 2, server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
+  - {name: 🇵🇱 _PL_波兰, server: 51.77.53.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 162.159.136.98, port: 80, type: vmess, uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ccs2.hostmjj.com}}}
+  - {name: 🇺🇸 北美地区 V2CROSS.COM 2, server: 23.157.40.120, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
   - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 54.238.36.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇪🇬 H60 埃及 [10]", server: sp.0o0o0o0o0o0.tokyo, port: 39816, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 43.206.232.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 D08 香港NoAd*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39405, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇳🇿 新西兰, server: ununim.yangliq.com, port: 27028, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
+  - {name: 🇺🇸 D40 美国*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39346, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇭🇰 B04 香港P*, server: b.edgesrv.lol, port: 39016, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇳🇱 H60 荷兰, server: sp.0o0o0o0o0o0.tokyo, port: 39802, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 104.19.38.112, port: 8880, type: vmess, uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm, headers: {Host: remaining-criminal-douglas-idol.trycloudflare.com}}}
+  - {name: 🇯🇵 D25 日本*, server: 370e5bac48b65387e65550c59a.paoluz0.buzz, port: 39411, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇸🇬 B53 新加坡, server: 992g2n51.volcsiriusbd.com.3miko.xyz, port: 39393, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇯🇵 D21 日本*, server: e3.0o0o0o0o0o0.tokyo, port: 39424, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇨🇭 瑞士, server: ununim.yangliq.com, port: 27007, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
+  - {name: 🇭🇰 B03 香港, server: b.edgesrv.lol, port: 39006, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇨🇳 D10 台湾*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39403, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true}
+  - {name: 🇨🇳 广东省云浮市 移动, server: 183.232.139.22, port: 50611, type: trojan, password: gkviEOYc}
+  - {name: 🇭🇰 香港 01, server: ununim.yangliq.com, port: 21101, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
+  - {name: 🇮🇱 _IL_以色列, server: 193.182.144.240, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 13.213.46.196:443, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇵🇱 _PL_波兰 2, server: 51.77.53.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 H60 英国1, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39434, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify), server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.freegradely.xyz}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: 104.25.77.191, port: 80, type: vmess, uuid: 0880c19f-f253-4298-8573-42fb83bf3006, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /other, headers: {Host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.}}}
+  - {name: 🇮🇳 github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
+  - {name: 🇦🇺 澳大利亚2, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxadly.suixincloud.top}}}
+  - {name: 🇮🇳 印度, server: ununim.yangliq.com, port: 27020, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
+  - {name: 🇵🇱 _PL_波兰 3, server: 51.77.53.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 D14 台湾*
-      - 🇷🇺 H60 俄罗斯 [0.8]
-      - 🇺🇸 _US_美国
-      - 🇵🇱 _PL_波兰
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇮🇸 H60 冰岛 [2]
-      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇲🇽 H60 墨西哥
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇲🇾 D50 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇫🇷 法国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇭🇰 公测|香港 03 1x
-      - 🇺🇸 公测|美国 01 1x
-      - 🇸🇬 B53 新加坡
-      - 🇯🇵 公测|日本 03 1x
-      - 🇰🇷 韩国
-      - 🇨🇳 D13 台湾*
-      - 🇺🇸 H60 美国星链 [15]
-      - 🇩🇪 德国
-      - 🇵🇱 _PL_波兰 2
-      - 🇭🇰 B02 香港
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇭🇰 公测|香港 02 1x
-      - 🇮🇳 印度|@ripaojiedian
-      - 🇮🇩 印尼
-      - 🇭🇰 B04 香港P*
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇯🇵 公测|日本 05 1x
-      - 🇨🇳 B10 台湾*
-      - 🇯🇵 B22 日本*
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 美国 02
-      - 🇺🇸 _US_美国 2
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 北美地区 V2CROSS.COM 2
+      - 🇻🇳 越南R|@ripaojiedian
       - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇪🇬 H60 埃及 [10]
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇭🇰 D08 香港NoAd*
+      - 🇳🇿 新西兰
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 D40 美国*
+      - 🇭🇰 B04 香港P*
+      - 🇳🇱 H60 荷兰
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇯🇵 D25 日本*
+      - 🇸🇬 B53 新加坡
+      - 🇯🇵 D21 日本*
+      - 🇨🇭 瑞士
+      - 🇭🇰 B03 香港
+      - 🇨🇳 D10 台湾*
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇨🇳 广东省云浮市 移动
+      - 🇭🇰 香港 01
+      - 🇮🇱 _IL_以色列
+      - 13.213.46.196:443
+      - 🇵🇱 _PL_波兰 2
+      - 🇬🇧 H60 英国1
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇦🇺 澳大利亚2
+      - 🇮🇳 印度
+      - 🇵🇱 _PL_波兰 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 D14 台湾*
-      - 🇷🇺 H60 俄罗斯 [0.8]
-      - 🇺🇸 _US_美国
-      - 🇵🇱 _PL_波兰
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇮🇸 H60 冰岛 [2]
-      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇲🇽 H60 墨西哥
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇲🇾 D50 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇫🇷 法国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇭🇰 公测|香港 03 1x
-      - 🇺🇸 公测|美国 01 1x
-      - 🇸🇬 B53 新加坡
-      - 🇯🇵 公测|日本 03 1x
-      - 🇰🇷 韩国
-      - 🇨🇳 D13 台湾*
-      - 🇺🇸 H60 美国星链 [15]
-      - 🇩🇪 德国
-      - 🇵🇱 _PL_波兰 2
-      - 🇭🇰 B02 香港
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇭🇰 公测|香港 02 1x
-      - 🇮🇳 印度|@ripaojiedian
-      - 🇮🇩 印尼
-      - 🇭🇰 B04 香港P*
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇯🇵 公测|日本 05 1x
-      - 🇨🇳 B10 台湾*
-      - 🇯🇵 B22 日本*
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 美国 02
-      - 🇺🇸 _US_美国 2
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 北美地区 V2CROSS.COM 2
+      - 🇻🇳 越南R|@ripaojiedian
       - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇪🇬 H60 埃及 [10]
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇭🇰 D08 香港NoAd*
+      - 🇳🇿 新西兰
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 D40 美国*
+      - 🇭🇰 B04 香港P*
+      - 🇳🇱 H60 荷兰
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇯🇵 D25 日本*
+      - 🇸🇬 B53 新加坡
+      - 🇯🇵 D21 日本*
+      - 🇨🇭 瑞士
+      - 🇭🇰 B03 香港
+      - 🇨🇳 D10 台湾*
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇨🇳 广东省云浮市 移动
+      - 🇭🇰 香港 01
+      - 🇮🇱 _IL_以色列
+      - 13.213.46.196:443
+      - 🇵🇱 _PL_波兰 2
+      - 🇬🇧 H60 英国1
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇦🇺 澳大利亚2
+      - 🇮🇳 印度
+      - 🇵🇱 _PL_波兰 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 D14 台湾*
-      - 🇷🇺 H60 俄罗斯 [0.8]
-      - 🇺🇸 _US_美国
-      - 🇵🇱 _PL_波兰
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇮🇸 H60 冰岛 [2]
-      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇲🇽 H60 墨西哥
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇲🇾 D50 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇫🇷 法国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇭🇰 公测|香港 03 1x
-      - 🇺🇸 公测|美国 01 1x
-      - 🇸🇬 B53 新加坡
-      - 🇯🇵 公测|日本 03 1x
-      - 🇰🇷 韩国
-      - 🇨🇳 D13 台湾*
-      - 🇺🇸 H60 美国星链 [15]
-      - 🇩🇪 德国
-      - 🇵🇱 _PL_波兰 2
-      - 🇭🇰 B02 香港
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇭🇰 公测|香港 02 1x
-      - 🇮🇳 印度|@ripaojiedian
-      - 🇮🇩 印尼
-      - 🇭🇰 B04 香港P*
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇯🇵 公测|日本 05 1x
-      - 🇨🇳 B10 台湾*
-      - 🇯🇵 B22 日本*
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 美国 02
-      - 🇺🇸 _US_美国 2
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 北美地区 V2CROSS.COM 2
+      - 🇻🇳 越南R|@ripaojiedian
       - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇪🇬 H60 埃及 [10]
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇭🇰 D08 香港NoAd*
+      - 🇳🇿 新西兰
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 D40 美国*
+      - 🇭🇰 B04 香港P*
+      - 🇳🇱 H60 荷兰
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇯🇵 D25 日本*
+      - 🇸🇬 B53 新加坡
+      - 🇯🇵 D21 日本*
+      - 🇨🇭 瑞士
+      - 🇭🇰 B03 香港
+      - 🇨🇳 D10 台湾*
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇨🇳 广东省云浮市 移动
+      - 🇭🇰 香港 01
+      - 🇮🇱 _IL_以色列
+      - 13.213.46.196:443
+      - 🇵🇱 _PL_波兰 2
+      - 🇬🇧 H60 英国1
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇦🇺 澳大利亚2
+      - 🇮🇳 印度
+      - 🇵🇱 _PL_波兰 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 D14 台湾*
-      - 🇷🇺 H60 俄罗斯 [0.8]
-      - 🇺🇸 _US_美国
-      - 🇵🇱 _PL_波兰
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇮🇸 H60 冰岛 [2]
-      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇲🇽 H60 墨西哥
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇲🇾 D50 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇫🇷 法国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇭🇰 公测|香港 03 1x
-      - 🇺🇸 公测|美国 01 1x
-      - 🇸🇬 B53 新加坡
-      - 🇯🇵 公测|日本 03 1x
-      - 🇰🇷 韩国
-      - 🇨🇳 D13 台湾*
-      - 🇺🇸 H60 美国星链 [15]
-      - 🇩🇪 德国
-      - 🇵🇱 _PL_波兰 2
-      - 🇭🇰 B02 香港
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇭🇰 公测|香港 02 1x
-      - 🇮🇳 印度|@ripaojiedian
-      - 🇮🇩 印尼
-      - 🇭🇰 B04 香港P*
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇯🇵 公测|日本 05 1x
-      - 🇨🇳 B10 台湾*
-      - 🇯🇵 B22 日本*
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 美国 02
-      - 🇺🇸 _US_美国 2
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 北美地区 V2CROSS.COM 2
+      - 🇻🇳 越南R|@ripaojiedian
       - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇪🇬 H60 埃及 [10]
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇭🇰 D08 香港NoAd*
+      - 🇳🇿 新西兰
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 D40 美国*
+      - 🇭🇰 B04 香港P*
+      - 🇳🇱 H60 荷兰
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇯🇵 D25 日本*
+      - 🇸🇬 B53 新加坡
+      - 🇯🇵 D21 日本*
+      - 🇨🇭 瑞士
+      - 🇭🇰 B03 香港
+      - 🇨🇳 D10 台湾*
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇨🇳 广东省云浮市 移动
+      - 🇭🇰 香港 01
+      - 🇮🇱 _IL_以色列
+      - 13.213.46.196:443
+      - 🇵🇱 _PL_波兰 2
+      - 🇬🇧 H60 英国1
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇦🇺 澳大利亚2
+      - 🇮🇳 印度
+      - 🇵🇱 _PL_波兰 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 D14 台湾*
-      - 🇷🇺 H60 俄罗斯 [0.8]
-      - 🇺🇸 _US_美国
-      - 🇵🇱 _PL_波兰
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇮🇸 H60 冰岛 [2]
-      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇲🇽 H60 墨西哥
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇲🇾 D50 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇫🇷 法国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇭🇰 公测|香港 03 1x
-      - 🇺🇸 公测|美国 01 1x
-      - 🇸🇬 B53 新加坡
-      - 🇯🇵 公测|日本 03 1x
-      - 🇰🇷 韩国
-      - 🇨🇳 D13 台湾*
-      - 🇺🇸 H60 美国星链 [15]
-      - 🇩🇪 德国
-      - 🇵🇱 _PL_波兰 2
-      - 🇭🇰 B02 香港
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇭🇰 公测|香港 02 1x
-      - 🇮🇳 印度|@ripaojiedian
-      - 🇮🇩 印尼
-      - 🇭🇰 B04 香港P*
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇯🇵 公测|日本 05 1x
-      - 🇨🇳 B10 台湾*
-      - 🇯🇵 B22 日本*
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 美国 02
-      - 🇺🇸 _US_美国 2
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 北美地区 V2CROSS.COM 2
+      - 🇻🇳 越南R|@ripaojiedian
       - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇪🇬 H60 埃及 [10]
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇭🇰 D08 香港NoAd*
+      - 🇳🇿 新西兰
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 D40 美国*
+      - 🇭🇰 B04 香港P*
+      - 🇳🇱 H60 荷兰
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇯🇵 D25 日本*
+      - 🇸🇬 B53 新加坡
+      - 🇯🇵 D21 日本*
+      - 🇨🇭 瑞士
+      - 🇭🇰 B03 香港
+      - 🇨🇳 D10 台湾*
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇨🇳 广东省云浮市 移动
+      - 🇭🇰 香港 01
+      - 🇮🇱 _IL_以色列
+      - 13.213.46.196:443
+      - 🇵🇱 _PL_波兰 2
+      - 🇬🇧 H60 英国1
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇦🇺 澳大利亚2
+      - 🇮🇳 印度
+      - 🇵🇱 _PL_波兰 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 D14 台湾*
-      - 🇷🇺 H60 俄罗斯 [0.8]
-      - 🇺🇸 _US_美国
-      - 🇵🇱 _PL_波兰
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇮🇸 H60 冰岛 [2]
-      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇲🇽 H60 墨西哥
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇲🇾 D50 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇫🇷 法国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇭🇰 公测|香港 03 1x
-      - 🇺🇸 公测|美国 01 1x
-      - 🇸🇬 B53 新加坡
-      - 🇯🇵 公测|日本 03 1x
-      - 🇰🇷 韩国
-      - 🇨🇳 D13 台湾*
-      - 🇺🇸 H60 美国星链 [15]
-      - 🇩🇪 德国
-      - 🇵🇱 _PL_波兰 2
-      - 🇭🇰 B02 香港
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇭🇰 公测|香港 02 1x
-      - 🇮🇳 印度|@ripaojiedian
-      - 🇮🇩 印尼
-      - 🇭🇰 B04 香港P*
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇯🇵 公测|日本 05 1x
-      - 🇨🇳 B10 台湾*
-      - 🇯🇵 B22 日本*
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 美国 02
-      - 🇺🇸 _US_美国 2
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 北美地区 V2CROSS.COM 2
+      - 🇻🇳 越南R|@ripaojiedian
       - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇪🇬 H60 埃及 [10]
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇭🇰 D08 香港NoAd*
+      - 🇳🇿 新西兰
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 D40 美国*
+      - 🇭🇰 B04 香港P*
+      - 🇳🇱 H60 荷兰
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇯🇵 D25 日本*
+      - 🇸🇬 B53 新加坡
+      - 🇯🇵 D21 日本*
+      - 🇨🇭 瑞士
+      - 🇭🇰 B03 香港
+      - 🇨🇳 D10 台湾*
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇨🇳 广东省云浮市 移动
+      - 🇭🇰 香港 01
+      - 🇮🇱 _IL_以色列
+      - 13.213.46.196:443
+      - 🇵🇱 _PL_波兰 2
+      - 🇬🇧 H60 英国1
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇦🇺 澳大利亚2
+      - 🇮🇳 印度
+      - 🇵🇱 _PL_波兰 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -305,41 +326,44 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 D14 台湾*
-      - 🇷🇺 H60 俄罗斯 [0.8]
-      - 🇺🇸 _US_美国
-      - 🇵🇱 _PL_波兰
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇮🇸 H60 冰岛 [2]
-      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇲🇽 H60 墨西哥
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇲🇾 D50 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇫🇷 法国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇭🇰 公测|香港 03 1x
-      - 🇺🇸 公测|美国 01 1x
-      - 🇸🇬 B53 新加坡
-      - 🇯🇵 公测|日本 03 1x
-      - 🇰🇷 韩国
-      - 🇨🇳 D13 台湾*
-      - 🇺🇸 H60 美国星链 [15]
-      - 🇩🇪 德国
-      - 🇵🇱 _PL_波兰 2
-      - 🇭🇰 B02 香港
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇭🇰 公测|香港 02 1x
-      - 🇮🇳 印度|@ripaojiedian
-      - 🇮🇩 印尼
-      - 🇭🇰 B04 香港P*
-      - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇯🇵 公测|日本 05 1x
-      - 🇨🇳 B10 台湾*
-      - 🇯🇵 B22 日本*
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 美国 02
-      - 🇺🇸 _US_美国 2
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 北美地区 V2CROSS.COM 2
+      - 🇻🇳 越南R|@ripaojiedian
       - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇪🇬 H60 埃及 [10]
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇭🇰 D08 香港NoAd*
+      - 🇳🇿 新西兰
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 D40 美国*
+      - 🇭🇰 B04 香港P*
+      - 🇳🇱 H60 荷兰
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇯🇵 D25 日本*
+      - 🇸🇬 B53 新加坡
+      - 🇯🇵 D21 日本*
+      - 🇨🇭 瑞士
+      - 🇭🇰 B03 香港
+      - 🇨🇳 D10 台湾*
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇨🇳 广东省云浮市 移动
+      - 🇭🇰 香港 01
+      - 🇮🇱 _IL_以色列
+      - 13.213.46.196:443
+      - 🇵🇱 _PL_波兰 2
+      - 🇬🇧 H60 英国1
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇦🇺 澳大利亚2
+      - 🇮🇳 印度
+      - 🇵🇱 _PL_波兰 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
