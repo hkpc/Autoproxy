@@ -5,242 +5,193 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: F25nP5.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 53981, type: trojan, password: gkviEOYc, skip-cert-verify: true}
-  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 23.157.40.10, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇭🇰 公测|香港 05 1x, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 43.206.232.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦, server: 104.16.1.10, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true}
-  - {name: 🇺🇸 _US_美国, server: 104.16.149.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
-  - {name: 🇰🇷 公测|韩国 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
-  - {name: 🇰🇷 公测|韩国 02 1x 2, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
-  - {name: 🇭🇰 公测|香港 01 1x, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 36662862-9cb7-4d67-9561-f05b328155ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
-  - {name: 🇭🇰 公测|香港 01 1x 2, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
-  - {name: 🇬🇧 英国 社会保险安全部, server: 51.44.66.46, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
-  - {name: 🇯🇵 公测|日本 01 1x, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
-  - {name: 🇨🇳 广东省 移动, server: 183.240.235.164, port: 32998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
-  - {name: 🇭🇰 公测|香港 03 1x, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
+  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 172.67.114.125, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: a4.wagaga.online, path: "", tls: true, mux: true}}
+  - {name: 🇯🇵 公测|日本 04 1x, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 38.147.188.136, port: 26954, type: vmess, uuid: bd3025c3-113d-49c1-bef3-2523e8db8520, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省 移动, server: 183.240.235.166, port: 31778, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾2 直连, server: 82.152.91.48, port: 12224, type: vmess, uuid: 54103713-1bcb-457d-8856-1ba0a4b53d54, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇭🇰 香港 新 解锁, server: gd-node-1.xmity.com, port: 13785, type: ss, cipher: chacha20-ietf-poly1305, password: 54103713-1bcb-457d-8856-1ba0a4b53d54}
+  - {name: 🇺🇸 公测|美国 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
   - {name: "", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: mention.protocolbuffer.com, port: 28332, type: trojan, password: ZjDFnKyD5Sxelz43Cay83upeC3Cay83upeCApEROYIxFlD3CcRg2a9Yq8TBOAZD3CcRg2, skip-cert-verify: true}
-  - {name: SCP2, server: www.smcacre.gov, port: 443, type: vmess, uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b, alterId: 0, cipher: auto, tls: true, servername: www.smcacre.gov, network: ws, ws-opts: {path: /3cc8e2d2, headers: {Host: lajihuawei.com}}}
-  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 181.215.205.171, port: 36811, type: trojan, password: VEwhQA5jfD}
-  - {name: 🇭🇰 公测|香港 05 1x 2, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
-  - {name: 🇨🇦 _CN_中国->🇨🇦_CA_加拿大, server: SuitEn.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 公测|香港 04 1x, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
-  - {name: 🇭🇰 香港R|@ripaojiedian, server: 59.56.77.178, port: 15001, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 🇺🇸 公测|美国 04 1x, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: vXdh1v.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 KT电信, server: sg05.421421.xyz, port: 20230, type: trojan, password: 4aa9ee7a-ffee-4ca4-a588-f5fa9e979c38, sni: 421421.xyz}
+  - {name: 🇭🇰 香港4, server: zy.02er.com, port: 31646, type: ss, cipher: chacha20-ietf-poly1305, password: 54103713-1bcb-457d-8856-1ba0a4b53d54}
+  - {name: 🇦🇱 _AL_阿尔巴尼亚, server: 109.104.152.186, port: 11223, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=}
+  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇺🇸 公测|美国 01 1x, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
+  - {name: 🇳🇱 公益|荷兰2, server: sx2.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxhl.suixincloud.top}}}
+  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 54.199.71.126, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 缅甸 冷门节点, server: zy.02er.com, port: 33565, type: ss, cipher: chacha20-ietf-poly1305, password: 54103713-1bcb-457d-8856-1ba0a4b53d54}
+  - {name: 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦, server: 104.16.1.10, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true}
+  - {name: 🇧🇷 巴西R|@ripaojiedian, server: 59.56.77.178, port: 15111, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
+  - {name: 🇨🇳 github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: mmsg16.micloud.buzz, port: 46016, type: vmess, uuid: e0affd30-6517-4f32-a2bd-71faab70b40a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmsg16.micloud.buzz}}}
+  - {name: 🇭🇰 香港3 新 解锁, server: gd-node-1.xmity.com, port: 57831, type: ss, cipher: chacha20-ietf-poly1305, password: 54103713-1bcb-457d-8856-1ba0a4b53d54}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: hdfy1sub1.achaemenidempireofpersia.uk, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: hdfy1sub1.achaemenidempireofpersia.uk}}}
+  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 23.157.40.10, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇰🇷 公测|韩国 02 1x 2
-      - 🇭🇰 公测|香港 01 1x
-      - 🇭🇰 公测|香港 01 1x 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇯🇵 公测|日本 01 1x
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 公测|日本 04 1x
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇨🇳 广东省 移动
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇭🇰 公测|香港 03 1x
+      - 🇨🇳 台湾2 直连
+      - 🇭🇰 香港 新 解锁
+      - 🇺🇸 公测|美国 02 1x
       - ""
+      - 🇭🇰 香港4
+      - 🇦🇱 _AL_阿尔巴尼亚
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇺🇸 公测|美国 01 1x
+      - 🇳🇱 公益|荷兰2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 缅甸 冷门节点
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇧🇷 巴西R|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省移动 7
       - 🇸🇬 新加坡|@ripaojiedian
-      - SCP2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x 2
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 公测|香港 04 1x
-      - 🇭🇰 香港R|@ripaojiedian
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇰🇷 韩国 KT电信
+      - 🇭🇰 香港3 新 解锁
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 北美地区 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇰🇷 公测|韩国 02 1x 2
-      - 🇭🇰 公测|香港 01 1x
-      - 🇭🇰 公测|香港 01 1x 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇯🇵 公测|日本 01 1x
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 公测|日本 04 1x
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇨🇳 广东省 移动
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇭🇰 公测|香港 03 1x
+      - 🇨🇳 台湾2 直连
+      - 🇭🇰 香港 新 解锁
+      - 🇺🇸 公测|美国 02 1x
       - ""
+      - 🇭🇰 香港4
+      - 🇦🇱 _AL_阿尔巴尼亚
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇺🇸 公测|美国 01 1x
+      - 🇳🇱 公益|荷兰2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 缅甸 冷门节点
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇧🇷 巴西R|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省移动 7
       - 🇸🇬 新加坡|@ripaojiedian
-      - SCP2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x 2
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 公测|香港 04 1x
-      - 🇭🇰 香港R|@ripaojiedian
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇰🇷 韩国 KT电信
+      - 🇭🇰 香港3 新 解锁
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 北美地区 V2CROSS.COM
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇰🇷 公测|韩国 02 1x 2
-      - 🇭🇰 公测|香港 01 1x
-      - 🇭🇰 公测|香港 01 1x 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇯🇵 公测|日本 01 1x
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 公测|日本 04 1x
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇨🇳 广东省 移动
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇭🇰 公测|香港 03 1x
+      - 🇨🇳 台湾2 直连
+      - 🇭🇰 香港 新 解锁
+      - 🇺🇸 公测|美国 02 1x
       - ""
+      - 🇭🇰 香港4
+      - 🇦🇱 _AL_阿尔巴尼亚
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇺🇸 公测|美国 01 1x
+      - 🇳🇱 公益|荷兰2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 缅甸 冷门节点
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇧🇷 巴西R|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省移动 7
       - 🇸🇬 新加坡|@ripaojiedian
-      - SCP2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x 2
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 公测|香港 04 1x
-      - 🇭🇰 香港R|@ripaojiedian
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇰🇷 韩国 KT电信
+      - 🇭🇰 香港3 新 解锁
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 北美地区 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇰🇷 公测|韩国 02 1x 2
-      - 🇭🇰 公测|香港 01 1x
-      - 🇭🇰 公测|香港 01 1x 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇯🇵 公测|日本 01 1x
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 公测|日本 04 1x
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇨🇳 广东省 移动
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇭🇰 公测|香港 03 1x
+      - 🇨🇳 台湾2 直连
+      - 🇭🇰 香港 新 解锁
+      - 🇺🇸 公测|美国 02 1x
       - ""
+      - 🇭🇰 香港4
+      - 🇦🇱 _AL_阿尔巴尼亚
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇺🇸 公测|美国 01 1x
+      - 🇳🇱 公益|荷兰2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 缅甸 冷门节点
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇧🇷 巴西R|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省移动 7
       - 🇸🇬 新加坡|@ripaojiedian
-      - SCP2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x 2
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 公测|香港 04 1x
-      - 🇭🇰 香港R|@ripaojiedian
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇰🇷 韩国 KT电信
+      - 🇭🇰 香港3 新 解锁
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 北美地区 V2CROSS.COM
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇰🇷 公测|韩国 02 1x 2
-      - 🇭🇰 公测|香港 01 1x
-      - 🇭🇰 公测|香港 01 1x 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇯🇵 公测|日本 01 1x
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 公测|日本 04 1x
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇨🇳 广东省 移动
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇭🇰 公测|香港 03 1x
+      - 🇨🇳 台湾2 直连
+      - 🇭🇰 香港 新 解锁
+      - 🇺🇸 公测|美国 02 1x
       - ""
+      - 🇭🇰 香港4
+      - 🇦🇱 _AL_阿尔巴尼亚
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇺🇸 公测|美国 01 1x
+      - 🇳🇱 公益|荷兰2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 缅甸 冷门节点
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇧🇷 巴西R|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省移动 7
       - 🇸🇬 新加坡|@ripaojiedian
-      - SCP2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x 2
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 公测|香港 04 1x
-      - 🇭🇰 香港R|@ripaojiedian
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇰🇷 韩国 KT电信
+      - 🇭🇰 香港3 新 解锁
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 北美地区 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇰🇷 公测|韩国 02 1x 2
-      - 🇭🇰 公测|香港 01 1x
-      - 🇭🇰 公测|香港 01 1x 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇯🇵 公测|日本 01 1x
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 公测|日本 04 1x
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇨🇳 广东省 移动
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇭🇰 公测|香港 03 1x
+      - 🇨🇳 台湾2 直连
+      - 🇭🇰 香港 新 解锁
+      - 🇺🇸 公测|美国 02 1x
       - ""
+      - 🇭🇰 香港4
+      - 🇦🇱 _AL_阿尔巴尼亚
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇺🇸 公测|美国 01 1x
+      - 🇳🇱 公益|荷兰2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 缅甸 冷门节点
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇧🇷 巴西R|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省移动 7
       - 🇸🇬 新加坡|@ripaojiedian
-      - SCP2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x 2
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 公测|香港 04 1x
-      - 🇭🇰 香港R|@ripaojiedian
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇰🇷 韩国 KT电信
+      - 🇭🇰 香港3 新 解锁
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 北美地区 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -263,35 +214,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港3|@ripaojiedian
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国4|@ripaojiedian
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国
-      - 🇰🇷 公测|韩国 02 1x
-      - 🇰🇷 公测|韩国 02 1x 2
-      - 🇭🇰 公测|香港 01 1x
-      - 🇭🇰 公测|香港 01 1x 2
-      - 🇬🇧 英国 社会保险安全部
-      - 🇯🇵 公测|日本 01 1x
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 公测|日本 04 1x
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇨🇳 广东省 移动
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇭🇰 公测|香港 03 1x
+      - 🇨🇳 台湾2 直连
+      - 🇭🇰 香港 新 解锁
+      - 🇺🇸 公测|美国 02 1x
       - ""
+      - 🇭🇰 香港4
+      - 🇦🇱 _AL_阿尔巴尼亚
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇺🇸 公测|美国 01 1x
+      - 🇳🇱 公益|荷兰2
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 缅甸 冷门节点
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇧🇷 巴西R|@ripaojiedian
+      - 🇨🇳 github.com/freefq - 广东省移动 7
       - 🇸🇬 新加坡|@ripaojiedian
-      - SCP2
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇭🇰 公测|香港 05 1x 2
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 公测|香港 04 1x
-      - 🇭🇰 香港R|@ripaojiedian
-      - 🇺🇸 公测|美国 04 1x
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇰🇷 韩国 KT电信
+      - 🇭🇰 香港3 新 解锁
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 北美地区 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
