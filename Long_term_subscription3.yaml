@@ -5,256 +5,305 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: 104.19.47.18, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 英国 伦敦Amazon数据中心, server: 3.11.52.53, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 🇺🇸 bbjc.xyz tg@bbjc52|美国 04, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.mojc.xyz}}}
-  - {name: 🇨🇳 台湾2, server: twrelay.mingri.icu, port: 49171, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
-  - {name: 🇯🇵 bbjc.xyz tg@bbjc52|日本 01, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
-  - {name: 🇭🇰 香港2, server: hkrelay.mingri.icu, port: 30484, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.33.71, port: 80, type: vmess, uuid: 596cf967-3824-4a7c-a008-d65b5f9b5382, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/ws?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: m2-sg3.m2network.icu}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.47.129, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: _CN_中国, server: 183.240.235.166, port: 31778, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 2, server: 172.67.185.64, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.25.226.50, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}}
-  - {name: 🇨🇳 广东省 移动, server: 183.240.235.170, port: 44602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 公益|美国2, server: sx2.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxus1.suixincloud.top}}}
-  - {name: 🇺🇸 美国5|@ripaojiedian, server: 223.113.54.154, port: 27119, type: trojan, password: RmdXQRXg, skip-cert-verify: true}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: alm2.the-galgo.top, port: 32008, type: vmess, uuid: 3880784d-b3c1-483a-ac90-cc6633d7d4a3, alterId: 0, cipher: auto, tls: false}
-  - {name: Jellyfish 专用 | 中转0x🪼, server: 888.888888.wtf, port: 49172, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶CDN77节点, server: 185.180.13.70, port: 43118, type: trojan, password: ypDt8RkT7J, sni: earya.phooeyunfold.com}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 183.240.235.164, port: 32998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省广州市 移动, server: 183.236.51.23, port: 45020, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 _NL_荷兰, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: 🇩🇪 德国 黑森州法兰克福Amazon数据中心, server: 18.185.196.201, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 🇨🇳 广东省 移动 2, server: gy.666666222.shop, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: e19c3b26-dd0e-414b-8c40-ce1b46a4b45e}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: free-big.themars.top, port: 50106, type: ss, cipher: chacha20-ietf-poly1305, password: 155be64c-75ec-4a44-a1a3-344b10676ef6}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 34.222.10.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: 104.19.34.6, port: 80, type: vmess, uuid: d25f2826-129e-411b-ab3c-71152fa3df73, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: 59.56.77.178, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
   - {name: 🇲🇴 澳门 - YouTube无广告🚫, server: morelay.mingri.icu, port: 30389, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
-  - {name: 🇳🇱 _NL_荷兰 2, server: sha.majidcttls.ggff.net, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 104.17.171.58, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}}
-  - {name: 🇯🇵 日本2, server: jprelay.mingri.icu, port: 38401, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
-  - {name: 🇨🇳 台湾1🏠, server: twrelay.mingri.icu, port: 38293, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
-  - {name: 距离下次重置剩余：27 天, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hongkong.mojc.xyz}}}
-  - {name: 🇺🇸 公益|美国3, server: sx3.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxus1.suixincloud.top}}}
+  - {name: 🇲🇾 vip1 马来西亚-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 55561, type: vmess, uuid: 7206f85c-1259-4cff-909c-f6687b5c35e8, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.121.43.65, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.55.49, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点, server: 38.111.114.133, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.34.106, port: 80, type: vmess, uuid: d25f2826-129e-411b-ab3c-71152fa3df73, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/ws?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: m2-sg3.m2network.icu}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 172.67.185.218, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇰🇷 韩国1🏠, server: krrelay.mingri.icu, port: 15455, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
+  - {name: Jellyfish 专用 | 直连0x🪼, server: twhinet.mingri.icu, port: 28123, type: vmess, uuid: 11bf0493-cac2-4012-bafc-2c4d36dc91b7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /search=whatiselegant, headers: {Host: www.apple.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 162.159.200.52, port: 2052, type: vmess, uuid: c750f7b8-1080-4881-9d4f-7e74b2c56660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: wtywwcrzjp5.yofnhkfc.xyz}}}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 2, server: 104.19.35.7, port: 80, type: vmess, uuid: b720e0b2-aa39-4633-90d8-489ed91038b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 104.19.33.102, port: 80, type: vmess, uuid: 596cf967-3824-4a7c-a008-d65b5f9b5382, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/ws?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: m2-sg3.m2network.icu}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: 104.19.33.187, port: 80, type: vmess, uuid: 596cf967-3824-4a7c-a008-d65b5f9b5382, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/ws?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: m2-sg3.m2network.icu}}}
+  - {name: 🇦🇺 澳大利亚2, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxadly.suixincloud.top}}}
+  - {name: 🇯🇵 bbjc.xyz tg@bbjc52|日本 05, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇨🇳 广东省 移动, server: 183.238.202.173, port: 51193, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 3, server: 104.19.33.239, port: 80, type: vmess, uuid: 596cf967-3824-4a7c-a008-d65b5f9b5382, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇷🇺 俄罗斯 - YouTube无广告🚫, server: rurelay.elenet.cc, port: 25967, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
+  - {name: 🇺🇸 _US_美国, server: 34.222.10.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 CloudFlare节点 7, server: 104.19.33.223, port: 80, type: vmess, uuid: 596cf967-3824-4a7c-a008-d65b5f9b5382, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/ws?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: m2-sg3.m2network.icu}}}
+  - {name: 🇭🇰 vip1 香港-16, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: 7206f85c-1259-4cff-909c-f6687b5c35e8, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 8, server: 104.17.184.120, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}}
+  - {name: FastFly 永久跳转地址 https://fastfly.club, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: 7206f85c-1259-4cff-909c-f6687b5c35e8, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 9, server: 104.19.33.34, port: 80, type: vmess, uuid: 596cf967-3824-4a7c-a008-d65b5f9b5382, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/ws?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: m2-sg3.m2network.icu}}}
+  - {name: 🇺🇸 美国1, server: usrelay.mingri.icu, port: 31994, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
+  - {name: 🇺🇸 公益|美国1, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxus1.suixincloud.top}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 4, server: 104.19.34.171, port: 80, type: vmess, uuid: d25f2826-129e-411b-ab3c-71152fa3df73, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 CloudFlare节点 10, server: 104.19.34.22, port: 80, type: vmess, uuid: d25f2826-129e-411b-ab3c-71152fa3df73, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/ws?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: m2-sg3.m2network.icu}}}
+  - {name: 🇭🇰 香港 自动 | 负载均衡♻️, server: hkrelay.mingri.icu, port: 38284, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
+  - {name: 🇯🇵 bbjc.xyz tg@bbjc52|日本 03, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇺🇸 vip1 美国-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 10682, type: vmess, uuid: 7206f85c-1259-4cff-909c-f6687b5c35e8, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 216.39.248.133, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 04
-      - 🇨🇳 台湾2
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
-      - 🇭🇰 香港2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - _CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 公益|美国2
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - Jellyfish 专用 | 中转0x🪼
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CDN77节点
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇨🇳 广东省广州市 移动
-      - 🇳🇱 _NL_荷兰
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇨🇳 广东省 移动 2
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇳🇱 _NL_荷兰 2
+      - 🇲🇾 vip1 马来西亚-01 测试
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇰🇷 韩国1🏠
+      - Jellyfish 专用 | 直连0x🪼
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇯🇵 日本2
-      - 🇨🇳 台湾1🏠
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 公益|美国3
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 54.251.168.143:443
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇦🇺 澳大利亚2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 05
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 CloudFlare节点 8
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国1
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 03
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 美国 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 04
-      - 🇨🇳 台湾2
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
-      - 🇭🇰 香港2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - _CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 公益|美国2
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - Jellyfish 专用 | 中转0x🪼
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CDN77节点
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇨🇳 广东省广州市 移动
-      - 🇳🇱 _NL_荷兰
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇨🇳 广东省 移动 2
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇳🇱 _NL_荷兰 2
+      - 🇲🇾 vip1 马来西亚-01 测试
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇰🇷 韩国1🏠
+      - Jellyfish 专用 | 直连0x🪼
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇯🇵 日本2
-      - 🇨🇳 台湾1🏠
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 公益|美国3
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 54.251.168.143:443
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇦🇺 澳大利亚2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 05
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 CloudFlare节点 8
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国1
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 03
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 美国 V2CROSS.COM
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 04
-      - 🇨🇳 台湾2
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
-      - 🇭🇰 香港2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - _CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 公益|美国2
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - Jellyfish 专用 | 中转0x🪼
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CDN77节点
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇨🇳 广东省广州市 移动
-      - 🇳🇱 _NL_荷兰
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇨🇳 广东省 移动 2
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇳🇱 _NL_荷兰 2
+      - 🇲🇾 vip1 马来西亚-01 测试
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇰🇷 韩国1🏠
+      - Jellyfish 专用 | 直连0x🪼
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇯🇵 日本2
-      - 🇨🇳 台湾1🏠
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 公益|美国3
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 54.251.168.143:443
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇦🇺 澳大利亚2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 05
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 CloudFlare节点 8
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国1
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 03
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 美国 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 04
-      - 🇨🇳 台湾2
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
-      - 🇭🇰 香港2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - _CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 公益|美国2
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - Jellyfish 专用 | 中转0x🪼
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CDN77节点
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇨🇳 广东省广州市 移动
-      - 🇳🇱 _NL_荷兰
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇨🇳 广东省 移动 2
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇳🇱 _NL_荷兰 2
+      - 🇲🇾 vip1 马来西亚-01 测试
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇰🇷 韩国1🏠
+      - Jellyfish 专用 | 直连0x🪼
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇯🇵 日本2
-      - 🇨🇳 台湾1🏠
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 公益|美国3
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 54.251.168.143:443
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇦🇺 澳大利亚2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 05
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 CloudFlare节点 8
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国1
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 03
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 美国 V2CROSS.COM
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 04
-      - 🇨🇳 台湾2
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
-      - 🇭🇰 香港2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - _CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 公益|美国2
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - Jellyfish 专用 | 中转0x🪼
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CDN77节点
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇨🇳 广东省广州市 移动
-      - 🇳🇱 _NL_荷兰
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇨🇳 广东省 移动 2
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇳🇱 _NL_荷兰 2
+      - 🇲🇾 vip1 马来西亚-01 测试
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇰🇷 韩国1🏠
+      - Jellyfish 专用 | 直连0x🪼
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇯🇵 日本2
-      - 🇨🇳 台湾1🏠
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 公益|美国3
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 54.251.168.143:443
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇦🇺 澳大利亚2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 05
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 CloudFlare节点 8
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国1
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 03
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 美国 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 04
-      - 🇨🇳 台湾2
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
-      - 🇭🇰 香港2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - _CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 公益|美国2
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - Jellyfish 专用 | 中转0x🪼
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CDN77节点
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇨🇳 广东省广州市 移动
-      - 🇳🇱 _NL_荷兰
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇨🇳 广东省 移动 2
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇳🇱 _NL_荷兰 2
+      - 🇲🇾 vip1 马来西亚-01 测试
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇰🇷 韩国1🏠
+      - Jellyfish 专用 | 直连0x🪼
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇯🇵 日本2
-      - 🇨🇳 台湾1🏠
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 公益|美国3
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 54.251.168.143:443
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇦🇺 澳大利亚2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 05
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 CloudFlare节点 8
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国1
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 03
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 美国 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -277,37 +326,44 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 英国 伦敦Amazon数据中心
-      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 04
-      - 🇨🇳 台湾2
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
-      - 🇭🇰 香港2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - _CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇨🇳 广东省 移动
-      - 🇺🇸 公益|美国2
-      - 🇺🇸 美国5|@ripaojiedian
-      - 🇭🇰 香港|@ripaojiedian
-      - Jellyfish 专用 | 中转0x🪼
-      - 🇺🇸 美国 加利福尼亚州洛杉矶CDN77节点
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇨🇳 广东省广州市 移动
-      - 🇳🇱 _NL_荷兰
-      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-      - 🇨🇳 广东省 移动 2
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇳🇱 _NL_荷兰 2
+      - 🇲🇾 vip1 马来西亚-01 测试
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇦 加拿大 安大略省多伦多BunnyCDN节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇰🇷 韩国1🏠
+      - Jellyfish 专用 | 直连0x🪼
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇯🇵 日本2
-      - 🇨🇳 台湾1🏠
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 公益|美国3
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 54.251.168.143:443
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇦🇺 澳大利亚2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 05
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇭🇰 vip1 香港-16
+      - 🇺🇸 美国 CloudFlare节点 8
+      - FastFly 永久跳转地址 https://fastfly.club
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国1
+      - 🇺🇸 公益|美国1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 03
+      - 🇺🇸 vip1 美国-01 测试
+      - 🇺🇸 美国 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
