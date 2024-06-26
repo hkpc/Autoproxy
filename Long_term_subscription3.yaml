@@ -5,263 +5,291 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 vip1 新加坡-06, server: fly0001.flyflylflyflysbs.sbs, port: 40276, type: trojan, password: 787ae5cc-764c-482e-bbf2-0fb20519a807, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇰🇷 bbjc.xyz tg@bbjc52|韩国 05, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
-  - {name: 🇰🇷 _KR_韩国->🇺🇸_US_美国, server: 116.47.10.236, port: 27335, type: trojan, password: moist, sni: trojan.freenods.sbs, network: ws, ws-opts: {path: "", headers: {Host: trojan.freenods.sbs}}}
-  - {name: 🇺🇸 vip1 美国-02, server: fly0001.flyflylflyflysbs.sbs, port: 10598, type: trojan, password: 787ae5cc-764c-482e-bbf2-0fb20519a807, sni: us2.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-02, server: fly0001.flyflylflyflysbs.sbs, port: 15976, type: trojan, password: 787ae5cc-764c-482e-bbf2-0fb20519a807, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇮🇳 印度 V2CROSS.COM, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
-  - {name: 🇰🇷 韩国3, server: krrelay.mingri.icu, port: 47703, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
-  - {name: 13.213.46.196:443, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国4 | 福利0.5x🎁, server: krrelay.mingri.icu, port: 23281, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
-  - {name: 🇯🇵 bbjc.xyz tg@bbjc52|日本 02, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
-  - {name: 🇰🇷 bbjc.xyz tg@bbjc52|韩国 01, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
-  - {name: 🇯🇵 日本-广东专线 Akari, server: lbso.bnnodeservice.com, port: 32036, type: trojan, password: a677d9c6-9df1-42e9-8f6a-3c998e06696e, sni: cert.bitbyte.one, skip-cert-verify: false}
-  - {name: 🇺🇸 vip1 美国-06, server: fly0001.flyflylflyflysbs.sbs, port: 10519, type: trojan, password: 787ae5cc-764c-482e-bbf2-0fb20519a807, sni: us03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 日本-广东专线 GCore, server: lbso.bnnodeservice.com, port: 32022, type: trojan, password: a677d9c6-9df1-42e9-8f6a-3c998e06696e, sni: cert.bitbyte.one, skip-cert-verify: false}
-  - {name: 🇵🇭 菲律宾-广东专线 Comfac, server: lbso.bnnodeservice.com, port: 32030, type: trojan, password: a677d9c6-9df1-42e9-8f6a-3c998e06696e, sni: cert.bitbyte.one, skip-cert-verify: false}
-  - {name: 🇳🇱 公益|荷兰3, server: sx3.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxhl.suixincloud.top}}}
-  - {name: 🇭🇰 香港 自动 | 负载均衡♻️, server: hkrelay.mingri.icu, port: 38284, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
-  - {name: _CN_中国, server: 183.236.51.23, port: 51707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港-广东专线 BGP 1, server: lbso.bnnodeservice.com, port: 32443, type: trojan, password: a677d9c6-9df1-42e9-8f6a-3c998e06696e, sni: cert.bitbyte.one, skip-cert-verify: false}
-  - {name: FastFly 永久跳转地址 https://fastfly.club, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: 787ae5cc-764c-482e-bbf2-0fb20519a807, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯 - YouTube无广告🚫, server: rurelay.elenet.cc, port: 25967, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
-  - {name: 🇺🇸 vip1 美国-01, server: fly0001.flyflylflyflysbs.sbs, port: 10598, type: trojan, password: 787ae5cc-764c-482e-bbf2-0fb20519a807, sni: us2.ckcloud.info, skip-cert-verify: true}
-  - {name: Jellyfish 专用 | 直连0x🪼, server: twhinet.mingri.icu, port: 28123, type: vmess, uuid: 11bf0493-cac2-4012-bafc-2c4d36dc91b7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /search=whatiselegant, headers: {Host: www.apple.com}}}
-  - {name: 🇨🇳 vip1 台湾-06, server: fly0001.flyflylflyflysbs.sbs, port: 35672, type: trojan, password: 787ae5cc-764c-482e-bbf2-0fb20519a807, sni: tw02.ckcloud.info, skip-cert-verify: true}
-  - {name: "", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
-  - {name: 🇺🇸 vip1 美国-13, server: f10002.flyflylflyflysbs.sbs, port: 28625, type: trojan, password: 787ae5cc-764c-482e-bbf2-0fb20519a807, sni: us04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇲🇴 澳门 - YouTube无广告🚫, server: morelay.mingri.icu, port: 30389, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
-  - {name: 🇯🇵 vip1 日本-06, server: fly0001.flyflylflyflysbs.sbs, port: 37581, type: trojan, password: 787ae5cc-764c-482e-bbf2-0fb20519a807, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-广东专线 DAOport, server: lbso.bnnodeservice.com, port: 32031, type: trojan, password: a677d9c6-9df1-42e9-8f6a-3c998e06696e, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇨🇳 github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
+  - {name: 🇰🇷 bbjc.xyz tg@bbjc52|韩国 03, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 23.162.200.154, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇳🇱 公益|荷兰2, server: sx2.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxhl.suixincloud.top}}}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 183.238.202.173, port: 51193, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 104.18.57.111, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: " 2", server: hkd1.quickerlink.xyz, port: 443, type: vmess, uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /h6jr23x9h3lqiitg, headers: {Host: hkd1.quickerlink.xyz}}}
-  - {name: 🇰🇷 韩国-广东专线 VUKR, server: lbso.bnnodeservice.com, port: 32005, type: trojan, password: a677d9c6-9df1-42e9-8f6a-3c998e06696e, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 自动 | 负载均衡♻️, server: hkrelay.mingri.icu, port: 38284, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
+  - {name: 距离下次重置剩余：4 天, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxus1.suixincloud.top}}}
+  - {name: 🇷🇺 俄罗斯 - YouTube无广告🚫, server: rurelay.elenet.cc, port: 25967, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: 103twai.aixunx168.top, port: 21876, type: trojan, password: ee84695e-978f-40cf-8590-5c36a19de984, sni: aixunx168.top, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇦🇺 澳大利亚1, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxadly.suixincloud.top}}}
+  - {name: 🇩🇪 vip1 德国-02, server: fly0001.flyflylflyflysbs.sbs, port: 20943, type: trojan, password: 15e4a1b5-db19-41c9-8275-ee7203a11647, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇳🇱 公益|荷兰1, server: sx1.suixincloud.top, port: 2086, type: vmess, uuid: 1317f877-00b8-4817-b0b0-1099728e3a3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sxhl.suixincloud.top}}}
+  - {name: 🇸🇬 vip1 新加坡-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 33957, type: vmess, uuid: 15e4a1b5-db19-41c9-8275-ee7203a11647, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 69.50.92.116, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇯🇵 bbjc.xyz tg@bbjc52|日本 01, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇰🇷 韩国1🏠, server: krrelay.mingri.icu, port: 15455, type: ss, cipher: aes-128-gcm, password: 11bf0493-cac2-4012-bafc-2c4d36dc91b7}
+  - {name: 13.213.46.196:443, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
+  - {name: 🇭🇰 bbjc.xyz tg@bbjc52|香港 03, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hongkong.mojc.xyz}}}
+  - {name: 🇸🇬 vip1 新加坡-02, server: fly0001.flyflylflyflysbs.sbs, port: 21526, type: trojan, password: 15e4a1b5-db19-41c9-8275-ee7203a11647, sni: sg02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-06, server: fly0001.flyflylflyflysbs.sbs, port: 40276, type: trojan, password: 15e4a1b5-db19-41c9-8275-ee7203a11647, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇰🇷 bbjc.xyz tg@bbjc52|韩国 05, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇭🇰 香港-广东专线 GCore, server: lbso.bnnodeservice.com, port: 32027, type: trojan, password: a677d9c6-9df1-42e9-8f6a-3c998e06696e, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-01, server: fly0001.flyflylflyflysbs.sbs, port: 15976, type: trojan, password: 15e4a1b5-db19-41c9-8275-ee7203a11647, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
+  - {name: 🇺🇸 bbjc.xyz tg@bbjc52|美国 05, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.mojc.xyz}}}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: RmdXQRXg, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 Amazon数据中心, server: 44.199.24.228, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 🇨🇳 广东省广州市 移动, server: 120.232.153.27, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 23.157.40.83, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 vip1 美国-13, server: f10002.flyflylflyflysbs.sbs, port: 28625, type: trojan, password: 15e4a1b5-db19-41c9-8275-ee7203a11647, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 美国6|@ripaojiedian, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: c750f7b8-1080-4881-9d4f-7e74b2c56660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
+  - {name: 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心, server: 35.167.6.200, port: 16212, type: trojan, password: dm2tJvC5VFnv, sni: appsvs.shop}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 03
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇳🇱 公益|荷兰2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 距离下次重置剩余：4 天
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇦🇺 澳大利亚1
+      - 🇩🇪 vip1 德国-02
+      - 🇳🇱 公益|荷兰1
+      - 🇸🇬 vip1 新加坡-01 测试
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
+      - 🇰🇷 韩国1🏠
+      - 13.213.46.196:443
+      - ""
+      - 🇭🇰 bbjc.xyz tg@bbjc52|香港 03
+      - 🇸🇬 vip1 新加坡-02
       - 🇸🇬 vip1 新加坡-06
       - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 05
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-02
-      - 🇭🇰 vip1 香港-02
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇰🇷 韩国3
-      - 13.213.46.196:443
-      - 🇰🇷 韩国4 | 福利0.5x🎁
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 02
-      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 01
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇺🇸 vip1 美国-06
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇳🇱 公益|荷兰3
-      - 🇭🇰 香港 自动 | 负载均衡♻️
-      - _CN_中国
-      - 🇭🇰 香港-广东专线 BGP 1
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇷🇺 俄罗斯 - YouTube无广告🚫
-      - 🇺🇸 vip1 美国-01
-      - Jellyfish 专用 | 直连0x🪼
-      - 🇨🇳 vip1 台湾-06
-      - ""
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 vip1 香港-01
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 05
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇨🇳 广东省广州市 移动
+      - 54.251.168.143:443
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇺🇸 vip1 美国-13
-      - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇯🇵 vip1 日本-06
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - " 2"
-      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇺🇸 美国6|@ripaojiedian
+      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 03
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇳🇱 公益|荷兰2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 距离下次重置剩余：4 天
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇦🇺 澳大利亚1
+      - 🇩🇪 vip1 德国-02
+      - 🇳🇱 公益|荷兰1
+      - 🇸🇬 vip1 新加坡-01 测试
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
+      - 🇰🇷 韩国1🏠
+      - 13.213.46.196:443
+      - ""
+      - 🇭🇰 bbjc.xyz tg@bbjc52|香港 03
+      - 🇸🇬 vip1 新加坡-02
       - 🇸🇬 vip1 新加坡-06
       - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 05
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-02
-      - 🇭🇰 vip1 香港-02
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇰🇷 韩国3
-      - 13.213.46.196:443
-      - 🇰🇷 韩国4 | 福利0.5x🎁
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 02
-      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 01
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇺🇸 vip1 美国-06
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇳🇱 公益|荷兰3
-      - 🇭🇰 香港 自动 | 负载均衡♻️
-      - _CN_中国
-      - 🇭🇰 香港-广东专线 BGP 1
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇷🇺 俄罗斯 - YouTube无广告🚫
-      - 🇺🇸 vip1 美国-01
-      - Jellyfish 专用 | 直连0x🪼
-      - 🇨🇳 vip1 台湾-06
-      - ""
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 vip1 香港-01
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 05
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇨🇳 广东省广州市 移动
+      - 54.251.168.143:443
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇺🇸 vip1 美国-13
-      - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇯🇵 vip1 日本-06
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - " 2"
-      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇺🇸 美国6|@ripaojiedian
+      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 03
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇳🇱 公益|荷兰2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 距离下次重置剩余：4 天
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇦🇺 澳大利亚1
+      - 🇩🇪 vip1 德国-02
+      - 🇳🇱 公益|荷兰1
+      - 🇸🇬 vip1 新加坡-01 测试
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
+      - 🇰🇷 韩国1🏠
+      - 13.213.46.196:443
+      - ""
+      - 🇭🇰 bbjc.xyz tg@bbjc52|香港 03
+      - 🇸🇬 vip1 新加坡-02
       - 🇸🇬 vip1 新加坡-06
       - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 05
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-02
-      - 🇭🇰 vip1 香港-02
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇰🇷 韩国3
-      - 13.213.46.196:443
-      - 🇰🇷 韩国4 | 福利0.5x🎁
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 02
-      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 01
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇺🇸 vip1 美国-06
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇳🇱 公益|荷兰3
-      - 🇭🇰 香港 自动 | 负载均衡♻️
-      - _CN_中国
-      - 🇭🇰 香港-广东专线 BGP 1
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇷🇺 俄罗斯 - YouTube无广告🚫
-      - 🇺🇸 vip1 美国-01
-      - Jellyfish 专用 | 直连0x🪼
-      - 🇨🇳 vip1 台湾-06
-      - ""
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 vip1 香港-01
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 05
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇨🇳 广东省广州市 移动
+      - 54.251.168.143:443
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇺🇸 vip1 美国-13
-      - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇯🇵 vip1 日本-06
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - " 2"
-      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇺🇸 美国6|@ripaojiedian
+      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 03
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇳🇱 公益|荷兰2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 距离下次重置剩余：4 天
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇦🇺 澳大利亚1
+      - 🇩🇪 vip1 德国-02
+      - 🇳🇱 公益|荷兰1
+      - 🇸🇬 vip1 新加坡-01 测试
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
+      - 🇰🇷 韩国1🏠
+      - 13.213.46.196:443
+      - ""
+      - 🇭🇰 bbjc.xyz tg@bbjc52|香港 03
+      - 🇸🇬 vip1 新加坡-02
       - 🇸🇬 vip1 新加坡-06
       - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 05
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-02
-      - 🇭🇰 vip1 香港-02
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇰🇷 韩国3
-      - 13.213.46.196:443
-      - 🇰🇷 韩国4 | 福利0.5x🎁
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 02
-      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 01
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇺🇸 vip1 美国-06
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇳🇱 公益|荷兰3
-      - 🇭🇰 香港 自动 | 负载均衡♻️
-      - _CN_中国
-      - 🇭🇰 香港-广东专线 BGP 1
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇷🇺 俄罗斯 - YouTube无广告🚫
-      - 🇺🇸 vip1 美国-01
-      - Jellyfish 专用 | 直连0x🪼
-      - 🇨🇳 vip1 台湾-06
-      - ""
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 vip1 香港-01
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 05
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇨🇳 广东省广州市 移动
+      - 54.251.168.143:443
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇺🇸 vip1 美国-13
-      - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇯🇵 vip1 日本-06
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - " 2"
-      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇺🇸 美国6|@ripaojiedian
+      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 03
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇳🇱 公益|荷兰2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 距离下次重置剩余：4 天
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇦🇺 澳大利亚1
+      - 🇩🇪 vip1 德国-02
+      - 🇳🇱 公益|荷兰1
+      - 🇸🇬 vip1 新加坡-01 测试
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
+      - 🇰🇷 韩国1🏠
+      - 13.213.46.196:443
+      - ""
+      - 🇭🇰 bbjc.xyz tg@bbjc52|香港 03
+      - 🇸🇬 vip1 新加坡-02
       - 🇸🇬 vip1 新加坡-06
       - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 05
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-02
-      - 🇭🇰 vip1 香港-02
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇰🇷 韩国3
-      - 13.213.46.196:443
-      - 🇰🇷 韩国4 | 福利0.5x🎁
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 02
-      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 01
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇺🇸 vip1 美国-06
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇳🇱 公益|荷兰3
-      - 🇭🇰 香港 自动 | 负载均衡♻️
-      - _CN_中国
-      - 🇭🇰 香港-广东专线 BGP 1
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇷🇺 俄罗斯 - YouTube无广告🚫
-      - 🇺🇸 vip1 美国-01
-      - Jellyfish 专用 | 直连0x🪼
-      - 🇨🇳 vip1 台湾-06
-      - ""
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 vip1 香港-01
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 05
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇨🇳 广东省广州市 移动
+      - 54.251.168.143:443
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇺🇸 vip1 美国-13
-      - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇯🇵 vip1 日本-06
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - " 2"
-      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇺🇸 美国6|@ripaojiedian
+      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 03
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇳🇱 公益|荷兰2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 距离下次重置剩余：4 天
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇦🇺 澳大利亚1
+      - 🇩🇪 vip1 德国-02
+      - 🇳🇱 公益|荷兰1
+      - 🇸🇬 vip1 新加坡-01 测试
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
+      - 🇰🇷 韩国1🏠
+      - 13.213.46.196:443
+      - ""
+      - 🇭🇰 bbjc.xyz tg@bbjc52|香港 03
+      - 🇸🇬 vip1 新加坡-02
       - 🇸🇬 vip1 新加坡-06
       - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 05
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-02
-      - 🇭🇰 vip1 香港-02
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇰🇷 韩国3
-      - 13.213.46.196:443
-      - 🇰🇷 韩国4 | 福利0.5x🎁
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 02
-      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 01
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇺🇸 vip1 美国-06
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇳🇱 公益|荷兰3
-      - 🇭🇰 香港 自动 | 负载均衡♻️
-      - _CN_中国
-      - 🇭🇰 香港-广东专线 BGP 1
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇷🇺 俄罗斯 - YouTube无广告🚫
-      - 🇺🇸 vip1 美国-01
-      - Jellyfish 专用 | 直连0x🪼
-      - 🇨🇳 vip1 台湾-06
-      - ""
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 vip1 香港-01
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 05
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇨🇳 广东省广州市 移动
+      - 54.251.168.143:443
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇺🇸 vip1 美国-13
-      - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇯🇵 vip1 日本-06
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - " 2"
-      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇺🇸 美国6|@ripaojiedian
+      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,38 +312,42 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 03
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇳🇱 公益|荷兰2
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇭🇰 香港 自动 | 负载均衡♻️
+      - 距离下次重置剩余：4 天
+      - 🇷🇺 俄罗斯 - YouTube无广告🚫
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇦🇺 澳大利亚1
+      - 🇩🇪 vip1 德国-02
+      - 🇳🇱 公益|荷兰1
+      - 🇸🇬 vip1 新加坡-01 测试
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 01
+      - 🇰🇷 韩国1🏠
+      - 13.213.46.196:443
+      - ""
+      - 🇭🇰 bbjc.xyz tg@bbjc52|香港 03
+      - 🇸🇬 vip1 新加坡-02
       - 🇸🇬 vip1 新加坡-06
       - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 05
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
-      - 🇺🇸 vip1 美国-02
-      - 🇭🇰 vip1 香港-02
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇰🇷 韩国3
-      - 13.213.46.196:443
-      - 🇰🇷 韩国4 | 福利0.5x🎁
-      - 🇯🇵 bbjc.xyz tg@bbjc52|日本 02
-      - 🇰🇷 bbjc.xyz tg@bbjc52|韩国 01
-      - 🇯🇵 日本-广东专线 Akari
-      - 🇺🇸 vip1 美国-06
-      - 🇯🇵 日本-广东专线 GCore
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇳🇱 公益|荷兰3
-      - 🇭🇰 香港 自动 | 负载均衡♻️
-      - _CN_中国
-      - 🇭🇰 香港-广东专线 BGP 1
-      - FastFly 永久跳转地址 https://fastfly.club
-      - 🇷🇺 俄罗斯 - YouTube无广告🚫
-      - 🇺🇸 vip1 美国-01
-      - Jellyfish 专用 | 直连0x🪼
-      - 🇨🇳 vip1 台湾-06
-      - ""
+      - 🇭🇰 香港-广东专线 GCore
+      - 🇭🇰 vip1 香港-01
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 bbjc.xyz tg@bbjc52|美国 05
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇨🇳 广东省广州市 移动
+      - 54.251.168.143:443
+      - 🇺🇸 北美地区 V2CROSS.COM
       - 🇺🇸 vip1 美国-13
-      - 🇲🇴 澳门 - YouTube无广告🚫
-      - 🇯🇵 vip1 日本-06
-      - 🇺🇸 美国-广东专线 DAOport
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - " 2"
-      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇺🇸 美国6|@ripaojiedian
+      - 🇺🇸 美国 俄勒冈州波特兰Amazon数据中心
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
