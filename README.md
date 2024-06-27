@@ -10,7 +10,7 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 290`
+`Total number of merge nodes: 294`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
@@ -42,7 +42,7 @@
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 31`
+`Total number of merge nodes: 35`
 
 - [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-06-28 02:44:13`
+Updata：`2024-06-28 05:36:29`
 
 
 <details>
@@ -39142,38 +39142,47 @@ Updata：`2024-06-28 02:44:13`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=14694282b962a0ebe63a98ae0d51c656`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=14694282b962a0ebe63a98ae0d51c656`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=8d2aa113926b37951c3f88e4b6903324`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=14694282b962a0ebe63a98ae0d51c656`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=8d2aa113926b37951c3f88e4b6903324`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=8d2aa113926b37951c3f88e4b6903324`
 
 
 >Trial subscription：
 `https://fs.v2rayse.com/share/20240627/oixdp1tepa.txt`
 
->Trial subscription：
-`https://fs.v2rayse.com/share/20240627/oixdp1tepa.txt`
+
 
 >Trial subscription：
 `https://fs.v2rayse.com/share/20240627/oixdp1tepa.txt`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7fabb87c0920e7aa248e70ffc80d86e0`
+
+>Trial subscription：
+`https://fs.v2rayse.com/share/20240627/oixdp1tepa.txt`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7fabb87c0920e7aa248e70ffc80d86e0`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7fabb87c0920e7aa248e70ffc80d86e0`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=ef4b427584f0a148efe300bdcc07814d`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=ef4b427584f0a148efe300bdcc07814d`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=ef4b427584f0a148efe300bdcc07814d`
 
 
 
