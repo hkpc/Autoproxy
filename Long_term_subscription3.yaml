@@ -5,179 +5,144 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 United States 01 @nodpai, server: hytron.io, port: 8080, type: vmess, uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hytron.io}}}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西, server: 104.18.37.248, port: 2052, type: vmess, uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 a美国3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akmg1.gyyun.top}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.45.17, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, servername: ip14.freegradely.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
-  - {name: 🇭🇰 p香港-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: pqxg1.gyyun.top}}}
-  - {name: _CN_中国, server: 183.240.235.162, port: 54882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.47.16, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai2", headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇺🇸 美国-02|1.0x, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3727df82-cc55-4e52-916a-3adc2ee6a9e7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 🇸🇬 新加坡-01|1.0x, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3727df82-cc55-4e52-916a-3adc2ee6a9e7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: RmdXQRXg, skip-cert-verify: true}
-  - {name: 🇨🇳 广东省 移动, server: 183.240.235.164, port: 32998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 l新加坡-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lxjp1.gyyun.top}}}
-  - {name: 邀请循环70返利, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opmg1.gyyun.top}}}
-  - {name: 🇺🇸 _US_美国, server: 52.169.50.64, port: 16141, type: ss, cipher: chacha20-ietf-poly1305, password: jjxXMDnfbChUWPL1QM02fM}
-  - {name: 🇺🇸 美国-01|1.0x, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3727df82-cc55-4e52-916a-3adc2ee6a9e7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 120.232.240.46, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 24:SpYUtPeJYhRk4FWC, obfs-param: 6f41b24.microsoft.com}
-  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
+  - {name: 🇬🇧 United Kingdom 01 @nodpai, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws}}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 59.56.77.178, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
+  - {name: 🇩🇪 d德国-2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dodg1.gyyun.top}}}
+  - {name: 🇮🇳 github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
+  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 13.124.244.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _CN_中国, server: 183.232.139.22, port: 4027, type: trojan, password: RmdXQRXg}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
+  - {name: 🇨🇦 加拿大 魁北克省蒙特利尔Amazon数据中心, server: 35.182.182.36, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 🇺🇸 d美国-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: domg1.gyyun.top}}}
+  - {name: "", server: hkd1.quickerlink.xyz, port: 443, type: vmess, uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /h6jr23x9h3lqiitg, headers: {Host: hkd1.quickerlink.xyz}}}
+  - {name: 🇨🇭 o瑞士-2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oprs1.gyyun.top}}}
+  - {name: wqfuinwqffq.dfcloud.xyz:30818, server: wqfuinwqffq.dfcloud.xyz, port: 30818, type: ss, cipher: chacha20-ietf-poly1305, password: 8e949d75-3510-4678-8593-3c5032dd931a}
   - {name: 🇨🇳 github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 103.136.185.136, port: 41082, type: vmess, uuid: b907cfc5-71ae-4663-83da-51283565adbb, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 a美国3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 p香港-3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 d德国-2
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇯🇵 日本特殊|@ripaojiedian
       - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国-02|1.0x
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇨🇳 广东省 移动
-      - 🇸🇬 l新加坡-3
-      - 邀请循环70返利
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国-01|1.0x
-      - 🇭🇰 香港2|@ripaojiedian
-      - 54.251.168.143:443
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 魁北克省蒙特利尔Amazon数据中心
+      - 🇺🇸 d美国-3
+      - ""
+      - 🇨🇭 o瑞士-2
+      - wqfuinwqffq.dfcloud.xyz:30818
       - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 a美国3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 p香港-3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 d德国-2
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇯🇵 日本特殊|@ripaojiedian
       - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国-02|1.0x
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇨🇳 广东省 移动
-      - 🇸🇬 l新加坡-3
-      - 邀请循环70返利
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国-01|1.0x
-      - 🇭🇰 香港2|@ripaojiedian
-      - 54.251.168.143:443
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 魁北克省蒙特利尔Amazon数据中心
+      - 🇺🇸 d美国-3
+      - ""
+      - 🇨🇭 o瑞士-2
+      - wqfuinwqffq.dfcloud.xyz:30818
       - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国|@ripaojiedian
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 a美国3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 p香港-3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 d德国-2
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇯🇵 日本特殊|@ripaojiedian
       - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国-02|1.0x
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇨🇳 广东省 移动
-      - 🇸🇬 l新加坡-3
-      - 邀请循环70返利
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国-01|1.0x
-      - 🇭🇰 香港2|@ripaojiedian
-      - 54.251.168.143:443
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 魁北克省蒙特利尔Amazon数据中心
+      - 🇺🇸 d美国-3
+      - ""
+      - 🇨🇭 o瑞士-2
+      - wqfuinwqffq.dfcloud.xyz:30818
       - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 a美国3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 p香港-3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 d德国-2
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇯🇵 日本特殊|@ripaojiedian
       - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国-02|1.0x
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇨🇳 广东省 移动
-      - 🇸🇬 l新加坡-3
-      - 邀请循环70返利
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国-01|1.0x
-      - 🇭🇰 香港2|@ripaojiedian
-      - 54.251.168.143:443
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 魁北克省蒙特利尔Amazon数据中心
+      - 🇺🇸 d美国-3
+      - ""
+      - 🇨🇭 o瑞士-2
+      - wqfuinwqffq.dfcloud.xyz:30818
       - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国|@ripaojiedian
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 a美国3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 p香港-3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 d德国-2
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇯🇵 日本特殊|@ripaojiedian
       - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国-02|1.0x
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇨🇳 广东省 移动
-      - 🇸🇬 l新加坡-3
-      - 邀请循环70返利
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国-01|1.0x
-      - 🇭🇰 香港2|@ripaojiedian
-      - 54.251.168.143:443
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 魁北克省蒙特利尔Amazon数据中心
+      - 🇺🇸 d美国-3
+      - ""
+      - 🇨🇭 o瑞士-2
+      - wqfuinwqffq.dfcloud.xyz:30818
       - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 a美国3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 p香港-3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 d德国-2
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇯🇵 日本特殊|@ripaojiedian
       - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国-02|1.0x
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇨🇳 广东省 移动
-      - 🇸🇬 l新加坡-3
-      - 邀请循环70返利
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国-01|1.0x
-      - 🇭🇰 香港2|@ripaojiedian
-      - 54.251.168.143:443
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 魁北克省蒙特利尔Amazon数据中心
+      - 🇺🇸 d美国-3
+      - ""
+      - 🇨🇭 o瑞士-2
+      - wqfuinwqffq.dfcloud.xyz:30818
       - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -200,26 +165,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 United States 01 @nodpai
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 a美国3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 p香港-3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇩🇪 d德国-2
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇯🇵 日本特殊|@ripaojiedian
       - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国-02|1.0x
-      - 🇸🇬 新加坡-01|1.0x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇨🇳 广东省 移动
-      - 🇸🇬 l新加坡-3
-      - 邀请循环70返利
-      - 🇺🇸 _US_美国
-      - 🇺🇸 美国-01|1.0x
-      - 🇭🇰 香港2|@ripaojiedian
-      - 54.251.168.143:443
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇨🇦 加拿大 魁北克省蒙特利尔Amazon数据中心
+      - 🇺🇸 d美国-3
+      - ""
+      - 🇨🇭 o瑞士-2
+      - wqfuinwqffq.dfcloud.xyz:30818
       - 🇨🇳 github.com/freefq - 广东省移动 7
-      - 🇺🇸 美国|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
