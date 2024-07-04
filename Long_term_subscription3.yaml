@@ -5,179 +5,109 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 l日本-1, server: yx1.gyyun.top, port: 2052, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lrb1.gyyun.top}}}
-  - {name: 🇭🇰 p香港-2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: pqxg1.gyyun.top}}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.176.206, port: 2053, type: trojan, password: ZJU29smXwp, sni: damn-mci-again-3.danesh-bonyan.Store, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: damn-mci-again-3.danesh-bonyan.Store}}}
-  - {name: 🇨🇳 广东省广州市 移动, server: 120.232.153.40, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 V2CROSS.COM, server: 116.47.10.236, port: 27335, type: trojan, password: moist, sni: trojan.freenods.sbs, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}}
-  - {name: 🇵🇱 github.com/freefq - 波兰  5, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
-  - {name: 🇮🇪 爱尔兰都柏林 亚马逊云, server: 3.254.227.12, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
-  - {name: SCP2, server: www.smcacre.gov, port: 443, type: vmess, uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b, alterId: 0, cipher: auto, tls: true, servername: www.smcacre.gov, network: ws, ws-opts: {path: /3cc8e2d2, headers: {Host: lajihuawei.com}}}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.114.114.183, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 距离下次重置剩余：27 天, server: yx1.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opmg1.gyyun.top}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.21.81, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
-  - {name: 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心, server: 23.94.76.55, port: 51981, type: ss, cipher: aes-256-gcm, password: 06gZKkeC2J}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.158.171.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
-  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 52.213.195.144, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.21.47.176, port: 443, type: trojan, password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2, sni: hdfyc1.achaemenidempireofpersia.uk}
-  - {name: 🇸🇬 d新加坡-2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: doxjp1.gyyun.top}}}
-  - {name: 🇺🇸 _US_美国, server: 52.169.50.64, port: 16141, type: ss, cipher: chacha20-ietf-poly1305, password: jjxXMDnfbChUWPL1QM02fM}
-  - {name: 🇺🇸 美国 Amazon EC2服务器, server: series-a2-mec.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
-  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 23.154.136.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 _US_美国, server: 172.67.176.206, port: 2053, type: trojan, password: ZJU29smXwp, sni: damn-mci-again-3.danesh-bonyan.Store, network: ws, ws-opts: {path: "", headers: {Host: damn-mci-again-3.danesh-bonyan.Store}}}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
+  - {name: 🇺🇸 a美国2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akmg1.gyyun.top}}}
+  - {name: 🇯🇵 日本4|@ripaojiedian, server: aws-jp-tokyo-1.f1cflined.com, port: 443, type: trojan, password: g76wex, sni: aws-jp-tokyo-1.f1cflined.com, network: ws, ws-opts: {path: /f1rocket, headers: {Host: aws-jp-tokyo-1.f1cflined.com}}}
+  - {name: 🇸🇬 l新加坡-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lxjp1.gyyun.top}}}
+  - {name: 🇯🇵 l日本-3, server: yx3.gyyun.top, port: 2052, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lrb1.gyyun.top}}}
+  - {name: 🇺🇸 美国 Amazon EC2服务器, server: 3.99.180.103, port: 13048, type: trojan, password: nOWZBQQhhLQq, sni: appsvs.shop}
+  - {name: 🇺🇸 _US_美国 2, server: russia.com, port: 8080, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: russia.com}}}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 104.19.57.4, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 _US_美国 3, server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cfcdn1.sanfencdn9.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 l日本-1
-      - 🇭🇰 p香港-2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 广东省广州市 移动
-      - 🇰🇷 韩国 V2CROSS.COM
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇮🇪 爱尔兰都柏林 亚马逊云
-      - SCP2
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇸🇬 d新加坡-2
       - 🇺🇸 _US_美国
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 a美国2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 🇸🇬 l新加坡-3
+      - 🇯🇵 l日本-3
       - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 l日本-1
-      - 🇭🇰 p香港-2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 广东省广州市 移动
-      - 🇰🇷 韩国 V2CROSS.COM
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇮🇪 爱尔兰都柏林 亚马逊云
-      - SCP2
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇸🇬 d新加坡-2
       - 🇺🇸 _US_美国
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 a美国2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 🇸🇬 l新加坡-3
+      - 🇯🇵 l日本-3
       - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 l日本-1
-      - 🇭🇰 p香港-2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 广东省广州市 移动
-      - 🇰🇷 韩国 V2CROSS.COM
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇮🇪 爱尔兰都柏林 亚马逊云
-      - SCP2
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇸🇬 d新加坡-2
       - 🇺🇸 _US_美国
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 a美国2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 🇸🇬 l新加坡-3
+      - 🇯🇵 l日本-3
       - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 l日本-1
-      - 🇭🇰 p香港-2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 广东省广州市 移动
-      - 🇰🇷 韩国 V2CROSS.COM
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇮🇪 爱尔兰都柏林 亚马逊云
-      - SCP2
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇸🇬 d新加坡-2
       - 🇺🇸 _US_美国
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 a美国2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 🇸🇬 l新加坡-3
+      - 🇯🇵 l日本-3
       - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵 l日本-1
-      - 🇭🇰 p香港-2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 广东省广州市 移动
-      - 🇰🇷 韩国 V2CROSS.COM
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇮🇪 爱尔兰都柏林 亚马逊云
-      - SCP2
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇸🇬 d新加坡-2
       - 🇺🇸 _US_美国
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 a美国2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 🇸🇬 l新加坡-3
+      - 🇯🇵 l日本-3
       - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 l日本-1
-      - 🇭🇰 p香港-2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 广东省广州市 移动
-      - 🇰🇷 韩国 V2CROSS.COM
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇮🇪 爱尔兰都柏林 亚马逊云
-      - SCP2
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇸🇬 d新加坡-2
       - 🇺🇸 _US_美国
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 a美国2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 🇸🇬 l新加坡-3
+      - 🇯🇵 l日本-3
       - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -200,26 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 l日本-1
-      - 🇭🇰 p香港-2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 广东省广州市 移动
-      - 🇰🇷 韩国 V2CROSS.COM
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇮🇪 爱尔兰都柏林 亚马逊云
-      - SCP2
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 距离下次重置剩余：27 天
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 爱荷华州得梅因Microsoft数据中心
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇸🇬 d新加坡-2
       - 🇺🇸 _US_美国
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇺🇸 a美国2
+      - 🇯🇵 日本4|@ripaojiedian
+      - 🇸🇬 l新加坡-3
+      - 🇯🇵 l日本-3
       - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
