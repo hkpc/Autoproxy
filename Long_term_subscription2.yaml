@@ -5,256 +5,165 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Taiwan 01, server: good.yummybest.top, port: 22105, type: ss, cipher: chacha20-ietf-poly1305, password: 9c109c7f-8989-434b-a431-199c85bc3172}
-  - {name: 🇺🇸 United States 01 @nodpai, server: hytron.io, port: 8080, type: vmess, uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hytron.io}}}
-  - {name: 🇮🇳 github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 183.240.235.162, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇻🇳 越南 02, server: p1.bxy-fun2.xyz, port: 30402, type: ss, cipher: chacha20-ietf-poly1305, password: 5328a330-1371-47aa-87fd-74516259c195}
-  - {name: 🇺🇸 美国6|@ripaojiedian, server: 104.19.38.18, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: sg-a1.oci.ee, port: 40002, type: vmess, uuid: 0a3eafb9-99da-409f-a61b-b26570c8a643, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: sg-a1.oci.ee}}}
-  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 o美国-2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opmg1.gyyun.top}}}
-  - {name: 13.213.46.196:443, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}}
-  - {name: 🇬🇧 英国 03, server: p1.bxy-fun3.xyz, port: 30472, type: ss, cipher: chacha20-ietf-poly1305, password: 5328a330-1371-47aa-87fd-74516259c195}
-  - {name: 🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 40081, type: trojan, password: GsKYmYOE, skip-cert-verify: true}
-  - {name: SCP2, server: www.smcacre.gov, port: 443, type: vmess, uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b, alterId: 0, cipher: auto, tls: true, servername: www.smcacre.gov, network: ws, ws-opts: {path: /3cc8e2d2, headers: {Host: lajihuawei.com}}}
-  - {name: 🇳🇱 荷兰 01, server: p1.bxy-edge.xyz, port: 30801, type: ss, cipher: chacha20-ietf-poly1305, password: 5328a330-1371-47aa-87fd-74516259c195}
-  - {name: 🇸🇬 Singapore 06, server: nice.yummybest.top, port: 12515, type: ss, cipher: chacha20-ietf-poly1305, password: 9c109c7f-8989-434b-a431-199c85bc3172}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: 104.19.47.16, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 d英国-2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: doyg1.gyyun.top}}}
-  - {name: "", server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 Singapore 04, server: nice.yummybest.top, port: 12513, type: ss, cipher: chacha20-ietf-poly1305, password: 9c109c7f-8989-434b-a431-199c85bc3172}
-  - {name: 缅甸R|@ripaojiedian, server: 59.56.77.178, port: 15082, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.21.240, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 120.232.240.46, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 24:SpYUtPeJYhRk4FWC, obfs-param: 6f41b24.microsoft.com}
-  - {name: 🇺🇸 美国5|@ripaojiedian, server: 154.197.121.253, port: 443, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.freenods.sbs}}}
+  - {name: 🇨🇭 o瑞士-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oprs1.gyyun.top}}}
+  - {name: 🇸🇬 l新加坡-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lxjp1.gyyun.top}}}
+  - {name: "", server: hkd1.quickerlink.xyz, port: 443, type: vmess, uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /h6jr23x9h3lqiitg, headers: {Host: hkd1.quickerlink.xyz}}}
+  - {name: 🇸🇬 Singapore 05, server: good.yummybest.top, port: 12514, type: ss, cipher: chacha20-ietf-poly1305, password: 9c109c7f-8989-434b-a431-199c85bc3172}
+  - {name: 54.199.83.239:2333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
   - {name: 🇸🇬 新加坡1, server: gd1.chuanping.wang, port: 10596, type: ss, cipher: aes-128-gcm, password: d7fcff5d-e3c6-4d26-aa0a-2af2ab876757}
-  - {name: 🇨🇭 o瑞士-1, server: yx1.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oprs1.gyyun.top}}}
-  - {name: 🇭🇰 香港 02, server: p1.bxy-fun2.xyz, port: 24103, type: ss, cipher: chacha20-ietf-poly1305, password: 5328a330-1371-47aa-87fd-74516259c195}
-  - {name: 🇱🇺 卢森堡 01, server: p1.bxy-edge.xyz, port: 30301, type: ss, cipher: chacha20-ietf-poly1305, password: 5328a330-1371-47aa-87fd-74516259c195}
-  - {name: _CN_中国, server: 183.232.139.22, port: 4027, type: trojan, password: RmdXQRXg}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.59.99, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, servername: cdn2.freegradely.xyz, network: ws, ws-opts: {path: /, headers: {Host: cdn2.freegradely.xyz}}}
+  - {name: 🇺🇸 d美国-2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: domg1.gyyun.top}}}
+  - {name: 🇺🇸 美国3, server: gd1.chuanping.wang, port: 10599, type: ss, cipher: aes-128-gcm, password: d7fcff5d-e3c6-4d26-aa0a-2af2ab876757}
+  - {name: 🇺🇸 美国5|@ripaojiedian, server: 154.197.121.253, port: 443, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.freenods.sbs}}}
+  - {name: 🇨🇳 Taiwan 02, server: nice.yummybest.top, port: 22106, type: ss, cipher: chacha20-ietf-poly1305, password: 9c109c7f-8989-434b-a431-199c85bc3172}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 104.18.57.111, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
+  - {name: 🇸🇬 d新加坡-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: doxjp1.gyyun.top}}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
+  - {name: 🇻🇳 越南 02, server: p1.bxy-fun2.xyz, port: 30402, type: ss, cipher: chacha20-ietf-poly1305, password: 5328a330-1371-47aa-87fd-74516259c195}
+  - {name: 🇭🇰 p香港-1, server: yx1.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: pqxg1.gyyun.top}}}
+  - {name: 🇬🇧 d英国-3, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: doyg1.gyyun.top}}}
+  - {name: 🇺🇸 o美国-1, server: yx1.gyyun.top, port: 8880, type: vmess, uuid: f3049610-7c44-4912-b20e-00c296d55d6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opmg1.gyyun.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 Taiwan 01
-      - 🇺🇸 United States 01 @nodpai
-      - 🇮🇳 github.com/freefq - 印度  2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇻🇳 越南 02
-      - 🇺🇸 美国6|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 54.251.168.143:443
-      - 🇺🇸 o美国-2
-      - 13.213.46.196:443
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇬🇧 英国 03
-      - 🇺🇸 美国4|@ripaojiedian
-      - SCP2
-      - 🇳🇱 荷兰 01
-      - 🇸🇬 Singapore 06
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 d英国-2
+      - 🇨🇭 o瑞士-3
+      - 🇸🇬 l新加坡-3
       - ""
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇸🇬 Singapore 04
-      - 缅甸R|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 Singapore 05
+      - 54.199.83.239:2333
       - 🇸🇬 新加坡1
-      - 🇨🇭 o瑞士-1
-      - 🇭🇰 香港 02
-      - 🇱🇺 卢森堡 01
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 d美国-2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇨🇳 Taiwan 02
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇸🇬 d新加坡-3
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇻🇳 越南 02
+      - 🇭🇰 p香港-1
+      - 🇬🇧 d英国-3
+      - 🇺🇸 o美国-1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 Taiwan 01
-      - 🇺🇸 United States 01 @nodpai
-      - 🇮🇳 github.com/freefq - 印度  2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇻🇳 越南 02
-      - 🇺🇸 美国6|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 54.251.168.143:443
-      - 🇺🇸 o美国-2
-      - 13.213.46.196:443
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇬🇧 英国 03
-      - 🇺🇸 美国4|@ripaojiedian
-      - SCP2
-      - 🇳🇱 荷兰 01
-      - 🇸🇬 Singapore 06
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 d英国-2
+      - 🇨🇭 o瑞士-3
+      - 🇸🇬 l新加坡-3
       - ""
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇸🇬 Singapore 04
-      - 缅甸R|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 Singapore 05
+      - 54.199.83.239:2333
       - 🇸🇬 新加坡1
-      - 🇨🇭 o瑞士-1
-      - 🇭🇰 香港 02
-      - 🇱🇺 卢森堡 01
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 d美国-2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇨🇳 Taiwan 02
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇸🇬 d新加坡-3
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇻🇳 越南 02
+      - 🇭🇰 p香港-1
+      - 🇬🇧 d英国-3
+      - 🇺🇸 o美国-1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 Taiwan 01
-      - 🇺🇸 United States 01 @nodpai
-      - 🇮🇳 github.com/freefq - 印度  2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇻🇳 越南 02
-      - 🇺🇸 美国6|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 54.251.168.143:443
-      - 🇺🇸 o美国-2
-      - 13.213.46.196:443
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇬🇧 英国 03
-      - 🇺🇸 美国4|@ripaojiedian
-      - SCP2
-      - 🇳🇱 荷兰 01
-      - 🇸🇬 Singapore 06
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 d英国-2
+      - 🇨🇭 o瑞士-3
+      - 🇸🇬 l新加坡-3
       - ""
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇸🇬 Singapore 04
-      - 缅甸R|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 Singapore 05
+      - 54.199.83.239:2333
       - 🇸🇬 新加坡1
-      - 🇨🇭 o瑞士-1
-      - 🇭🇰 香港 02
-      - 🇱🇺 卢森堡 01
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 d美国-2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇨🇳 Taiwan 02
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇸🇬 d新加坡-3
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇻🇳 越南 02
+      - 🇭🇰 p香港-1
+      - 🇬🇧 d英国-3
+      - 🇺🇸 o美国-1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Taiwan 01
-      - 🇺🇸 United States 01 @nodpai
-      - 🇮🇳 github.com/freefq - 印度  2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇻🇳 越南 02
-      - 🇺🇸 美国6|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 54.251.168.143:443
-      - 🇺🇸 o美国-2
-      - 13.213.46.196:443
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇬🇧 英国 03
-      - 🇺🇸 美国4|@ripaojiedian
-      - SCP2
-      - 🇳🇱 荷兰 01
-      - 🇸🇬 Singapore 06
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 d英国-2
+      - 🇨🇭 o瑞士-3
+      - 🇸🇬 l新加坡-3
       - ""
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇸🇬 Singapore 04
-      - 缅甸R|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 Singapore 05
+      - 54.199.83.239:2333
       - 🇸🇬 新加坡1
-      - 🇨🇭 o瑞士-1
-      - 🇭🇰 香港 02
-      - 🇱🇺 卢森堡 01
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 d美国-2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇨🇳 Taiwan 02
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇸🇬 d新加坡-3
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇻🇳 越南 02
+      - 🇭🇰 p香港-1
+      - 🇬🇧 d英国-3
+      - 🇺🇸 o美国-1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 Taiwan 01
-      - 🇺🇸 United States 01 @nodpai
-      - 🇮🇳 github.com/freefq - 印度  2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇻🇳 越南 02
-      - 🇺🇸 美国6|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 54.251.168.143:443
-      - 🇺🇸 o美国-2
-      - 13.213.46.196:443
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇬🇧 英国 03
-      - 🇺🇸 美国4|@ripaojiedian
-      - SCP2
-      - 🇳🇱 荷兰 01
-      - 🇸🇬 Singapore 06
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 d英国-2
+      - 🇨🇭 o瑞士-3
+      - 🇸🇬 l新加坡-3
       - ""
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇸🇬 Singapore 04
-      - 缅甸R|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 Singapore 05
+      - 54.199.83.239:2333
       - 🇸🇬 新加坡1
-      - 🇨🇭 o瑞士-1
-      - 🇭🇰 香港 02
-      - 🇱🇺 卢森堡 01
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 d美国-2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇨🇳 Taiwan 02
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇸🇬 d新加坡-3
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇻🇳 越南 02
+      - 🇭🇰 p香港-1
+      - 🇬🇧 d英国-3
+      - 🇺🇸 o美国-1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Taiwan 01
-      - 🇺🇸 United States 01 @nodpai
-      - 🇮🇳 github.com/freefq - 印度  2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇻🇳 越南 02
-      - 🇺🇸 美国6|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 54.251.168.143:443
-      - 🇺🇸 o美国-2
-      - 13.213.46.196:443
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇬🇧 英国 03
-      - 🇺🇸 美国4|@ripaojiedian
-      - SCP2
-      - 🇳🇱 荷兰 01
-      - 🇸🇬 Singapore 06
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 d英国-2
+      - 🇨🇭 o瑞士-3
+      - 🇸🇬 l新加坡-3
       - ""
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇸🇬 Singapore 04
-      - 缅甸R|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 Singapore 05
+      - 54.199.83.239:2333
       - 🇸🇬 新加坡1
-      - 🇨🇭 o瑞士-1
-      - 🇭🇰 香港 02
-      - 🇱🇺 卢森堡 01
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 d美国-2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇨🇳 Taiwan 02
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇸🇬 d新加坡-3
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇻🇳 越南 02
+      - 🇭🇰 p香港-1
+      - 🇬🇧 d英国-3
+      - 🇺🇸 o美国-1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -277,37 +186,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Taiwan 01
-      - 🇺🇸 United States 01 @nodpai
-      - 🇮🇳 github.com/freefq - 印度  2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇻🇳 越南 02
-      - 🇺🇸 美国6|@ripaojiedian
-      - 🇺🇸 美国 V2CROSS.COM
-      - 54.251.168.143:443
-      - 🇺🇸 o美国-2
-      - 13.213.46.196:443
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇬🇧 英国 03
-      - 🇺🇸 美国4|@ripaojiedian
-      - SCP2
-      - 🇳🇱 荷兰 01
-      - 🇸🇬 Singapore 06
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇬🇧 d英国-2
+      - 🇨🇭 o瑞士-3
+      - 🇸🇬 l新加坡-3
       - ""
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇸🇬 Singapore 04
-      - 缅甸R|@ripaojiedian
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇺🇸 美国5|@ripaojiedian
+      - 🇸🇬 Singapore 05
+      - 54.199.83.239:2333
       - 🇸🇬 新加坡1
-      - 🇨🇭 o瑞士-1
-      - 🇭🇰 香港 02
-      - 🇱🇺 卢森堡 01
-      - _CN_中国
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 d美国-2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇨🇳 Taiwan 02
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇸🇬 d新加坡-3
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇻🇳 越南 02
+      - 🇭🇰 p香港-1
+      - 🇬🇧 d英国-3
+      - 🇺🇸 o美国-1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
