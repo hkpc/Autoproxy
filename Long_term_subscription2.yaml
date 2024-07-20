@@ -5,95 +5,102 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 CF | 新加坡SG1 | 免费节点, server: cu.cfyun.top, port: 443, type: trojan, password: 65d87c07-e57f-41b9-b3f1-db6841eb66b7, sni: cfsg1.trojanwss.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
-  - {name: 🇺🇸 V003-0.5x-US-付费推荐:dlj.tf/ssrsub, server: cf1.trojan.tel, port: 2095, type: vmess, uuid: 24dfd329-dad9-4f39-a312-6b547fd5b0f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub-cf-v2.trojan.tel}}}
-  - {name: 🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 🇮🇳 github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
-  - {name: 🇺🇸 CF | 美国US4 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: 65d87c07-e57f-41b9-b3f1-db6841eb66b7, sni: cfus4.trojanwss.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
-  - {name: 🇵🇱 github.com/freefq - 波兰  5, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
-  - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
-  - {name: 🇮🇳 github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
+  - {name: 不明白的问客服, server: 1.1.1.1, port: 47101, type: ss, cipher: aes-128-gcm, password: a51339a8-3ec6-596c-a071-c8b8fa9b7f0a}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 18.183.186.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
+  - {name: " 2", server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
+  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 查看重要公告, server: 1.1.1.1, port: 47101, type: ss, cipher: aes-128-gcm, password: a51339a8-3ec6-596c-a071-c8b8fa9b7f0a}
+  - {name: " 3", server: hkd1.quickerlink.xyz, port: 443, type: vmess, uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /h6jr23x9h3lqiitg, headers: {Host: hkd1.quickerlink.xyz}}}
+  - {name: 🇺🇸 CF | 美国US3 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: 65d87c07-e57f-41b9-b3f1-db6841eb66b7, sni: cfus3.trojanwss.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 CF | 新加坡SG1 | 免费节点
-      - 🇺🇸 V003-0.5x-US-付费推荐:dlj.tf/ssrsub
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇺🇸 CF | 美国US4 | 免费节点
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 github.com/freefq - 俄罗斯  1
-      - 🇮🇳 github.com/freefq - 印度  2
+      - 不明白的问客服
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - ""
+      - " 2"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 54.251.168.143:443
+      - 查看重要公告
+      - " 3"
+      - 🇺🇸 CF | 美国US3 | 免费节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 CF | 新加坡SG1 | 免费节点
-      - 🇺🇸 V003-0.5x-US-付费推荐:dlj.tf/ssrsub
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇺🇸 CF | 美国US4 | 免费节点
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 github.com/freefq - 俄罗斯  1
-      - 🇮🇳 github.com/freefq - 印度  2
+      - 不明白的问客服
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - ""
+      - " 2"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 54.251.168.143:443
+      - 查看重要公告
+      - " 3"
+      - 🇺🇸 CF | 美国US3 | 免费节点
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 CF | 新加坡SG1 | 免费节点
-      - 🇺🇸 V003-0.5x-US-付费推荐:dlj.tf/ssrsub
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇺🇸 CF | 美国US4 | 免费节点
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 github.com/freefq - 俄罗斯  1
-      - 🇮🇳 github.com/freefq - 印度  2
+      - 不明白的问客服
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - ""
+      - " 2"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 54.251.168.143:443
+      - 查看重要公告
+      - " 3"
+      - 🇺🇸 CF | 美国US3 | 免费节点
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 CF | 新加坡SG1 | 免费节点
-      - 🇺🇸 V003-0.5x-US-付费推荐:dlj.tf/ssrsub
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇺🇸 CF | 美国US4 | 免费节点
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 github.com/freefq - 俄罗斯  1
-      - 🇮🇳 github.com/freefq - 印度  2
+      - 不明白的问客服
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - ""
+      - " 2"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 54.251.168.143:443
+      - 查看重要公告
+      - " 3"
+      - 🇺🇸 CF | 美国US3 | 免费节点
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 CF | 新加坡SG1 | 免费节点
-      - 🇺🇸 V003-0.5x-US-付费推荐:dlj.tf/ssrsub
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇺🇸 CF | 美国US4 | 免费节点
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 github.com/freefq - 俄罗斯  1
-      - 🇮🇳 github.com/freefq - 印度  2
+      - 不明白的问客服
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - ""
+      - " 2"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 54.251.168.143:443
+      - 查看重要公告
+      - " 3"
+      - 🇺🇸 CF | 美国US3 | 免费节点
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 CF | 新加坡SG1 | 免费节点
-      - 🇺🇸 V003-0.5x-US-付费推荐:dlj.tf/ssrsub
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇺🇸 CF | 美国US4 | 免费节点
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 github.com/freefq - 俄罗斯  1
-      - 🇮🇳 github.com/freefq - 印度  2
+      - 不明白的问客服
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - ""
+      - " 2"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 54.251.168.143:443
+      - 查看重要公告
+      - " 3"
+      - 🇺🇸 CF | 美国US3 | 免费节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,14 +123,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 CF | 新加坡SG1 | 免费节点
-      - 🇺🇸 V003-0.5x-US-付费推荐:dlj.tf/ssrsub
-      - 🇻🇳 越南R|@ripaojiedian
-      - 🇮🇳 github.com/freefq - 印度  3
-      - 🇺🇸 CF | 美国US4 | 免费节点
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇷🇺 github.com/freefq - 俄罗斯  1
-      - 🇮🇳 github.com/freefq - 印度  2
+      - 不明白的问客服
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - ""
+      - " 2"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 54.251.168.143:443
+      - 查看重要公告
+      - " 3"
+      - 🇺🇸 CF | 美国US3 | 免费节点
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
