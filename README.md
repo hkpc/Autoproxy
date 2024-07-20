@@ -10,39 +10,39 @@
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 242`
+`Total number of merge nodes: 297`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1`
-`Total number of merge nodes: 31`
+`Total number of merge nodes: 38`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2`
-`Total number of merge nodes: 31`
+`Total number of merge nodes: 38`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription3`
-`Total number of merge nodes: 31`
+`Total number of merge nodes: 38`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription4`
-`Total number of merge nodes: 31`
+`Total number of merge nodes: 38`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription5`
-`Total number of merge nodes: 31`
+`Total number of merge nodes: 38`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription6`
-`Total number of merge nodes: 31`
+`Total number of merge nodes: 38`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription7`
-`Total number of merge nodes: 31`
+`Total number of merge nodes: 38`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription8`
-`Total number of merge nodes: 25`
+`Total number of merge nodes: 31`
 
 - [Clash subscription](https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/hkpc/Autoproxy/main/Long_term_subscription1.yaml`
@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `2`
-Updata：`2024-07-20 14:45:45`
+Updata：`2024-07-20 17:37:42`
 
 
 <details>
@@ -40634,32 +40634,40 @@ Updata：`2024-07-20 14:45:45`
 
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=a82cfcf19cdfe336d63422aa6bfdab24`
+
+
+
+
+
+
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=a82cfcf19cdfe336d63422aa6bfdab24`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9d7116889dd29d5e358b67f9067d9082`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=a82cfcf19cdfe336d63422aa6bfdab24`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9d7116889dd29d5e358b67f9067d9082`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=a82cfcf19cdfe336d63422aa6bfdab24`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9d7116889dd29d5e358b67f9067d9082`
+
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=ad56a19182ea2d491e0e883f2717d0eb`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9d7116889dd29d5e358b67f9067d9082`
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=ad56a19182ea2d491e0e883f2717d0eb`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=22263c6630276bcfb3a8b4f69b1037f5`
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=ad56a19182ea2d491e0e883f2717d0eb`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=22263c6630276bcfb3a8b4f69b1037f5`
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=ad56a19182ea2d491e0e883f2717d0eb`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=22263c6630276bcfb3a8b4f69b1037f5`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=22263c6630276bcfb3a8b4f69b1037f5`
 
 
 
