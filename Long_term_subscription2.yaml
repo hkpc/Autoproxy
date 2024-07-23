@@ -5,214 +5,263 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本-优化2, server: m.cnmjin.net, port: 16617, type: vmess, uuid: 820517c1-1cfb-47ff-bfdd-48faf83773b5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjin.net}}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.74.122, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
-  - {name: 🇨🇴 哥伦比亚4-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: jyxefz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jyxefz.freefly.pp.ua}}}
-  - {name: 🇮🇳 印度3-海得拉巴-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: vkervf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vkervf.freefly.pp.ua}}}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.151.195.77, port: 20819, type: trojan, password: MfqALmAJ, skip-cert-verify: true}
-  - {name: 13.213.46.196:443, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本05, server: jp005.421421.xyz, port: 20230, type: trojan, password: d2382a15-ae45-40ab-8925-84792b584bd8, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇲🇽 墨西哥1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: vexrex.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vexrex.freefly.pp.ua}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.21.220, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
-  - {name: 🇧🇷 巴西-维涅杜3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: ybhhkx.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ybhhkx.freefly.pp.ua}}}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 120.232.153.37, port: 42055, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇮🇱 以色列IL-T, server: il.mjt000.com, port: 443, type: trojan, password: 820517c1-1cfb-47ff-bfdd-48faf83773b5, sni: il.mjt000.com, skip-cert-verify: false}
-  - {name: 7折扣码:0009.eu, server: 1.1.1.1, port: 47101, type: ss, cipher: aes-128-gcm, password: a51339a8-3ec6-596c-a071-c8b8fa9b7f0a}
-  - {name: 🇯🇵 日本06, server: jp006.421421.xyz, port: 20230, type: trojan, password: d2382a15-ae45-40ab-8925-84792b584bd8, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国USLA-T-GPT, server: usla.mjt000.com, port: 443, type: trojan, password: 820517c1-1cfb-47ff-bfdd-48faf83773b5, sni: usla.mjt000.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip005.dtku47.xyz}}}
-  - {name: 🇨🇳 台湾|@ripaojiedian, server: cm1-tw.hutaonode3.top, port: 12556, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 36a1a32505.microsoft.com}}
-  - {name: 🇯🇵 日本B-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: swjfgz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: swjfgz.freefly.pp.ua}}}
-  - {name: 🇬🇧 英国2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: htfrbg.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: htfrbg.freefly.pp.ua}}}
-  - {name: 🇺🇸 美国西部洛杉矶2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: sagflax.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: sagflax.freefly.pp.ua}}}
-  - {name: 🇧🇷 巴西-维涅杜2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: vcpexk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vcpexk.freefly.pp.ua}}}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: free-relay.t01.themars.top, port: 44400, type: ss, cipher: chacha20-ietf-poly1305, password: 2af732d9-b956-42dc-8be2-4f28c3407cb2}
-  - {name: 🇺🇸 美国LA-优化-GPT, server: yes.cnmjcn.net, port: 16648, type: vmess, uuid: 820517c1-1cfb-47ff-bfdd-48faf83773b5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cd8e88d8bdf6378f00346c2973620506.mobgslb.tbcache.com}}}
-  - {name: 🇮🇳 印度1-海得拉巴-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: utxxpy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: utxxpy.freefly.pp.ua}}}
+  - {name: 🇬🇧 United Kingdom 01 @nodpai, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws}}
+  - {name: 🇨🇱 智利2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: tpevxd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tpevxd.freefly.pp.ua}}}
+  - {name: 🇺🇸 美国西部凤凰城2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: hxgmnz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hxgmnz.freefly.pp.ua}}}
+  - {name: 🇭🇰 香港wap-T, server: waphk.mjt000.com, port: 443, type: trojan, password: 820517c1-1cfb-47ff-bfdd-48faf83773b5, sni: waphk.mjt000.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.185.62, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇳🇱 荷兰3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: jgmkbc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jgmkbc.freefly.pp.ua}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: p1.v2raybrasil.cloud, port: 2052, type: vmess, uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ybr.redbullplus.xyz}}}
+  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 23.157.88.35, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.19.45.194, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇸🇦 沙特阿拉伯1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: wvzyxk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: wvzyxk.freefly.pp.ua}}}
+  - {name: 请登入0009.eu, server: 1.1.1.1, port: 47101, type: ss, cipher: aes-128-gcm, password: a51339a8-3ec6-596c-a071-c8b8fa9b7f0a}
+  - {name: 🇮🇹 意大利 V2CROSS.COM, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 距离下次重置剩余：8 天, server: free-relay.t01.themars.top, port: 44400, type: ss, cipher: chacha20-ietf-poly1305, password: 00159721-7084-4550-b855-297a0c461a92}
+  - {name: 🇰🇷 韩国Max Pro, server: 36.155.110.108, port: 10279, type: ss, cipher: aes-256-gcm, password: 1eaa7caf-aa1a-43a8-8324-7e7d8c4aa6f4}
+  - {name: 🇧🇷 巴西5-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: ugdeey.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ugdeey.freefly.pp.ua}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 104.18.90.107, port: 2052, type: vmess, uuid: 78c40177-c364-480d-bd77-76e9d89f69b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/Zo98PYfE, headers: {Host: kvjqqknzjp6.yofnhkfc.xyz}}}
+  - {name: 🇿🇦 南非1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: asxgek.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: asxgek.freefly.pp.ua}}}
+  - {name: "", server: 159.223.94.156, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /anti13.zingfast.vn}}
+  - {name: 🇹🇷 土耳其TR-T, server: tr.mjt000.com, port: 443, type: trojan, password: 820517c1-1cfb-47ff-bfdd-48faf83773b5, sni: tr.mjt000.com, skip-cert-verify: false}
+  - {name: 🇧🇷 巴西-维涅杜4-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: gvjmwn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: gvjmwn.freefly.pp.ua}}}
+  - {name: 🇮🇹 意大利IT-T, server: it.mjt000.com, port: 443, type: trojan, password: 820517c1-1cfb-47ff-bfdd-48faf83773b5, sni: it.mjt000.com, skip-cert-verify: false}
+  - {name: 仅VIP500季以上有效, server: 1.1.1.1, port: 47101, type: ss, cipher: aes-128-gcm, password: a51339a8-3ec6-596c-a071-c8b8fa9b7f0a}
   - {name: 🇧🇷 巴西6-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: xpfzpk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xpfzpk.freefly.pp.ua}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 104.17.106.151, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: 🇨🇳 台湾WAP-T, server: hinet.mjt000.com, port: 443, type: trojan, password: 820517c1-1cfb-47ff-bfdd-48faf83773b5, sni: hinet.mjt000.com, skip-cert-verify: false}
+  - {name: 🇿🇦 南非2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: tcmspq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tcmspq.freefly.pp.ua}}}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: free-relay.t01.themars.top, port: 44400, type: ss, cipher: chacha20-ietf-poly1305, password: 2af732d9-b956-42dc-8be2-4f28c3407cb2}
+  - {name: 查看重要公告, server: 1.1.1.1, port: 47101, type: ss, cipher: aes-128-gcm, password: a51339a8-3ec6-596c-a071-c8b8fa9b7f0a}
+  - {name: 🇦🇺 澳大利亚-墨尔本2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 39e20f4f-4dd7-4242-977c-d75a680427bc, alterId: 0, cipher: auto, tls: true, servername: fwvgau.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fwvgau.freefly.pp.ua}}}
+  - {name: 🇱🇺 卢森堡LUX-T, server: lux.mjt000.com, port: 443, type: trojan, password: 820517c1-1cfb-47ff-bfdd-48faf83773b5, sni: lux.mjt000.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本R|@ripaojiedian, server: 59.56.77.178, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
+  - {name: 🇮🇳 印度-优化, server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: 820517c1-1cfb-47ff-bfdd-48faf83773b5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cd8e88d8bdf6378f00346c2973620506.mobgslb.tbcache.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 日本-优化2
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇨🇱 智利2-CDN | 1x
+      - 🇺🇸 美国西部凤凰城2-CDN | 1x
+      - 🇭🇰 香港wap-T
       - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇴 哥伦比亚4-CDN | 1x
-      - 🇮🇳 印度3-海得拉巴-CDN | 1x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇯🇵 日本05
-      - 🇲🇽 墨西哥1-CDN | 1x
+      - 🇳🇱 荷兰3-CDN | 1x
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西-维涅杜3-CDN | 1x
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇱 以色列IL-T
-      - 7折扣码:0009.eu
-      - 🇯🇵 日本06
-      - 🇺🇸 美国USLA-T-GPT
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本B-CDN | 1x
-      - 🇬🇧 英国2-CDN | 1x
-      - 🇺🇸 美国西部洛杉矶2-CDN | 1x
-      - 🇧🇷 巴西-维涅杜2-CDN | 1x
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国LA-优化-GPT
-      - 🇮🇳 印度1-海得拉巴-CDN | 1x
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇦 沙特阿拉伯1-CDN | 1x
+      - 请登入0009.eu
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国Max Pro
+      - 🇧🇷 巴西5-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇿🇦 南非1-CDN | 1x
+      - ""
+      - 🇹🇷 土耳其TR-T
+      - 🇧🇷 巴西-维涅杜4-CDN | 1x
+      - 🇮🇹 意大利IT-T
+      - 仅VIP500季以上有效
       - 🇧🇷 巴西6-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇨🇳 台湾WAP-T
+      - 🇿🇦 南非2-CDN | 1x
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 查看重要公告
+      - 🇦🇺 澳大利亚-墨尔本2-CDN | 1x
+      - 🇱🇺 卢森堡LUX-T
+      - 🇯🇵 日本R|@ripaojiedian
+      - 🇮🇳 印度-优化
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本-优化2
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇨🇱 智利2-CDN | 1x
+      - 🇺🇸 美国西部凤凰城2-CDN | 1x
+      - 🇭🇰 香港wap-T
       - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇴 哥伦比亚4-CDN | 1x
-      - 🇮🇳 印度3-海得拉巴-CDN | 1x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇯🇵 日本05
-      - 🇲🇽 墨西哥1-CDN | 1x
+      - 🇳🇱 荷兰3-CDN | 1x
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西-维涅杜3-CDN | 1x
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇱 以色列IL-T
-      - 7折扣码:0009.eu
-      - 🇯🇵 日本06
-      - 🇺🇸 美国USLA-T-GPT
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本B-CDN | 1x
-      - 🇬🇧 英国2-CDN | 1x
-      - 🇺🇸 美国西部洛杉矶2-CDN | 1x
-      - 🇧🇷 巴西-维涅杜2-CDN | 1x
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国LA-优化-GPT
-      - 🇮🇳 印度1-海得拉巴-CDN | 1x
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇦 沙特阿拉伯1-CDN | 1x
+      - 请登入0009.eu
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国Max Pro
+      - 🇧🇷 巴西5-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇿🇦 南非1-CDN | 1x
+      - ""
+      - 🇹🇷 土耳其TR-T
+      - 🇧🇷 巴西-维涅杜4-CDN | 1x
+      - 🇮🇹 意大利IT-T
+      - 仅VIP500季以上有效
       - 🇧🇷 巴西6-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇨🇳 台湾WAP-T
+      - 🇿🇦 南非2-CDN | 1x
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 查看重要公告
+      - 🇦🇺 澳大利亚-墨尔本2-CDN | 1x
+      - 🇱🇺 卢森堡LUX-T
+      - 🇯🇵 日本R|@ripaojiedian
+      - 🇮🇳 印度-优化
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本-优化2
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇨🇱 智利2-CDN | 1x
+      - 🇺🇸 美国西部凤凰城2-CDN | 1x
+      - 🇭🇰 香港wap-T
       - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇴 哥伦比亚4-CDN | 1x
-      - 🇮🇳 印度3-海得拉巴-CDN | 1x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇯🇵 日本05
-      - 🇲🇽 墨西哥1-CDN | 1x
+      - 🇳🇱 荷兰3-CDN | 1x
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西-维涅杜3-CDN | 1x
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇱 以色列IL-T
-      - 7折扣码:0009.eu
-      - 🇯🇵 日本06
-      - 🇺🇸 美国USLA-T-GPT
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本B-CDN | 1x
-      - 🇬🇧 英国2-CDN | 1x
-      - 🇺🇸 美国西部洛杉矶2-CDN | 1x
-      - 🇧🇷 巴西-维涅杜2-CDN | 1x
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国LA-优化-GPT
-      - 🇮🇳 印度1-海得拉巴-CDN | 1x
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇦 沙特阿拉伯1-CDN | 1x
+      - 请登入0009.eu
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国Max Pro
+      - 🇧🇷 巴西5-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇿🇦 南非1-CDN | 1x
+      - ""
+      - 🇹🇷 土耳其TR-T
+      - 🇧🇷 巴西-维涅杜4-CDN | 1x
+      - 🇮🇹 意大利IT-T
+      - 仅VIP500季以上有效
       - 🇧🇷 巴西6-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇨🇳 台湾WAP-T
+      - 🇿🇦 南非2-CDN | 1x
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 查看重要公告
+      - 🇦🇺 澳大利亚-墨尔本2-CDN | 1x
+      - 🇱🇺 卢森堡LUX-T
+      - 🇯🇵 日本R|@ripaojiedian
+      - 🇮🇳 印度-优化
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本-优化2
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇨🇱 智利2-CDN | 1x
+      - 🇺🇸 美国西部凤凰城2-CDN | 1x
+      - 🇭🇰 香港wap-T
       - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇴 哥伦比亚4-CDN | 1x
-      - 🇮🇳 印度3-海得拉巴-CDN | 1x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇯🇵 日本05
-      - 🇲🇽 墨西哥1-CDN | 1x
+      - 🇳🇱 荷兰3-CDN | 1x
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西-维涅杜3-CDN | 1x
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇱 以色列IL-T
-      - 7折扣码:0009.eu
-      - 🇯🇵 日本06
-      - 🇺🇸 美国USLA-T-GPT
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本B-CDN | 1x
-      - 🇬🇧 英国2-CDN | 1x
-      - 🇺🇸 美国西部洛杉矶2-CDN | 1x
-      - 🇧🇷 巴西-维涅杜2-CDN | 1x
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国LA-优化-GPT
-      - 🇮🇳 印度1-海得拉巴-CDN | 1x
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇦 沙特阿拉伯1-CDN | 1x
+      - 请登入0009.eu
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国Max Pro
+      - 🇧🇷 巴西5-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇿🇦 南非1-CDN | 1x
+      - ""
+      - 🇹🇷 土耳其TR-T
+      - 🇧🇷 巴西-维涅杜4-CDN | 1x
+      - 🇮🇹 意大利IT-T
+      - 仅VIP500季以上有效
       - 🇧🇷 巴西6-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇨🇳 台湾WAP-T
+      - 🇿🇦 南非2-CDN | 1x
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 查看重要公告
+      - 🇦🇺 澳大利亚-墨尔本2-CDN | 1x
+      - 🇱🇺 卢森堡LUX-T
+      - 🇯🇵 日本R|@ripaojiedian
+      - 🇮🇳 印度-优化
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵 日本-优化2
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇨🇱 智利2-CDN | 1x
+      - 🇺🇸 美国西部凤凰城2-CDN | 1x
+      - 🇭🇰 香港wap-T
       - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇴 哥伦比亚4-CDN | 1x
-      - 🇮🇳 印度3-海得拉巴-CDN | 1x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇯🇵 日本05
-      - 🇲🇽 墨西哥1-CDN | 1x
+      - 🇳🇱 荷兰3-CDN | 1x
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西-维涅杜3-CDN | 1x
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇱 以色列IL-T
-      - 7折扣码:0009.eu
-      - 🇯🇵 日本06
-      - 🇺🇸 美国USLA-T-GPT
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本B-CDN | 1x
-      - 🇬🇧 英国2-CDN | 1x
-      - 🇺🇸 美国西部洛杉矶2-CDN | 1x
-      - 🇧🇷 巴西-维涅杜2-CDN | 1x
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国LA-优化-GPT
-      - 🇮🇳 印度1-海得拉巴-CDN | 1x
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇦 沙特阿拉伯1-CDN | 1x
+      - 请登入0009.eu
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国Max Pro
+      - 🇧🇷 巴西5-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇿🇦 南非1-CDN | 1x
+      - ""
+      - 🇹🇷 土耳其TR-T
+      - 🇧🇷 巴西-维涅杜4-CDN | 1x
+      - 🇮🇹 意大利IT-T
+      - 仅VIP500季以上有效
       - 🇧🇷 巴西6-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇨🇳 台湾WAP-T
+      - 🇿🇦 南非2-CDN | 1x
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 查看重要公告
+      - 🇦🇺 澳大利亚-墨尔本2-CDN | 1x
+      - 🇱🇺 卢森堡LUX-T
+      - 🇯🇵 日本R|@ripaojiedian
+      - 🇮🇳 印度-优化
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本-优化2
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇨🇱 智利2-CDN | 1x
+      - 🇺🇸 美国西部凤凰城2-CDN | 1x
+      - 🇭🇰 香港wap-T
       - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇴 哥伦比亚4-CDN | 1x
-      - 🇮🇳 印度3-海得拉巴-CDN | 1x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇯🇵 日本05
-      - 🇲🇽 墨西哥1-CDN | 1x
+      - 🇳🇱 荷兰3-CDN | 1x
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西-维涅杜3-CDN | 1x
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇱 以色列IL-T
-      - 7折扣码:0009.eu
-      - 🇯🇵 日本06
-      - 🇺🇸 美国USLA-T-GPT
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本B-CDN | 1x
-      - 🇬🇧 英国2-CDN | 1x
-      - 🇺🇸 美国西部洛杉矶2-CDN | 1x
-      - 🇧🇷 巴西-维涅杜2-CDN | 1x
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国LA-优化-GPT
-      - 🇮🇳 印度1-海得拉巴-CDN | 1x
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇦 沙特阿拉伯1-CDN | 1x
+      - 请登入0009.eu
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国Max Pro
+      - 🇧🇷 巴西5-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇿🇦 南非1-CDN | 1x
+      - ""
+      - 🇹🇷 土耳其TR-T
+      - 🇧🇷 巴西-维涅杜4-CDN | 1x
+      - 🇮🇹 意大利IT-T
+      - 仅VIP500季以上有效
       - 🇧🇷 巴西6-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇨🇳 台湾WAP-T
+      - 🇿🇦 南非2-CDN | 1x
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 查看重要公告
+      - 🇦🇺 澳大利亚-墨尔本2-CDN | 1x
+      - 🇱🇺 卢森堡LUX-T
+      - 🇯🇵 日本R|@ripaojiedian
+      - 🇮🇳 印度-优化
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,31 +284,38 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本-优化2
+      - 🇬🇧 United Kingdom 01 @nodpai
+      - 🇨🇱 智利2-CDN | 1x
+      - 🇺🇸 美国西部凤凰城2-CDN | 1x
+      - 🇭🇰 香港wap-T
       - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇴 哥伦比亚4-CDN | 1x
-      - 🇮🇳 印度3-海得拉巴-CDN | 1x
-      - 🇭🇰 香港4|@ripaojiedian
-      - 13.213.46.196:443
-      - 🇯🇵 日本05
-      - 🇲🇽 墨西哥1-CDN | 1x
+      - 🇳🇱 荷兰3-CDN | 1x
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇧🇷 巴西-维涅杜3-CDN | 1x
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇮🇱 以色列IL-T
-      - 7折扣码:0009.eu
-      - 🇯🇵 日本06
-      - 🇺🇸 美国USLA-T-GPT
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇯🇵 日本B-CDN | 1x
-      - 🇬🇧 英国2-CDN | 1x
-      - 🇺🇸 美国西部洛杉矶2-CDN | 1x
-      - 🇧🇷 巴西-维涅杜2-CDN | 1x
-      - 🇸🇬 新加坡2|@ripaojiedian
-      - 🇺🇸 美国LA-优化-GPT
-      - 🇮🇳 印度1-海得拉巴-CDN | 1x
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇸🇦 沙特阿拉伯1-CDN | 1x
+      - 请登入0009.eu
+      - 🇮🇹 意大利 V2CROSS.COM
+      - 距离下次重置剩余：8 天
+      - 🇰🇷 韩国Max Pro
+      - 🇧🇷 巴西5-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇿🇦 南非1-CDN | 1x
+      - ""
+      - 🇹🇷 土耳其TR-T
+      - 🇧🇷 巴西-维涅杜4-CDN | 1x
+      - 🇮🇹 意大利IT-T
+      - 仅VIP500季以上有效
       - 🇧🇷 巴西6-CDN | 1x
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇨🇳 台湾WAP-T
+      - 🇿🇦 南非2-CDN | 1x
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 查看重要公告
+      - 🇦🇺 澳大利亚-墨尔本2-CDN | 1x
+      - 🇱🇺 卢森堡LUX-T
+      - 🇯🇵 日本R|@ripaojiedian
+      - 🇮🇳 印度-优化
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
