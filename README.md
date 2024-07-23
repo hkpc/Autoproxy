@@ -58,7 +58,7 @@
 </details>
 
 ### Try the number of high-speed subscriptions: `2`
-Updata：`2024-07-23 10:08:29`
+Updata：`2024-07-23 11:42:20`
 
 
 <details>
@@ -40810,32 +40810,40 @@ Updata：`2024-07-23 10:08:29`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=0015ab9bc3ce3f966369c63ac42c46e5`
+
+
+
+
+
+
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=0015ab9bc3ce3f966369c63ac42c46e5`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2d424e8ea4f6f7b83e6521444eb6bcf1`
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=0015ab9bc3ce3f966369c63ac42c46e5`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2d424e8ea4f6f7b83e6521444eb6bcf1`
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=0015ab9bc3ce3f966369c63ac42c46e5`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2d424e8ea4f6f7b83e6521444eb6bcf1`
+
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=66bed9354ac073178214d31284a82270`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2d424e8ea4f6f7b83e6521444eb6bcf1`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=66bed9354ac073178214d31284a82270`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=bc1cc94537500498bc9af8cc6729f602`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=66bed9354ac073178214d31284a82270`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=bc1cc94537500498bc9af8cc6729f602`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=66bed9354ac073178214d31284a82270`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=bc1cc94537500498bc9af8cc6729f602`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=bc1cc94537500498bc9af8cc6729f602`
 
 
 
